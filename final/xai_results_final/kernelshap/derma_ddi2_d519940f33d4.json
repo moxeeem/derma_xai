@@ -1,0 +1,66 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_d519940f33d4.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: right back, Path (coarse): benign-seborrheic keratosis, Pathology report: mildly dysplastic junctional melanocytic nevus, excised",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right upper back, Anatomical site (general): Back, Diagnosis (detailed): Inflamed mildly dysplastic compound melanocytic nevus, Diagnosis (general): Inflamed nevus with atypia, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.01219321321696043,
+      0.00924498587846756,
+      0.021497942507267,
+      0.015413095243275166,
+      0.004093999974429607,
+      0.01860755868256092,
+      0.010168205015361309,
+      0.02247084304690361,
+      0.0038109365850687027,
+      0.003496862482279539,
+      0.0069031924940645695,
+      0.009479311294853687,
+      0.0076486170291900635,
+      0.017586752772331238,
+      0.011248503811657429,
+      0.017363416031003,
+      0.009025375358760357,
+      0.020450640469789505,
+      0.011011075228452682,
+      0.002992957131937146
+    ],
+    "words_count": 20,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.23469769954681396,
+    "token_max": 0.9999994039535522,
+    "token_cov@tau": 0.35,
+    "reg_used": 0.01,
+    "weight_range": [
+      1.541802128719594e-07,
+      149.92483899669332
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_d519940f33d4.png"
+  }
+}

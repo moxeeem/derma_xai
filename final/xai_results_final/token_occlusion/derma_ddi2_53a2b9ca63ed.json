@@ -1,0 +1,159 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_53a2b9ca63ed.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "In this case, the patient presents with black-brown papules on the back of the neck, which are consistent with the clinical features of seborrheic keratosis. This is a common skin condition that...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right upper back, Anatomical site (general): Back, Diagnosis (detailed): Intradermal melanocytic nevus, Diagnosis (general): Benign nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "In",
+    "this",
+    "case",
+    "the",
+    "patient",
+    "presents",
+    "with",
+    "black-brown",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "neck",
+    "which",
+    "are",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "features",
+    "of",
+    "seborrheic",
+    "keratosis",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition",
+    "that"
+  ],
+  "scores": [
+    0.093881756067276,
+    0.17980310320854187,
+    0.0,
+    0.17655469477176666,
+    0.01495607290416956,
+    0.1987418830394745,
+    0.16655205190181732,
+    0.4619063138961792,
+    0.059940021485090256,
+    0.15616081655025482,
+    0.18265244364738464,
+    0.2279047667980194,
+    0.14315269887447357,
+    0.1665370911359787,
+    0.12696349620819092,
+    0.17606982588768005,
+    0.12061432749032974,
+    0.28255465626716614,
+    0.16963085532188416,
+    0.14621853828430176,
+    0.13809649646282196,
+    0.01573425531387329,
+    0.10752938687801361,
+    0.41444265842437744,
+    0.9999997019767761,
+    0.21396732330322266,
+    0.24529416859149933,
+    0.21803781390190125,
+    0.07273314893245697,
+    0.1799018681049347,
+    0.001107413787394762,
+    0.2673965394496918
+  ],
+  "meta": {
+    "base_cos": 0.2524741291999817,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 32,
+    "masks_sampled": 32,
+    "token_max": 0.9999997019767761,
+    "token_cov@tau": 0.03125,
+    "top": [
+      {
+        "unit": "keratosis",
+        "score": 0.9999997019767761
+      },
+      {
+        "unit": "black-brown",
+        "score": 0.4619063138961792
+      },
+      {
+        "unit": "seborrheic",
+        "score": 0.41444265842437744
+      },
+      {
+        "unit": "consistent",
+        "score": 0.28255465626716614
+      },
+      {
+        "unit": "that",
+        "score": 0.2673965394496918
+      },
+      {
+        "unit": "is",
+        "score": 0.24529416859149933
+      },
+      {
+        "unit": "back",
+        "score": 0.2279047667980194
+      },
+      {
+        "unit": "a",
+        "score": 0.21803781390190125
+      },
+      {
+        "unit": "This",
+        "score": 0.21396732330322266
+      },
+      {
+        "unit": "presents",
+        "score": 0.1987418830394745
+      },
+      {
+        "unit": "the",
+        "score": 0.18265244364738464
+      },
+      {
+        "unit": "skin",
+        "score": 0.1799018681049347
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_53a2b9ca63ed.png"
+  }
+}

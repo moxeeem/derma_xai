@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_b431695a5e21.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's abdomen showing multiple small red papules on the surface of the skin, consistent with the clinical presentation of urticaria. Urticaria is a common skin condition...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right flank, Anatomical site (general): Abdomen, Diagnosis (detailed): Spongiotic dermatitis with eosinophils and underlying folliculitis, Diagnosis (general): Spongiotic dermatitis, folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen",
+    "showing",
+    "multiple",
+    "small",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "surface",
+    "of",
+    "the",
+    "skin,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "urticaria.",
+    "Urticaria",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition..."
+  ],
+  "scores": [
+    0.0,
+    0.8406319618225098,
+    0.019265243783593178,
+    0.0675063356757164,
+    0.0844624787569046,
+    0.0635610967874527,
+    0.44584330916404724,
+    0.22874632477760315,
+    0.7190425395965576,
+    0.07726554572582245,
+    0.24083834886550903,
+    0.06736250966787338,
+    0.33160459995269775,
+    0.005230453331023455,
+    0.29840195178985596,
+    0.1828666627407074,
+    0.1425476223230362,
+    0.14742588996887207,
+    0.15872737765312195,
+    0.19745886325836182,
+    0.028274619951844215,
+    0.1105596274137497,
+    0.18361367285251617,
+    0.5415445566177368,
+    0.018923599272966385,
+    1.0,
+    0.2942969501018524,
+    0.002344743348658085,
+    0.1486303061246872,
+    0.13762126863002777,
+    0.2415972799062729,
+    0.463778555393219
+  ],
+  "meta": {
+    "cos": 0.24781714379787445,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.09375,
+    "words_count": 32,
+    "tokens_count": 45,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "urticaria.",
+      "score": 1.0
+    },
+    {
+      "word": "is",
+      "score": 0.8406319618225098
+    },
+    {
+      "word": "showing",
+      "score": 0.7190425395965576
+    },
+    {
+      "word": "presentation",
+      "score": 0.5415445566177368
+    },
+    {
+      "word": "condition...",
+      "score": 0.463778555393219
+    },
+    {
+      "word": "patient's",
+      "score": 0.44584330916404724
+    },
+    {
+      "word": "papules",
+      "score": 0.33160459995269775
+    },
+    {
+      "word": "the",
+      "score": 0.29840195178985596
+    },
+    {
+      "word": "Urticaria",
+      "score": 0.2942969501018524
+    },
+    {
+      "word": "skin",
+      "score": 0.2415972799062729
+    },
+    {
+      "word": "small",
+      "score": 0.24083834886550903
+    },
+    {
+      "word": "abdomen",
+      "score": 0.22874632477760315
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_b431695a5e21.png"
+  }
+}

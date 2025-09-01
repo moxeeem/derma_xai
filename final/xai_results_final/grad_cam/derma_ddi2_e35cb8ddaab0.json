@@ -1,0 +1,50 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_e35cb8ddaab0.png",
+  "method": "grad_cam",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "canvas_height_max_px": 4000,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "p_low": 60.0,
+    "p_high": 95.0,
+    "gamma": 0.5,
+    "heat_smooth_sigma_px": 1.5,
+    "overlay_alpha": 0.6,
+    "alpha_mode": "scaled",
+    "tau": 0.6,
+    "target_layer_hint": "blocks",
+    "show_reference": true,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true
+  },
+  "caption_generated": "This is a photo of a skin lesion on the back of the patient's lower back. It is consistent with the clinical presentation of a melanocytic nevus. Melanoma is a common skin tumor that typically...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Right buttock, Anatomical site (general): Buttock, Diagnosis (detailed): Nevus lipomatosus, Diagnosis (general): Nevus lipomatosus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: No, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "clip_cosine": 0.20440256595611572,
+  "heatmap_stats": {
+    "coverage@τ": 0.10319736299339997,
+    "mass@top10%": 0.6756858229637146,
+    "entropy": 0.050111282616853714
+  },
+  "meta": {
+    "backend": "openclip",
+    "target_layer": "visual.transformer.resblocks[-2]",
+    "p_low": 60.0,
+    "p_high": 95.0,
+    "gamma": 0.5,
+    "heat_smooth_sigma_px": 1.5,
+    "overlay_alpha": 0.6,
+    "alpha_mode": "scaled"
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/grad_cam/derma_ddi2_e35cb8ddaab0.png"
+  }
+}

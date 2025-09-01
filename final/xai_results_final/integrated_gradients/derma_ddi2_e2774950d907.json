@@ -1,0 +1,166 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_e2774950d907.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the skin lesion on the back of the patient's back, showing a light brown papule with a rough surface, consistent with the clinical presentation of seborrheic keratosis. This is a...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left shoulder, Anatomical site (general): Upper Limb, Diagnosis (detailed): Seborrheic keratosis, Diagnosis (general): Benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "patient's",
+    "back,",
+    "showing",
+    "a",
+    "light",
+    "brown",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "This",
+    "is",
+    "a..."
+  ],
+  "scores": [
+    0.017578568309545517,
+    0.19183781743049622,
+    0.01499828603118658,
+    0.019746823236346245,
+    0.054282911121845245,
+    0.13520003855228424,
+    0.10548333078622818,
+    0.36228686571121216,
+    0.2742948532104492,
+    0.13251259922981262,
+    0.04661855846643448,
+    0.06221744045615196,
+    0.0,
+    0.18535327911376953,
+    0.2130136638879776,
+    0.08020611107349396,
+    0.11196683347225189,
+    0.22506389021873474,
+    0.008051903918385506,
+    0.4960688650608063,
+    0.06145498529076576,
+    0.18548229336738586,
+    0.3424023687839508,
+    0.19988566637039185,
+    0.3749545216560364,
+    0.2620849609375,
+    0.17868149280548096,
+    0.6158992648124695,
+    0.6026715040206909,
+    0.6896378993988037,
+    0.7496429681777954,
+    0.47684744000434875,
+    0.292646199464798,
+    0.3584080934524536,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.2308342456817627,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.14285714285714285,
+    "words_count": 35,
+    "tokens_count": 49,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "a...",
+      "score": 1.0
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.7496429681777954
+    },
+    {
+      "word": "of",
+      "score": 0.6896378993988037
+    },
+    {
+      "word": "clinical",
+      "score": 0.6158992648124695
+    },
+    {
+      "word": "presentation",
+      "score": 0.6026715040206909
+    },
+    {
+      "word": "papule",
+      "score": 0.4960688650608063
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.47684744000434875
+    },
+    {
+      "word": "consistent",
+      "score": 0.3749545216560364
+    },
+    {
+      "word": "lesion",
+      "score": 0.36228686571121216
+    },
+    {
+      "word": "is",
+      "score": 0.3584080934524536
+    },
+    {
+      "word": "rough",
+      "score": 0.3424023687839508
+    },
+    {
+      "word": "This",
+      "score": 0.292646199464798
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_e2774950d907.png"
+  }
+}

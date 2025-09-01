@@ -1,0 +1,146 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_f5c40faeb790.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 6in, Location: l forearm, Path (coarse): malignant- sccis, Pathology report: invasive squamous cell carcinoma in situ, Gender: male, Age: 69, Fitzpatrick:",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Right forearm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Squamous cell carcinoma, in-situ, Diagnosis (general): Squamous cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese & American, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "6in,",
+    "Location:",
+    "l",
+    "forearm,",
+    "Path",
+    "(coarse):",
+    "malignant-",
+    "sccis,",
+    "Pathology",
+    "report:",
+    "invasive",
+    "squamous",
+    "cell",
+    "carcinoma",
+    "in",
+    "situ,",
+    "Gender:",
+    "male,",
+    "Age:",
+    "69,",
+    "Fitzpatrick:"
+  ],
+  "scores": [
+    0.001368410768918693,
+    0.3295840620994568,
+    0.28634950518608093,
+    0.2859315276145935,
+    0.26251107454299927,
+    0.25758928060531616,
+    0.4022347033023834,
+    0.20452266931533813,
+    0.21768321096897125,
+    0.15031211078166962,
+    0.11059986054897308,
+    0.013682438991963863,
+    0.4662199020385742,
+    0.024377629160881042,
+    0.6290366649627686,
+    1.0,
+    0.5965766906738281,
+    0.35824695229530334,
+    0.4187648296356201,
+    0.1707717478275299,
+    0.15193915367126465,
+    0.8983945250511169,
+    0.0,
+    0.08919136226177216,
+    0.821171224117279
+  ],
+  "meta": {
+    "cos": 0.24402129650115967,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.16,
+    "words_count": 25,
+    "tokens_count": 52,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "squamous",
+      "score": 1.0
+    },
+    {
+      "word": "male,",
+      "score": 0.8983945250511169
+    },
+    {
+      "word": "Fitzpatrick:",
+      "score": 0.821171224117279
+    },
+    {
+      "word": "invasive",
+      "score": 0.6290366649627686
+    },
+    {
+      "word": "cell",
+      "score": 0.5965766906738281
+    },
+    {
+      "word": "Pathology",
+      "score": 0.4662199020385742
+    },
+    {
+      "word": "in",
+      "score": 0.4187648296356201
+    },
+    {
+      "word": "l",
+      "score": 0.4022347033023834
+    },
+    {
+      "word": "carcinoma",
+      "score": 0.35824695229530334
+    },
+    {
+      "word": "control:",
+      "score": 0.3295840620994568
+    },
+    {
+      "word": "No,",
+      "score": 0.28634950518608093
+    },
+    {
+      "word": "Distance:",
+      "score": 0.2859315276145935
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_f5c40faeb790.png"
+  }
+}

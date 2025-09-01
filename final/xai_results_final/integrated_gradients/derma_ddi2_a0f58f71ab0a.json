@@ -1,0 +1,154 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_a0f58f71ab0a.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left front scalp, Anatomical site (general): Head and Neck, Diagnosis (detailed): Angiosarcoma, Diagnosis (general): Angiosarcoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: uncommon, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Gujarati, Interpreter needed: Yes",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "5,",
+    "6,",
+    "7,",
+    "8,",
+    "9,",
+    "10,",
+    "11,",
+    "12,",
+    "13,",
+    "14,",
+    "15,",
+    "16,",
+    "17,",
+    "18,",
+    "19,",
+    "20,"
+  ],
+  "scores": [
+    0.04493517428636551,
+    0.5313716530799866,
+    0.2013053297996521,
+    0.06335020065307617,
+    0.21331270039081573,
+    0.08794011920690536,
+    0.0,
+    0.01855158433318138,
+    0.006420197896659374,
+    0.1784677654504776,
+    0.4703749418258667,
+    0.14675447344779968,
+    0.037163492292165756,
+    0.13482646644115448,
+    0.13363002240657806,
+    0.11505298316478729,
+    0.02175959385931492,
+    0.1296401470899582,
+    0.032109614461660385,
+    0.13452818989753723,
+    0.06384401023387909,
+    0.14708808064460754,
+    0.07998201996088028,
+    0.33502519130706787,
+    0.1950577050447464,
+    0.3154184818267822,
+    0.16197311878204346,
+    0.27228090167045593,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.21099773049354553,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.034482758620689655,
+    "words_count": 29,
+    "tokens_count": 63,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "20,",
+      "score": 1.0
+    },
+    {
+      "word": "than",
+      "score": 0.5313716530799866
+    },
+    {
+      "word": "type:",
+      "score": 0.4703749418258667
+    },
+    {
+      "word": "15,",
+      "score": 0.33502519130706787
+    },
+    {
+      "word": "17,",
+      "score": 0.3154184818267822
+    },
+    {
+      "word": "19,",
+      "score": 0.27228090167045593
+    },
+    {
+      "word": "for",
+      "score": 0.21331270039081573
+    },
+    {
+      "word": "1",
+      "score": 0.2013053297996521
+    },
+    {
+      "word": "16,",
+      "score": 0.1950577050447464
+    },
+    {
+      "word": "skin",
+      "score": 0.1784677654504776
+    },
+    {
+      "word": "18,",
+      "score": 0.16197311878204346
+    },
+    {
+      "word": "13,",
+      "score": 0.14708808064460754
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_a0f58f71ab0a.png"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_dc711ad699db.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a red papule with a rough surface, suggestive of a basal cell carcinoma. It is recommended to undergo a skin biopsy for a definitive diagnosis.",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right lower cheek, Anatomical site (general): Head and Neck, Diagnosis (detailed): Folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Mandarin, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face",
+    "showing",
+    "a",
+    "red",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface",
+    "suggestive",
+    "of",
+    "a",
+    "basal",
+    "cell",
+    "carcinoma",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy",
+    "for",
+    "a",
+    "definitive",
+    "diagnosis"
+  ],
+  "scores": [
+    0.5755030512809753,
+    0.5515509843826294,
+    0.4142303168773651,
+    0.2551426291465759,
+    0.462534636259079,
+    0.25549018383026123,
+    0.14785443246364594,
+    0.9999996423721313,
+    0.3226836025714874,
+    0.3595748543739319,
+    0.11789653450250626,
+    0.4307118356227875,
+    0.2981756627559662,
+    0.3225136697292328,
+    0.35543280839920044,
+    0.30017760396003723,
+    0.0,
+    0.3205840587615967,
+    0.4763278663158417,
+    0.26061785221099854,
+    0.04953770339488983,
+    0.8211183547973633,
+    0.2220042198896408,
+    0.34895992279052734,
+    0.0880712941288948,
+    0.0,
+    0.18863555788993835,
+    0.20221062004566193,
+    0.09243478626012802,
+    0.07901320606470108,
+    0.15247447788715363,
+    0.1362232118844986,
+    0.0016215090872719884,
+    0.1347244828939438
+  ],
+  "meta": {
+    "base_cos": 0.2713230550289154,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 34,
+    "masks_sampled": 34,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.058823529411764705,
+    "top": [
+      {
+        "unit": "face",
+        "score": 0.9999996423721313
+      },
+      {
+        "unit": "carcinoma",
+        "score": 0.8211183547973633
+      },
+      {
+        "unit": "This",
+        "score": 0.5755030512809753
+      },
+      {
+        "unit": "is",
+        "score": 0.5515509843826294
+      },
+      {
+        "unit": "a",
+        "score": 0.4763278663158417
+      },
+      {
+        "unit": "of",
+        "score": 0.462534636259079
+      },
+      {
+        "unit": "papule",
+        "score": 0.4307118356227875
+      },
+      {
+        "unit": "a",
+        "score": 0.4142303168773651
+      },
+      {
+        "unit": "a",
+        "score": 0.3595748543739319
+      },
+      {
+        "unit": "rough",
+        "score": 0.35543280839920044
+      },
+      {
+        "unit": "is",
+        "score": 0.34895992279052734
+      },
+      {
+        "unit": "showing",
+        "score": 0.3226836025714874
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_dc711ad699db.png"
+  }
+}

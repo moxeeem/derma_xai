@@ -1,0 +1,51 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_07420afb9085.png",
+  "method": "ablation_cam",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "overlay_alpha": 0.45,
+    "alpha_mode": "scaled",
+    "gamma": 0.9,
+    "p_low": 80.0,
+    "p_high": 99.5,
+    "tau": 0.6,
+    "patch_px": 64,
+    "stride_px": 32,
+    "baseline": "blur",
+    "blur_sigma_px": 8.0,
+    "batch_vision": 32,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "The patient presents with 1-3 red papules on the back of the neck, which are consistent with the clinical presentation of seborrheic keratosis. It is recommended to undergo a skin biopsy for a...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Left chest, Anatomical site (general): Chest, Diagnosis (detailed): Comedone, Diagnosis (general): Comedone, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "cos": 0.26375043392181396,
+    "coverage@tau": 0.010739956928297736,
+    "mass@top10%": 0.8614125847816467,
+    "entropy": 0.04327613487839699,
+    "patch_px": 64,
+    "stride_px": 32,
+    "baseline": "blur",
+    "overlay_alpha": 0.45,
+    "alpha_mode": "scaled",
+    "gamma": 0.9,
+    "p_low": 80.0,
+    "p_high": 99.5
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/ablation_cam/derma_ddi2_07420afb9085.png"
+  }
+}

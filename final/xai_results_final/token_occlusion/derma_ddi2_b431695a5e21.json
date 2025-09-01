@@ -1,0 +1,159 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_b431695a5e21.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the patient's abdomen showing multiple small red papules on the surface of the skin, consistent with the clinical presentation of urticaria. Urticaria is a common skin condition...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right flank, Anatomical site (general): Abdomen, Diagnosis (detailed): Spongiotic dermatitis with eosinophils and underlying folliculitis, Diagnosis (general): Spongiotic dermatitis, folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen",
+    "showing",
+    "multiple",
+    "small",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "surface",
+    "of",
+    "the",
+    "skin",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "urticaria",
+    "Urticaria",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition"
+  ],
+  "scores": [
+    0.4577295482158661,
+    0.061748698353767395,
+    0.07100830227136612,
+    0.0,
+    0.017704037949442863,
+    0.0673954114317894,
+    0.0,
+    0.9999997019767761,
+    0.19268359243869781,
+    0.15874619781970978,
+    0.0563230961561203,
+    0.04033080115914345,
+    0.2152395248413086,
+    0.0,
+    0.0592605285346508,
+    0.0003929099766537547,
+    0.0,
+    0.0,
+    0.08788229525089264,
+    0.13905295729637146,
+    0.09432226419448853,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.051185134798288345,
+    0.051185134798288345,
+    0.24137547612190247,
+    0.03408415615558624,
+    0.06635991483926773,
+    0.05429280176758766,
+    0.06715277582406998
+  ],
+  "meta": {
+    "base_cos": 0.24781714379787445,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 32,
+    "masks_sampled": 32,
+    "token_max": 0.9999997019767761,
+    "token_cov@tau": 0.03125,
+    "top": [
+      {
+        "unit": "abdomen",
+        "score": 0.9999997019767761
+      },
+      {
+        "unit": "This",
+        "score": 0.4577295482158661
+      },
+      {
+        "unit": "is",
+        "score": 0.24137547612190247
+      },
+      {
+        "unit": "papules",
+        "score": 0.2152395248413086
+      },
+      {
+        "unit": "showing",
+        "score": 0.19268359243869781
+      },
+      {
+        "unit": "multiple",
+        "score": 0.15874619781970978
+      },
+      {
+        "unit": "consistent",
+        "score": 0.13905295729637146
+      },
+      {
+        "unit": "with",
+        "score": 0.09432226419448853
+      },
+      {
+        "unit": "skin",
+        "score": 0.08788229525089264
+      },
+      {
+        "unit": "a",
+        "score": 0.07100830227136612
+      },
+      {
+        "unit": "the",
+        "score": 0.0673954114317894
+      },
+      {
+        "unit": "condition",
+        "score": 0.06715277582406998
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_b431695a5e21.png"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9368bcbaea62.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right lower leg, Path (coarse): Actinic keratosis, Dermatological presentation: growth, Benign/",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Left calf, Anatomical site (general): Lower Limb, Diagnosis (detailed): Acrochordon, Diagnosis (general): Acrochordon, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "Anatomical",
+    "site",
+    "(detailed):",
+    "Right",
+    "lower",
+    "leg,",
+    "Path",
+    "(coarse):",
+    "Actinic",
+    "keratosis,",
+    "Dermatological",
+    "presentation:",
+    "growth,",
+    "Benign/"
+  ],
+  "scores": [
+    0.05394629016518593,
+    0.21052682399749756,
+    0.6317797899246216,
+    1.0,
+    0.8366206884384155,
+    0.11558547616004944,
+    0.5278601050376892,
+    0.19089998304843903,
+    0.10796723514795303,
+    0.0,
+    0.2975260317325592,
+    0.13009203970432281,
+    0.0673486664891243,
+    0.5311694741249084,
+    0.09838255494832993,
+    0.4269968867301941,
+    0.3557436168193817,
+    0.13379347324371338,
+    0.020177239552140236,
+    0.9887635707855225,
+    0.4198329746723175,
+    0.29485583305358887,
+    0.6872251033782959,
+    0.35181841254234314,
+    0.44858595728874207,
+    0.48057886958122253,
+    0.6503480076789856
+  ],
+  "meta": {
+    "cos": 0.1930708885192871,
+    "words_count": 27,
+    "tokens_count": 52,
+    "token_max": 1.0,
+    "token_cov@tau": 0.2222222222222222,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "photo",
+      "score": 1.0
+    },
+    {
+      "word": "Path",
+      "score": 0.9887635707855225
+    },
+    {
+      "word": "for",
+      "score": 0.8366206884384155
+    },
+    {
+      "word": "keratosis,",
+      "score": 0.6872251033782959
+    },
+    {
+      "word": "Benign/",
+      "score": 0.6503480076789856
+    },
+    {
+      "word": "1",
+      "score": 0.6317797899246216
+    },
+    {
+      "word": "Anatomical",
+      "score": 0.5311694741249084
+    },
+    {
+      "word": "patient:",
+      "score": 0.5278601050376892
+    },
+    {
+      "word": "growth,",
+      "score": 0.48057886958122253
+    },
+    {
+      "word": "presentation:",
+      "score": 0.44858595728874207
+    },
+    {
+      "word": "(detailed):",
+      "score": 0.4269968867301941
+    },
+    {
+      "word": "(coarse):",
+      "score": 0.4198329746723175
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_9368bcbaea62.png"
+  }
+}

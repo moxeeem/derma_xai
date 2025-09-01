@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_aac8b3d62b16.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "In this case, the patient presents with red patches on the back of the lower leg, which are consistent with the clinical presentation of seborrheic keratosis. It is recommended to undergo a skin...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left inner thigh, Anatomical site (general): Lower Limb, Diagnosis (detailed): Lichenoid dermatitis, Diagnosis (general): Lichenoid dermatitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: Cantonese, Interpreter needed: No",
+  "display_units": [
+    "In",
+    "this",
+    "case,",
+    "the",
+    "patient",
+    "presents",
+    "with",
+    "red",
+    "patches",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "lower",
+    "leg,",
+    "which",
+    "are",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin..."
+  ],
+  "scores": [
+    0.005233690608292818,
+    0.0853596180677414,
+    0.15890508890151978,
+    0.06056706979870796,
+    0.17177264392375946,
+    0.1933431774377823,
+    0.10567501187324524,
+    0.17976732552051544,
+    0.27083197236061096,
+    0.01611892320215702,
+    0.14547739923000336,
+    0.10134033858776093,
+    0.1349012553691864,
+    0.041611671447753906,
+    0.23665308952331543,
+    0.10060025751590729,
+    0.09414322674274445,
+    0.0,
+    0.1223897933959961,
+    0.04147839918732643,
+    0.12987442314624786,
+    0.2027948945760727,
+    0.03294118121266365,
+    1.0,
+    0.8872167468070984,
+    0.291798859834671,
+    0.02905411459505558,
+    0.3992113769054413,
+    0.23471008241176605,
+    0.18672582507133484,
+    0.6030281186103821,
+    0.2578869163990021,
+    0.4464868903160095
+  ],
+  "meta": {
+    "cos": 0.25010091066360474,
+    "words_count": 33,
+    "tokens_count": 44,
+    "token_max": 1.0,
+    "token_cov@tau": 0.09090909090909091,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "of",
+      "score": 1.0
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.8872167468070984
+    },
+    {
+      "word": "undergo",
+      "score": 0.6030281186103821
+    },
+    {
+      "word": "skin...",
+      "score": 0.4464868903160095
+    },
+    {
+      "word": "is",
+      "score": 0.3992113769054413
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.291798859834671
+    },
+    {
+      "word": "patches",
+      "score": 0.27083197236061096
+    },
+    {
+      "word": "a",
+      "score": 0.2578869163990021
+    },
+    {
+      "word": "lower",
+      "score": 0.23665308952331543
+    },
+    {
+      "word": "recommended",
+      "score": 0.23471008241176605
+    },
+    {
+      "word": "clinical",
+      "score": 0.2027948945760727
+    },
+    {
+      "word": "presents",
+      "score": 0.1933431774377823
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_aac8b3d62b16.png"
+  }
+}

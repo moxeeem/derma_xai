@@ -1,0 +1,168 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_8f5f3cbb3dcd.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the skin lesion on the finger, showing a red nodule with a small amount of blood in it. Based on the characteristics of the lesion and the patient's medical history, it is...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right thumb, Anatomical site (general): Upper Limb, Diagnosis (detailed): Full-thickness epidermal necrosis with mixed inflammatory infiltrate and puncture wound, Diagnosis (general): Epidermal necrosis, puncture wound, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Vietnamese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "finger,",
+    "showing",
+    "a",
+    "red",
+    "nodule",
+    "with",
+    "a",
+    "small",
+    "amount",
+    "of",
+    "blood",
+    "in",
+    "it.",
+    "Based",
+    "on",
+    "the",
+    "characteristics",
+    "of",
+    "the",
+    "lesion",
+    "and",
+    "the",
+    "patient's",
+    "medical",
+    "history,",
+    "it",
+    "is..."
+  ],
+  "scores": [
+    0.02868368662893772,
+    0.017807921394705772,
+    0.34113478660583496,
+    0.14577920734882355,
+    0.051223110407590866,
+    0.07227571308612823,
+    0.025804800912737846,
+    0.2533145248889923,
+    0.05303972586989403,
+    0.22318381071090698,
+    0.4942414164543152,
+    0.5087867379188538,
+    0.18529386818408966,
+    0.0,
+    0.042899973690509796,
+    0.6261469125747681,
+    0.05189313739538193,
+    0.773379921913147,
+    0.08052051812410355,
+    0.04756363481283188,
+    0.1813783198595047,
+    0.009814683347940445,
+    0.030941365286707878,
+    0.6657628417015076,
+    0.5063425302505493,
+    0.5906291007995605,
+    0.4725973904132843,
+    0.3339003622531891,
+    0.16630172729492188,
+    0.3391158878803253,
+    1.0,
+    0.13259880244731903,
+    0.7564982771873474,
+    0.3964834213256836,
+    0.052132826298475266,
+    0.3302038311958313,
+    0.16691236197948456
+  ],
+  "meta": {
+    "cos": 0.30193790793418884,
+    "words_count": 37,
+    "tokens_count": 48,
+    "token_max": 1.0,
+    "token_cov@tau": 0.13513513513513514,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "and",
+      "score": 1.0
+    },
+    {
+      "word": "small",
+      "score": 0.773379921913147
+    },
+    {
+      "word": "patient's",
+      "score": 0.7564982771873474
+    },
+    {
+      "word": "Based",
+      "score": 0.6657628417015076
+    },
+    {
+      "word": "with",
+      "score": 0.6261469125747681
+    },
+    {
+      "word": "the",
+      "score": 0.5906291007995605
+    },
+    {
+      "word": "showing",
+      "score": 0.5087867379188538
+    },
+    {
+      "word": "on",
+      "score": 0.5063425302505493
+    },
+    {
+      "word": "finger,",
+      "score": 0.4942414164543152
+    },
+    {
+      "word": "characteristics",
+      "score": 0.4725973904132843
+    },
+    {
+      "word": "medical",
+      "score": 0.3964834213256836
+    },
+    {
+      "word": "a",
+      "score": 0.34113478660583496
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_8f5f3cbb3dcd.png"
+  }
+}

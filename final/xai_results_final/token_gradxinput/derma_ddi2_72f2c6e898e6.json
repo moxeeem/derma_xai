@@ -1,0 +1,148 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_72f2c6e898e6.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right lower leg, Anatomic site (general): Follicular, Diagnosis (incl. 1-3 words):",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right lower leg, Anatomical site (general): Lower Limb, Diagnosis (detailed): Folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "Anatomical",
+    "site",
+    "(detailed):",
+    "Right",
+    "lower",
+    "leg,",
+    "Anatomic",
+    "site",
+    "(general):",
+    "Follicular,",
+    "Diagnosis",
+    "(incl.",
+    "1-3",
+    "words):"
+  ],
+  "scores": [
+    0.0,
+    0.006265794858336449,
+    0.1976780742406845,
+    0.2428044229745865,
+    0.08338072896003723,
+    0.04911184683442116,
+    0.12633760273456573,
+    0.1855546087026596,
+    0.2010909765958786,
+    0.0028860385064035654,
+    0.16149529814720154,
+    0.23036912083625793,
+    0.06097029894590378,
+    0.23666907846927643,
+    0.008335771970450878,
+    0.10813567042350769,
+    0.11291255056858063,
+    0.08376254141330719,
+    0.2589620351791382,
+    0.15389636158943176,
+    0.21097144484519958,
+    0.18038122355937958,
+    0.26123762130737305,
+    0.6272591352462769,
+    0.9999999403953552,
+    0.06531701236963272,
+    0.42868584394454956
+  ],
+  "meta": {
+    "cos": 0.16170649230480194,
+    "words_count": 27,
+    "tokens_count": 49,
+    "token_max": 0.9999999403953552,
+    "token_cov@tau": 0.07407407407407407,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "(incl.",
+      "score": 0.9999999403953552
+    },
+    {
+      "word": "Diagnosis",
+      "score": 0.6272591352462769
+    },
+    {
+      "word": "words):",
+      "score": 0.42868584394454956
+    },
+    {
+      "word": "Follicular,",
+      "score": 0.26123762130737305
+    },
+    {
+      "word": "leg,",
+      "score": 0.2589620351791382
+    },
+    {
+      "word": "photo",
+      "score": 0.2428044229745865
+    },
+    {
+      "word": "Anatomical",
+      "score": 0.23666907846927643
+    },
+    {
+      "word": "3,",
+      "score": 0.23036912083625793
+    },
+    {
+      "word": "site",
+      "score": 0.21097144484519958
+    },
+    {
+      "word": "Fitzpatrick",
+      "score": 0.2010909765958786
+    },
+    {
+      "word": "1",
+      "score": 0.1976780742406845
+    },
+    {
+      "word": "No,",
+      "score": 0.1855546087026596
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_72f2c6e898e6.png"
+  }
+}

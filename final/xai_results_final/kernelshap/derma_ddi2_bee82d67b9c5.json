@@ -1,0 +1,73 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_bee82d67b9c5.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right upper arm, Path (coarse): Actinic keratosis, Dermatological presentation: rash, Benign/",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Left arm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Spongiotic dermatitis, Diagnosis (general): Spongiotic dermatitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.011964382603764534,
+      0.00495497602969408,
+      0.0068753864616155624,
+      0.002093889284878969,
+      0.015120338648557663,
+      0.008731517009437084,
+      0.0027667987160384655,
+      0.01639196090400219,
+      -0.0010505815735086799,
+      0.010891029611229897,
+      0.001363210380077362,
+      0.011222869157791138,
+      0.008894569240510464,
+      -0.002024067332968116,
+      0.0051878285594284534,
+      0.007333480287343264,
+      0.007098946254700422,
+      0.008975697681307793,
+      0.025209305807948112,
+      0.008644383400678635,
+      0.00021638209000229836,
+      0.00945582427084446,
+      0.005487674847245216,
+      0.0018484407337382436,
+      0.007925073616206646,
+      0.026620959863066673,
+      0.00022401774185709655
+    ],
+    "words_count": 27,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.2124176323413849,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.1111111111111111,
+    "reg_used": 0.01,
+    "weight_range": [
+      1.0677805096186515e-09,
+      149.9250325725866
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_bee82d67b9c5.png"
+  }
+}

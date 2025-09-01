@@ -1,0 +1,166 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_2dcb20ef3bb5.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with red papules on the back of the hand, with the same color as the skin lesion. Based on the patient's symptoms and medical history, it is recommended to undergo a skin biopsy...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Right dorsal hand, Anatomical site (general): Upper Limb, Diagnosis (detailed): Dermal scar, Diagnosis (general): Scar, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese & American, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "with",
+    "the",
+    "same",
+    "color",
+    "as",
+    "the",
+    "skin",
+    "lesion.",
+    "Based",
+    "on",
+    "the",
+    "patient's",
+    "symptoms",
+    "and",
+    "medical",
+    "history,",
+    "it",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy..."
+  ],
+  "scores": [
+    0.01182684488594532,
+    0.048590101301670074,
+    0.11792247742414474,
+    0.007956382818520069,
+    0.006168704479932785,
+    0.2044910192489624,
+    0.021856961771845818,
+    0.006560349836945534,
+    0.06729348003864288,
+    0.00822102278470993,
+    0.06892566382884979,
+    0.07380548119544983,
+    0.10993058979511261,
+    0.05046701803803444,
+    0.07671070843935013,
+    0.017116544768214226,
+    0.0,
+    0.0537223145365715,
+    0.023743217810988426,
+    0.1326320618391037,
+    0.38538268208503723,
+    0.12132105976343155,
+    0.05835593864321709,
+    0.016960471868515015,
+    0.08872301876544952,
+    0.11814277619123459,
+    0.13958074152469635,
+    0.21122398972511292,
+    1.0,
+    0.017237678170204163,
+    0.1403079479932785,
+    0.13531096279621124,
+    0.6624656915664673,
+    0.07617656141519547,
+    0.4423754811286926,
+    0.08049791306257248
+  ],
+  "meta": {
+    "cos": 0.20189687609672546,
+    "words_count": 36,
+    "tokens_count": 46,
+    "token_max": 1.0,
+    "token_cov@tau": 0.05555555555555555,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "it",
+      "score": 1.0
+    },
+    {
+      "word": "undergo",
+      "score": 0.6624656915664673
+    },
+    {
+      "word": "skin",
+      "score": 0.4423754811286926
+    },
+    {
+      "word": "Based",
+      "score": 0.38538268208503723
+    },
+    {
+      "word": "history,",
+      "score": 0.21122398972511292
+    },
+    {
+      "word": "papules",
+      "score": 0.2044910192489624
+    },
+    {
+      "word": "recommended",
+      "score": 0.1403079479932785
+    },
+    {
+      "word": "medical",
+      "score": 0.13958074152469635
+    },
+    {
+      "word": "to",
+      "score": 0.13531096279621124
+    },
+    {
+      "word": "lesion.",
+      "score": 0.1326320618391037
+    },
+    {
+      "word": "on",
+      "score": 0.12132105976343155
+    },
+    {
+      "word": "and",
+      "score": 0.11814277619123459
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_2dcb20ef3bb5.png"
+  }
+}

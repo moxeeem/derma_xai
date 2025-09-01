@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_07420afb9085.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with 1-3 red papules on the back of the neck, which are consistent with the clinical presentation of seborrheic keratosis. It is recommended to undergo a skin biopsy for a...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Left chest, Anatomical site (general): Chest, Diagnosis (detailed): Comedone, Diagnosis (general): Comedone, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "1-3",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "neck,",
+    "which",
+    "are",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy",
+    "for",
+    "a..."
+  ],
+  "scores": [
+    0.016012143343687057,
+    1.0,
+    0.2967824637889862,
+    0.28757742047309875,
+    0.4186294674873352,
+    0.00024846632732078433,
+    0.46426695585250854,
+    0.5126692056655884,
+    0.091572605073452,
+    0.0,
+    0.17143206298351288,
+    0.12635613977909088,
+    0.052208974957466125,
+    0.15542134642601013,
+    0.07133393734693527,
+    0.2511035203933716,
+    0.04003484547138214,
+    7.253295189002529e-05,
+    0.09543371945619583,
+    0.2949502468109131,
+    0.2896127700805664,
+    0.49978166818618774,
+    0.20434170961380005,
+    0.024917028844356537,
+    0.0810585543513298,
+    0.141193687915802,
+    0.09014388173818588,
+    0.5777258276939392,
+    0.07635448127985,
+    0.31832155585289,
+    0.1456751972436905,
+    0.3739723265171051,
+    0.21862617135047913
+  ],
+  "meta": {
+    "cos": 0.26375043392181396,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.030303030303030304,
+    "words_count": 33,
+    "tokens_count": 47,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "patient",
+      "score": 1.0
+    },
+    {
+      "word": "undergo",
+      "score": 0.5777258276939392
+    },
+    {
+      "word": "on",
+      "score": 0.5126692056655884
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.49978166818618774
+    },
+    {
+      "word": "papules",
+      "score": 0.46426695585250854
+    },
+    {
+      "word": "1-3",
+      "score": 0.4186294674873352
+    },
+    {
+      "word": "for",
+      "score": 0.3739723265171051
+    },
+    {
+      "word": "skin",
+      "score": 0.31832155585289
+    },
+    {
+      "word": "presents",
+      "score": 0.2967824637889862
+    },
+    {
+      "word": "presentation",
+      "score": 0.2949502468109131
+    },
+    {
+      "word": "of",
+      "score": 0.2896127700805664
+    },
+    {
+      "word": "with",
+      "score": 0.28757742047309875
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_07420afb9085.png"
+  }
+}

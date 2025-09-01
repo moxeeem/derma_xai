@@ -1,0 +1,137 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_d519940f33d4.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: right back, Path (coarse): benign-seborrheic keratosis, Pathology report: mildly dysplastic junctional melanocytic nevus, excised",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right upper back, Anatomical site (general): Back, Diagnosis (detailed): Inflamed mildly dysplastic compound melanocytic nevus, Diagnosis (general): Inflamed nevus with atypia, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control",
+    "No",
+    "Distance",
+    "1",
+    "ft",
+    "Location",
+    "right",
+    "back",
+    "Path",
+    "coarse",
+    "benign-seborrheic",
+    "keratosis",
+    "Pathology",
+    "report",
+    "mildly",
+    "dysplastic",
+    "junctional",
+    "melanocytic",
+    "nevus",
+    "excised"
+  ],
+  "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "meta": {
+    "base_cos": 0.23469769954681396,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 21,
+    "masks_sampled": 21,
+    "token_max": 0.0,
+    "token_cov@tau": 0.0,
+    "top": [
+      {
+        "unit": "excised",
+        "score": 0.0
+      },
+      {
+        "unit": "nevus",
+        "score": 0.0
+      },
+      {
+        "unit": "melanocytic",
+        "score": 0.0
+      },
+      {
+        "unit": "junctional",
+        "score": 0.0
+      },
+      {
+        "unit": "dysplastic",
+        "score": 0.0
+      },
+      {
+        "unit": "mildly",
+        "score": 0.0
+      },
+      {
+        "unit": "report",
+        "score": 0.0
+      },
+      {
+        "unit": "Pathology",
+        "score": 0.0
+      },
+      {
+        "unit": "keratosis",
+        "score": 0.0
+      },
+      {
+        "unit": "benign-seborrheic",
+        "score": 0.0
+      },
+      {
+        "unit": "coarse",
+        "score": 0.0
+      },
+      {
+        "unit": "Path",
+        "score": 0.0
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_d519940f33d4.png"
+  }
+}

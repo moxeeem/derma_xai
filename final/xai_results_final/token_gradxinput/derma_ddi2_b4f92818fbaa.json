@@ -1,0 +1,172 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_b4f92818fbaa.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the left side of the earlobe. It is a common skin tumor that is usually benign and does not require treatment, but it is recommended to seek medical attention for...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: V, Anatomical site (detailed): Right neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Verruca vulgaris arising in nevus sebaceous, Diagnosis (general): Verruca, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "left",
+    "side",
+    "of",
+    "the",
+    "earlobe.",
+    "It",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "tumor",
+    "that",
+    "is",
+    "usually",
+    "benign",
+    "and",
+    "does",
+    "not",
+    "require",
+    "treatment,",
+    "but",
+    "it",
+    "is",
+    "recommended",
+    "to",
+    "seek",
+    "medical",
+    "attention",
+    "for..."
+  ],
+  "scores": [
+    0.00815514661371708,
+    0.19206416606903076,
+    0.16188552975654602,
+    0.13327571749687195,
+    0.0,
+    0.16916637122631073,
+    0.21198536455631256,
+    0.05198954418301582,
+    0.4757798910140991,
+    0.12075893580913544,
+    0.05575701221823692,
+    0.7003678679466248,
+    0.05841780826449394,
+    0.18403774499893188,
+    0.05871855095028877,
+    0.522529661655426,
+    0.1792983114719391,
+    0.34423285722732544,
+    0.13321034610271454,
+    0.19047297537326813,
+    0.07161497324705124,
+    0.04077562317252159,
+    0.06358317285776138,
+    1.0,
+    0.23021835088729858,
+    0.10607489198446274,
+    0.04075486585497856,
+    0.20184263586997986,
+    0.2070728838443756,
+    0.12401005625724792,
+    0.19561277329921722,
+    0.004022786393761635,
+    0.22434470057487488,
+    0.25463810563087463,
+    0.09883411973714828,
+    0.06570668518543243,
+    0.15744322538375854,
+    0.41866785287857056,
+    0.15821629762649536
+  ],
+  "meta": {
+    "cos": 0.24181106686592102,
+    "words_count": 39,
+    "tokens_count": 47,
+    "token_max": 1.0,
+    "token_cov@tau": 0.05128205128205128,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "usually",
+      "score": 1.0
+    },
+    {
+      "word": "side",
+      "score": 0.7003678679466248
+    },
+    {
+      "word": "It",
+      "score": 0.522529661655426
+    },
+    {
+      "word": "on",
+      "score": 0.4757798910140991
+    },
+    {
+      "word": "attention",
+      "score": 0.41866785287857056
+    },
+    {
+      "word": "a",
+      "score": 0.34423285722732544
+    },
+    {
+      "word": "recommended",
+      "score": 0.25463810563087463
+    },
+    {
+      "word": "benign",
+      "score": 0.23021835088729858
+    },
+    {
+      "word": "is",
+      "score": 0.22434470057487488
+    },
+    {
+      "word": "skin",
+      "score": 0.21198536455631256
+    },
+    {
+      "word": "require",
+      "score": 0.2070728838443756
+    },
+    {
+      "word": "not",
+      "score": 0.20184263586997986
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_b4f92818fbaa.png"
+  }
+}

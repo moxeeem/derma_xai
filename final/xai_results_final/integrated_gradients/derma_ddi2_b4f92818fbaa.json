@@ -1,0 +1,174 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_b4f92818fbaa.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the left side of the earlobe. It is a common skin tumor that is usually benign and does not require treatment, but it is recommended to seek medical attention for...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: V, Anatomical site (detailed): Right neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Verruca vulgaris arising in nevus sebaceous, Diagnosis (general): Verruca, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "left",
+    "side",
+    "of",
+    "the",
+    "earlobe.",
+    "It",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "tumor",
+    "that",
+    "is",
+    "usually",
+    "benign",
+    "and",
+    "does",
+    "not",
+    "require",
+    "treatment,",
+    "but",
+    "it",
+    "is",
+    "recommended",
+    "to",
+    "seek",
+    "medical",
+    "attention",
+    "for..."
+  ],
+  "scores": [
+    0.0018199047772213817,
+    0.33295920491218567,
+    0.00907555129379034,
+    0.00046276929788291454,
+    0.15257889032363892,
+    0.05729472637176514,
+    0.15787436068058014,
+    0.2618657648563385,
+    0.18956217169761658,
+    0.06419819593429565,
+    0.004882992245256901,
+    0.11997717618942261,
+    0.0,
+    0.06591721624135971,
+    0.014222725294530392,
+    0.0898025631904602,
+    0.09173668920993805,
+    0.05160090699791908,
+    0.018265506252646446,
+    0.037724629044532776,
+    0.0053309062495827675,
+    0.011972633190453053,
+    0.03517585247755051,
+    0.05121888965368271,
+    0.023191159591078758,
+    0.03752265125513077,
+    0.08941753953695297,
+    0.027463849633932114,
+    0.06450574100017548,
+    0.10578839480876923,
+    0.046877842396497726,
+    0.01122588012367487,
+    0.022578954696655273,
+    0.058198682963848114,
+    0.11027435213327408,
+    0.11165892332792282,
+    0.020960256457328796,
+    0.07261153310537338,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.24181106686592102,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.02564102564102564,
+    "words_count": 39,
+    "tokens_count": 47,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "for...",
+      "score": 1.0
+    },
+    {
+      "word": "is",
+      "score": 0.33295920491218567
+    },
+    {
+      "word": "lesion",
+      "score": 0.2618657648563385
+    },
+    {
+      "word": "on",
+      "score": 0.18956217169761658
+    },
+    {
+      "word": "skin",
+      "score": 0.15787436068058014
+    },
+    {
+      "word": "of",
+      "score": 0.15257889032363892
+    },
+    {
+      "word": "side",
+      "score": 0.11997717618942261
+    },
+    {
+      "word": "seek",
+      "score": 0.11165892332792282
+    },
+    {
+      "word": "to",
+      "score": 0.11027435213327408
+    },
+    {
+      "word": "treatment,",
+      "score": 0.10578839480876923
+    },
+    {
+      "word": "is",
+      "score": 0.09173668920993805
+    },
+    {
+      "word": "It",
+      "score": 0.0898025631904602
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_b4f92818fbaa.png"
+  }
+}

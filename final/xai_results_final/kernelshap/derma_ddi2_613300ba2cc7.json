@@ -1,0 +1,67 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_613300ba2cc7.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: lr, Path (coarse): malignant- sccis, Pathology report: hyperplastic actinic keratosis, Gender: male, Age: 69, Fitzpatrick:",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Right medial thigh, Anatomical site (general): Lower Limb, Diagnosis (detailed): Metastatic melanoma, Diagnosis (general): Melanoma, Dermatological presentation: rash, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.011196701787412167,
+      0.024677371606230736,
+      0.022999616339802742,
+      0.015843914821743965,
+      0.006654330529272556,
+      0.02105247788131237,
+      0.0007688816403970122,
+      0.01171213760972023,
+      -0.0013378929579630494,
+      0.014674244448542595,
+      0.0029661383014172316,
+      0.01713070087134838,
+      0.02274179272353649,
+      -0.006105376873165369,
+      0.023432789370417595,
+      0.006390342488884926,
+      0.014283602125942707,
+      0.010348712094128132,
+      0.015220174565911293,
+      0.019625825807452202,
+      0.01465649250894785
+    ],
+    "words_count": 21,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.26892513036727905,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.42857142857142855,
+    "reg_used": 0.01,
+    "weight_range": [
+      7.728337058412465e-08,
+      149.9249473642256
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_613300ba2cc7.png"
+  }
+}

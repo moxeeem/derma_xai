@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_dc711ad699db.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a red papule with a rough surface, suggestive of a basal cell carcinoma. It is recommended to undergo a skin biopsy for a definitive diagnosis.",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right lower cheek, Anatomical site (general): Head and Neck, Diagnosis (detailed): Folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Mandarin, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face,",
+    "showing",
+    "a",
+    "red",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "suggestive",
+    "of",
+    "a",
+    "basal",
+    "cell",
+    "carcinoma.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy",
+    "for",
+    "a",
+    "definitive",
+    "diagnosis."
+  ],
+  "scores": [
+    0.07497116178274155,
+    0.046973731368780136,
+    0.13864678144454956,
+    0.13401660323143005,
+    0.01980893686413765,
+    0.007779947016388178,
+    0.09919683635234833,
+    0.017413051798939705,
+    0.2196732610464096,
+    0.1196262389421463,
+    0.01568482629954815,
+    0.4227660000324249,
+    0.19580046832561493,
+    0.04206739366054535,
+    0.057108502835035324,
+    0.16001558303833008,
+    0.17218302190303802,
+    0.005001731216907501,
+    0.07276663929224014,
+    0.0,
+    0.25350335240364075,
+    0.03795044496655464,
+    1.0,
+    0.17074139416217804,
+    0.11935500800609589,
+    0.23735637962818146,
+    0.3600640594959259,
+    0.2891523540019989,
+    0.41619783639907837,
+    0.3246254324913025,
+    0.5768386125564575,
+    0.2570192813873291,
+    0.475539892911911,
+    0.3184589743614197
+  ],
+  "meta": {
+    "cos": 0.2713230550289154,
+    "words_count": 34,
+    "tokens_count": 45,
+    "token_max": 1.0,
+    "token_cov@tau": 0.029411764705882353,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "It",
+      "score": 1.0
+    },
+    {
+      "word": "for",
+      "score": 0.5768386125564575
+    },
+    {
+      "word": "definitive",
+      "score": 0.475539892911911
+    },
+    {
+      "word": "papule",
+      "score": 0.4227660000324249
+    },
+    {
+      "word": "skin",
+      "score": 0.41619783639907837
+    },
+    {
+      "word": "undergo",
+      "score": 0.3600640594959259
+    },
+    {
+      "word": "biopsy",
+      "score": 0.3246254324913025
+    },
+    {
+      "word": "diagnosis.",
+      "score": 0.3184589743614197
+    },
+    {
+      "word": "a",
+      "score": 0.2891523540019989
+    },
+    {
+      "word": "a",
+      "score": 0.2570192813873291
+    },
+    {
+      "word": "cell",
+      "score": 0.25350335240364075
+    },
+    {
+      "word": "to",
+      "score": 0.23735637962818146
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_dc711ad699db.png"
+  }
+}

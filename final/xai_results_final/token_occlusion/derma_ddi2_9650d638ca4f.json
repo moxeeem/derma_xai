@@ -1,0 +1,163 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9650d638ca4f.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the patient's abdomen showing a large number of red papules and nodules, consistent with the clinical presentation of a skin tumor. Based on the characteristics of the lesion, the...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left breast, Anatomical site (general): Chest, Diagnosis (detailed): Hypertrophic scar, Diagnosis (general): Scar, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Filipino, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen",
+    "showing",
+    "a",
+    "large",
+    "number",
+    "of",
+    "red",
+    "papules",
+    "and",
+    "nodules",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "a",
+    "skin",
+    "tumor",
+    "Based",
+    "on",
+    "the",
+    "characteristics",
+    "of",
+    "the",
+    "lesion",
+    "the"
+  ],
+  "scores": [
+    0.8743033409118652,
+    0.3493036925792694,
+    0.28544318675994873,
+    0.0,
+    0.2608228027820587,
+    0.231277734041214,
+    0.45051613450050354,
+    0.9999997019767761,
+    0.5570199489593506,
+    0.14812593162059784,
+    0.27216264605522156,
+    0.0,
+    0.2240346372127533,
+    0.2619423568248749,
+    0.0,
+    0.36939024925231934,
+    0.4960857927799225,
+    0.38277000188827515,
+    0.444766104221344,
+    0.1325015276670456,
+    0.10164061933755875,
+    0.3349781632423401,
+    0.28753185272216797,
+    0.32216647267341614,
+    0.3927880823612213,
+    0.1941199153661728,
+    0.2773526906967163,
+    0.1942220777273178,
+    0.17994660139083862,
+    0.2750622630119324,
+    0.18888069689273834,
+    0.17335252463817596,
+    0.33940431475639343,
+    0.2514461278915405
+  ],
+  "meta": {
+    "base_cos": 0.24519750475883484,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 34,
+    "masks_sampled": 34,
+    "token_max": 0.9999997019767761,
+    "token_cov@tau": 0.058823529411764705,
+    "top": [
+      {
+        "unit": "abdomen",
+        "score": 0.9999997019767761
+      },
+      {
+        "unit": "This",
+        "score": 0.8743033409118652
+      },
+      {
+        "unit": "showing",
+        "score": 0.5570199489593506
+      },
+      {
+        "unit": "nodules",
+        "score": 0.4960857927799225
+      },
+      {
+        "unit": "patient's",
+        "score": 0.45051613450050354
+      },
+      {
+        "unit": "with",
+        "score": 0.444766104221344
+      },
+      {
+        "unit": "skin",
+        "score": 0.3927880823612213
+      },
+      {
+        "unit": "consistent",
+        "score": 0.38277000188827515
+      },
+      {
+        "unit": "and",
+        "score": 0.36939024925231934
+      },
+      {
+        "unit": "is",
+        "score": 0.3493036925792694
+      },
+      {
+        "unit": "lesion",
+        "score": 0.33940431475639343
+      },
+      {
+        "unit": "presentation",
+        "score": 0.3349781632423401
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_9650d638ca4f.png"
+  }
+}

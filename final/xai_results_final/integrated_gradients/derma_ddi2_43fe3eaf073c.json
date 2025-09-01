@@ -1,0 +1,164 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_43fe3eaf073c.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a single red-brown-black-red nodule on the surface of the skin. Based on the characteristics of the lesion, it is recommended to undergo a skin biopsy...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right forehead, Anatomical site (general): Head and Neck, Diagnosis (detailed): Squamous cell carcinoma, keratoacanthoma type, Diagnosis (general): Squamous cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face,",
+    "showing",
+    "a",
+    "single",
+    "red-brown-black-red",
+    "nodule",
+    "on",
+    "the",
+    "surface",
+    "of",
+    "the",
+    "skin.",
+    "Based",
+    "on",
+    "the",
+    "characteristics",
+    "of",
+    "the",
+    "lesion,",
+    "it",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy..."
+  ],
+  "scores": [
+    0.008352370001375675,
+    0.5701150894165039,
+    0.08995231240987778,
+    0.027261191979050636,
+    0.8829184770584106,
+    0.07360127568244934,
+    0.6422966718673706,
+    0.7819976806640625,
+    0.2672315835952759,
+    0.09714994579553604,
+    0.004953896161168814,
+    0.9296914935112,
+    0.9370130300521851,
+    0.8906861543655396,
+    0.9729295969009399,
+    0.15636613965034485,
+    0.04901842400431633,
+    0.004718496929854155,
+    0.08992085605859756,
+    0.24806706607341766,
+    0.10995267331600189,
+    0.2153668999671936,
+    0.17860372364521027,
+    0.6631180047988892,
+    0.18721045553684235,
+    0.36836323142051697,
+    0.2969820201396942,
+    0.4431118965148926,
+    0.7694104313850403,
+    0.040131695568561554,
+    0.7076284885406494,
+    1.0,
+    0.0,
+    0.9917991757392883
+  ],
+  "meta": {
+    "cos": 0.26316046714782715,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.35294117647058826,
+    "words_count": 34,
+    "tokens_count": 51,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "a",
+      "score": 1.0
+    },
+    {
+      "word": "biopsy...",
+      "score": 0.9917991757392883
+    },
+    {
+      "word": "the",
+      "score": 0.9729295969009399
+    },
+    {
+      "word": "nodule",
+      "score": 0.9370130300521851
+    },
+    {
+      "word": "red-brown-black-red",
+      "score": 0.9296914935112
+    },
+    {
+      "word": "on",
+      "score": 0.8906861543655396
+    },
+    {
+      "word": "of",
+      "score": 0.8829184770584106
+    },
+    {
+      "word": "face,",
+      "score": 0.7819976806640625
+    },
+    {
+      "word": "recommended",
+      "score": 0.7694104313850403
+    },
+    {
+      "word": "undergo",
+      "score": 0.7076284885406494
+    },
+    {
+      "word": "of",
+      "score": 0.6631180047988892
+    },
+    {
+      "word": "patient's",
+      "score": 0.6422966718673706
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_43fe3eaf073c.png"
+  }
+}

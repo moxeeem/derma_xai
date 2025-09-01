@@ -1,0 +1,163 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_db3b54c97837.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "The patient presents with black papules on the skin surface, with a rough surface and a rough texture. Based on the patient's symptoms and medical history, it is recommended to undergo a skin biopsy...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Scrotum, Anatomical site (general): Anogenital, Diagnosis (detailed): Condyloma acuminatum, Diagnosis (general): Condyloma acuminatum, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "black",
+    "papules",
+    "on",
+    "the",
+    "skin",
+    "surface",
+    "with",
+    "a",
+    "rough",
+    "surface",
+    "and",
+    "a",
+    "rough",
+    "texture",
+    "Based",
+    "on",
+    "the",
+    "patient's",
+    "symptoms",
+    "and",
+    "medical",
+    "history",
+    "it",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy"
+  ],
+  "scores": [
+    0.0,
+    0.5995190143585205,
+    0.5781940221786499,
+    0.07390989363193512,
+    0.9999994039535522,
+    0.0,
+    0.05066128820180893,
+    0.1521269828081131,
+    0.0,
+    0.0,
+    0.0,
+    0.17090855538845062,
+    0.0,
+    0.0,
+    0.0,
+    0.16823317110538483,
+    0.0,
+    0.050412245094776154,
+    0.3609369397163391,
+    0.070874884724617,
+    0.0479440875351429,
+    0.39398011565208435,
+    0.0,
+    0.14620471000671387,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.1447950005531311,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "meta": {
+    "base_cos": 0.2423236221075058,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 34,
+    "masks_sampled": 34,
+    "token_max": 0.9999994039535522,
+    "token_cov@tau": 0.029411764705882353,
+    "top": [
+      {
+        "unit": "black",
+        "score": 0.9999994039535522
+      },
+      {
+        "unit": "patient",
+        "score": 0.5995190143585205
+      },
+      {
+        "unit": "presents",
+        "score": 0.5781940221786499
+      },
+      {
+        "unit": "patient's",
+        "score": 0.39398011565208435
+      },
+      {
+        "unit": "Based",
+        "score": 0.3609369397163391
+      },
+      {
+        "unit": "a",
+        "score": 0.17090855538845062
+      },
+      {
+        "unit": "a",
+        "score": 0.16823317110538483
+      },
+      {
+        "unit": "the",
+        "score": 0.1521269828081131
+      },
+      {
+        "unit": "and",
+        "score": 0.14620471000671387
+      },
+      {
+        "unit": "to",
+        "score": 0.1447950005531311
+      },
+      {
+        "unit": "with",
+        "score": 0.07390989363193512
+      },
+      {
+        "unit": "on",
+        "score": 0.070874884724617
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_db3b54c97837.png"
+  }
+}

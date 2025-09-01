@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_a9cb644f60f6.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a single black-brown papule on the skin surface, with clear borders and a rough surface, consistent with a melanocytic nevus. Melanoma is a common skin...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right cheek, Anatomical site (general): Head and Neck, Diagnosis (detailed): Intradermal melanocytic nevus, Diagnosis (general): Benign nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face,",
+    "showing",
+    "a",
+    "single",
+    "black-brown",
+    "papule",
+    "on",
+    "the",
+    "skin",
+    "surface,",
+    "with",
+    "clear",
+    "borders",
+    "and",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "a",
+    "melanocytic",
+    "nevus.",
+    "Melanoma",
+    "is",
+    "a",
+    "common",
+    "skin..."
+  ],
+  "scores": [
+    0.013693300075829029,
+    0.15145230293273926,
+    0.07147940993309021,
+    0.2206510454416275,
+    0.04628610238432884,
+    0.08878379315137863,
+    0.09903816878795624,
+    0.12187673151493073,
+    0.1021755188703537,
+    0.022999832406640053,
+    0.0,
+    0.18746580183506012,
+    0.3686729967594147,
+    0.012644188478589058,
+    0.02077765390276909,
+    0.07546191662549973,
+    0.20414771139621735,
+    0.2469007968902588,
+    0.5875232219696045,
+    0.15968982875347137,
+    0.07631196081638336,
+    0.02462530881166458,
+    0.4629429280757904,
+    0.11516786366701126,
+    0.24342797696590424,
+    0.43902939558029175,
+    0.03937940672039986,
+    0.772439181804657,
+    0.9621785283088684,
+    1.0,
+    0.08240009099245071,
+    0.003842258593067527,
+    0.20324216783046722,
+    0.049407102167606354
+  ],
+  "meta": {
+    "cos": 0.2925248146057129,
+    "words_count": 34,
+    "tokens_count": 49,
+    "token_max": 1.0,
+    "token_cov@tau": 0.08823529411764706,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "Melanoma",
+      "score": 1.0
+    },
+    {
+      "word": "nevus.",
+      "score": 0.9621785283088684
+    },
+    {
+      "word": "melanocytic",
+      "score": 0.772439181804657
+    },
+    {
+      "word": "clear",
+      "score": 0.5875232219696045
+    },
+    {
+      "word": "rough",
+      "score": 0.4629429280757904
+    },
+    {
+      "word": "with",
+      "score": 0.43902939558029175
+    },
+    {
+      "word": "papule",
+      "score": 0.3686729967594147
+    },
+    {
+      "word": "with",
+      "score": 0.2469007968902588
+    },
+    {
+      "word": "consistent",
+      "score": 0.24342797696590424
+    },
+    {
+      "word": "photo",
+      "score": 0.2206510454416275
+    },
+    {
+      "word": "surface,",
+      "score": 0.20414771139621735
+    },
+    {
+      "word": "common",
+      "score": 0.20324216783046722
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_a9cb644f60f6.png"
+  }
+}

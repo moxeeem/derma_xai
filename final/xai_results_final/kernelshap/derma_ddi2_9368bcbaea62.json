@@ -1,0 +1,73 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9368bcbaea62.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right lower leg, Path (coarse): Actinic keratosis, Dermatological presentation: growth, Benign/",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Left calf, Anatomical site (general): Lower Limb, Diagnosis (detailed): Acrochordon, Diagnosis (general): Acrochordon, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.011226670816540718,
+      0.002880325075238943,
+      0.010382627137005329,
+      0.0043143946677446365,
+      0.014464099891483784,
+      0.01150056254118681,
+      -0.0020685596391558647,
+      0.015043685212731361,
+      -0.0042720879428088665,
+      0.01218537986278534,
+      0.001694109640084207,
+      0.010208441875874996,
+      0.008528408594429493,
+      0.008457344956696033,
+      0.007304065395146608,
+      0.010867125354707241,
+      0.007795474957674742,
+      0.008078409358859062,
+      0.025434112176299095,
+      -0.00022836901189293712,
+      -0.008788147941231728,
+      0.0027260887436568737,
+      -0.001519868616014719,
+      0.007594849914312363,
+      0.0076797944493591785,
+      0.012867108918726444,
+      0.008721485733985901
+    ],
+    "words_count": 27,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.1930708885192871,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.037037037037037035,
+    "reg_used": 0.01,
+    "weight_range": [
+      1.0677805096186515e-09,
+      149.9250325725866
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_9368bcbaea62.png"
+  }
+}

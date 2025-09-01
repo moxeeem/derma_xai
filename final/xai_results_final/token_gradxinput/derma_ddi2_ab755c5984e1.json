@@ -1,0 +1,166 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_ab755c5984e1.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a single round papule on the nasal sebaceous gland. It is a common skin lesion, usually caused by blockage of hair follicles, and it is recommended to...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left lower eyelid, Anatomical site (general): Head and Neck, Diagnosis (detailed): IgG4-related disease, Diagnosis (general): IgG4-related disease, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face,",
+    "showing",
+    "a",
+    "single",
+    "round",
+    "papule",
+    "on",
+    "the",
+    "nasal",
+    "sebaceous",
+    "gland.",
+    "It",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "lesion,",
+    "usually",
+    "caused",
+    "by",
+    "blockage",
+    "of",
+    "hair",
+    "follicles,",
+    "and",
+    "it",
+    "is",
+    "recommended",
+    "to..."
+  ],
+  "scores": [
+    0.0,
+    0.0002167127386201173,
+    0.012938755564391613,
+    0.0330696739256382,
+    0.029076114296913147,
+    0.0032031761948019266,
+    0.052577681839466095,
+    0.00763334147632122,
+    0.021664965897798538,
+    0.04317682981491089,
+    0.055670320987701416,
+    0.09557609260082245,
+    0.01876182295382023,
+    0.5032170414924622,
+    0.9999999403953552,
+    0.02565433830022812,
+    0.0065199038945138454,
+    0.015365604311227798,
+    0.00012617144966498017,
+    0.024563977494835854,
+    0.012617480009794235,
+    0.013428300619125366,
+    0.012858561240136623,
+    0.047371406108140945,
+    0.045317698270082474,
+    0.20607298612594604,
+    0.020255466923117638,
+    0.0492098294198513,
+    0.08015518635511398,
+    0.14002196490764618,
+    0.049038030207157135,
+    0.007744059432297945,
+    0.013254282996058464,
+    0.002633598167449236,
+    0.07244093716144562,
+    0.16151277720928192
+  ],
+  "meta": {
+    "cos": 0.26809579133987427,
+    "words_count": 36,
+    "tokens_count": 50,
+    "token_max": 0.9999999403953552,
+    "token_cov@tau": 0.027777777777777776,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "the",
+      "score": 0.9999999403953552
+    },
+    {
+      "word": "on",
+      "score": 0.5032170414924622
+    },
+    {
+      "word": "caused",
+      "score": 0.20607298612594604
+    },
+    {
+      "word": "to...",
+      "score": 0.16151277720928192
+    },
+    {
+      "word": "hair",
+      "score": 0.14002196490764618
+    },
+    {
+      "word": "round",
+      "score": 0.09557609260082245
+    },
+    {
+      "word": "of",
+      "score": 0.08015518635511398
+    },
+    {
+      "word": "recommended",
+      "score": 0.07244093716144562
+    },
+    {
+      "word": "single",
+      "score": 0.055670320987701416
+    },
+    {
+      "word": "patient's",
+      "score": 0.052577681839466095
+    },
+    {
+      "word": "blockage",
+      "score": 0.0492098294198513
+    },
+    {
+      "word": "follicles,",
+      "score": 0.049038030207157135
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_ab755c5984e1.png"
+  }
+}

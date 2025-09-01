@@ -1,0 +1,168 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1a7a8c068b8c.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the nasal ala of the patient's nose, showing a red papule with a rough surface, consistent with the clinical features of a basal cell carcinoma. Basal cell...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left nasal side wall, Anatomical site (general): Head and Neck, Diagnosis (detailed): Ruptured follicle/epidermal cyst, Diagnosis (general): Epidermal cyst, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Cantonese, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "nasal",
+    "ala",
+    "of",
+    "the",
+    "patient's",
+    "nose,",
+    "showing",
+    "a",
+    "red",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "features",
+    "of",
+    "a",
+    "basal",
+    "cell",
+    "carcinoma.",
+    "Basal",
+    "cell..."
+  ],
+  "scores": [
+    0.0,
+    0.4524250030517578,
+    0.1847917139530182,
+    0.03309870511293411,
+    0.11186476051807404,
+    0.03407535329461098,
+    0.26454755663871765,
+    0.5229618549346924,
+    0.1217561811208725,
+    0.18330682814121246,
+    0.18805158138275146,
+    0.43402165174484253,
+    0.13837096095085144,
+    0.05245672166347504,
+    0.11929653584957123,
+    0.2969661056995392,
+    0.057328708469867706,
+    0.1356332004070282,
+    0.16501320898532867,
+    0.2851722538471222,
+    0.20985272526741028,
+    0.03028758615255356,
+    0.0064661880023777485,
+    0.37362736463546753,
+    0.06360973417758942,
+    0.15577785670757294,
+    0.21964676678180695,
+    0.23350632190704346,
+    0.8284454345703125,
+    1.0,
+    0.07137814909219742,
+    0.013921323232352734,
+    0.2628336548805237,
+    0.34346261620521545,
+    0.03178926557302475,
+    0.9061003923416138
+  ],
+  "meta": {
+    "cos": 0.29148226976394653,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.08333333333333333,
+    "words_count": 36,
+    "tokens_count": 47,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "of",
+      "score": 1.0
+    },
+    {
+      "word": "cell...",
+      "score": 0.9061003923416138
+    },
+    {
+      "word": "features",
+      "score": 0.8284454345703125
+    },
+    {
+      "word": "lesion",
+      "score": 0.5229618549346924
+    },
+    {
+      "word": "is",
+      "score": 0.4524250030517578
+    },
+    {
+      "word": "ala",
+      "score": 0.43402165174484253
+    },
+    {
+      "word": "surface,",
+      "score": 0.37362736463546753
+    },
+    {
+      "word": "carcinoma.",
+      "score": 0.34346261620521545
+    },
+    {
+      "word": "nose,",
+      "score": 0.2969661056995392
+    },
+    {
+      "word": "papule",
+      "score": 0.2851722538471222
+    },
+    {
+      "word": "skin",
+      "score": 0.26454755663871765
+    },
+    {
+      "word": "cell",
+      "score": 0.2628336548805237
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_1a7a8c068b8c.png"
+  }
+}

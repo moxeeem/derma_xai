@@ -1,0 +1,79 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9368bcbaea62.png",
+  "method": "grad_eclip",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "grid_n": 0,
+    "work_resize_px": 0,
+    "baseline": "n/a",
+    "blur_sigma_px": 0.0,
+    "batch_vision": 0,
+    "mask_shape": "grad-eclip",
+    "stride_frac": 0.0,
+    "sigma_frac": 0.0,
+    "edge_soften_px": 0,
+    "tau": 0.7,
+    "overlay_alpha": 0.65,
+    "alpha_mode": "scaled",
+    "p_low": 70.0,
+    "p_high": 98.0,
+    "gamma": 0.7,
+    "heat_smooth_sigma_px": 1.0,
+    "focus_threshold": 0.4,
+    "focus_boost": 1.3,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true,
+    "grad_aggregate": "gradxinput",
+    "grad_pool": "sum",
+    "safe_float32": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right lower leg, Path (coarse): Actinic keratosis, Dermatological presentation: growth, Benign/",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Left calf, Anatomical site (general): Lower Limb, Diagnosis (detailed): Acrochordon, Diagnosis (general): Acrochordon, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "clip_cosine": 0.1930708885192871,
+  "heatmap_stats": {
+    "coverage@τ": 0.05236054542323465,
+    "mass@top10%": 0.7929805517196655,
+    "entropy": 0.0591120570898056
+  },
+  "meta": {
+    "rollout_backend": "grad-eclip",
+    "layers_total": 0,
+    "layers_used": [
+      0,
+      0
+    ],
+    "head_fuse": "-",
+    "add_residual": false,
+    "row_normalize": false,
+    "grad_backend": "open_clip",
+    "grad_aggregate": "gradxinput",
+    "grad_pool": "sum",
+    "input_tensor_shape": [
+      224,
+      224
+    ],
+    "mask_shape": "grad-eclip",
+    "baseline": "n/a",
+    "p_low": 70.0,
+    "p_high": 98.0,
+    "gamma": 0.7,
+    "heat_smooth_sigma_px": 1.0,
+    "overlay_alpha": 0.65,
+    "alpha_mode": "scaled"
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/grad_eclip/derma_ddi2_9368bcbaea62.png"
+  }
+}

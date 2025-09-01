@@ -1,0 +1,173 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_b4f92818fbaa.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of a skin lesion on the left side of the earlobe. It is a common skin tumor that is usually benign and does not require treatment, but it is recommended to seek medical attention for...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: V, Anatomical site (detailed): Right neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Verruca vulgaris arising in nevus sebaceous, Diagnosis (general): Verruca, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "left",
+    "side",
+    "of",
+    "the",
+    "earlobe",
+    "It",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "tumor",
+    "that",
+    "is",
+    "usually",
+    "benign",
+    "and",
+    "does",
+    "not",
+    "require",
+    "treatment",
+    "but",
+    "it",
+    "is",
+    "recommended",
+    "to",
+    "seek",
+    "medical",
+    "attention",
+    "for"
+  ],
+  "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9999960660934448,
+    0.0,
+    0.33811601996421814,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "meta": {
+    "base_cos": 0.24181106686592102,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 39,
+    "masks_sampled": 39,
+    "token_max": 0.9999960660934448,
+    "token_cov@tau": 0.02564102564102564,
+    "top": [
+      {
+        "unit": "on",
+        "score": 0.9999960660934448
+      },
+      {
+        "unit": "left",
+        "score": 0.33811601996421814
+      },
+      {
+        "unit": "for",
+        "score": 0.0
+      },
+      {
+        "unit": "seek",
+        "score": 0.0
+      },
+      {
+        "unit": "to",
+        "score": 0.0
+      },
+      {
+        "unit": "attention",
+        "score": 0.0
+      },
+      {
+        "unit": "medical",
+        "score": 0.0
+      },
+      {
+        "unit": "is",
+        "score": 0.0
+      },
+      {
+        "unit": "recommended",
+        "score": 0.0
+      },
+      {
+        "unit": "it",
+        "score": 0.0
+      },
+      {
+        "unit": "but",
+        "score": 0.0
+      },
+      {
+        "unit": "not",
+        "score": 0.0
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_b4f92818fbaa.png"
+  }
+}

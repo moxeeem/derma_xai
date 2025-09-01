@@ -1,0 +1,60 @@
+[device] cuda | GPT-2=gpt2-medium | CLIP_PRESET=dermlip_vitb16 | Log: /root/clip_xai/final/final_dermlip_vitb16/train_log_dermlip_vitb16_1756534252.txt
+[GLOBAL VAL] prepared N=1801 (stratified by source)
+[SKINCAP HOLDOUT] N=412
+[SPLITS] train_common=20304 | global_val=1801 | skincap_holdout=412
+[Stage A (META)] start | train=20304 | unfreeze_k=0
+[Stage A (META)] will validate on: GLOBAL (N=1801)
+[Stage A (META)] will validate on: SKINCAP_HOLDOUT (N=412)
+[Stage A (META)] trainable_params=410,687,489
+[Stage A (META)] after freeze_k=0 | trainable=119,919,617
+[Stage A (META)] ep 01/3 | train_loss=1.5432 | 1765.3s | [GLOBAL] val=1.1590 PPL=3.19 BLEU=38.6 ROUGE-L=0.550 CIDEr-D=0.12 CLIP=24.5 BERT_F1=0.562 | [SKINCAP_HOLDOUT] val=2.1240 PPL=8.36 BLEU=7.6 ROUGE-L=0.242 CIDEr-D=0.07 CLIP=24.0 BERT_F1=0.291
+[Stage A (META)] ep 02/3 | train_loss=1.1157 | 527.5s | [GLOBAL] val=1.1132 PPL=3.04 BLEU=38.1 ROUGE-L=0.547 CIDEr-D=0.17 CLIP=24.2 BERT_F1=0.564 | [SKINCAP_HOLDOUT] val=2.0351 PPL=7.65 BLEU=8.9 ROUGE-L=0.252 CIDEr-D=0.10 CLIP=24.7 BERT_F1=0.313
+[Stage A (META)] ep 03/3 | train_loss=1.0836 | 527.2s | [GLOBAL] val=1.1070 PPL=3.03 BLEU=38.6 ROUGE-L=0.550 CIDEr-D=0.17 CLIP=24.4 BERT_F1=0.565 | [SKINCAP_HOLDOUT] val=2.0224 PPL=7.56 BLEU=9.1 ROUGE-L=0.258 CIDEr-D=0.11 CLIP=25.1 BERT_F1=0.319
+[Stage A (META)] best: val_loss=1.1070 | PPL=3.03 | BLEU=38.6 | ROUGE-L=0.550 | CIDEr-D=0.17 | CLIP=24.4 | BERT_F1=0.565
+[Stage B (SKINCAP)] start | train=3302 | unfreeze_k=1
+[Stage B (SKINCAP)] will validate on: GLOBAL (N=1801)
+[Stage B (SKINCAP)] will validate on: SKINCAP_HOLDOUT (N=412)
+[Stage B (SKINCAP)] trainable_params=119,919,617
+[Stage B (SKINCAP)] after freeze_k=1 | trainable=64,321,536
+[Stage B (SKINCAP)] ep 01/20 | train_loss=1.2890 | 304.5s | [GLOBAL] val=0.3555 PPL=1.43 BLEU=38.0 ROUGE-L=0.538 CIDEr-D=0.14 CLIP=24.5 BERT_F1=0.556 | [SKINCAP_HOLDOUT] val=1.3122 PPL=3.71 BLEU=9.1 ROUGE-L=0.263 CIDEr-D=0.11 CLIP=25.2 BERT_F1=0.337
+[Stage B (SKINCAP)] ep 02/20 | train_loss=1.2477 | 305.5s | [GLOBAL] val=0.3553 PPL=1.43 BLEU=37.9 ROUGE-L=0.530 CIDEr-D=0.10 CLIP=24.5 BERT_F1=0.549 | [SKINCAP_HOLDOUT] val=1.2869 PPL=3.62 BLEU=9.7 ROUGE-L=0.273 CIDEr-D=0.12 CLIP=25.5 BERT_F1=0.356
+[Stage B (SKINCAP)] unfreezed last_k=2 | trainable=76,917,760
+[Stage B (SKINCAP)] ep 03/20 | train_loss=1.2160 | 306.2s | [GLOBAL] val=0.3542 PPL=1.43 BLEU=37.8 ROUGE-L=0.529 CIDEr-D=0.11 CLIP=24.6 BERT_F1=0.548 | [SKINCAP_HOLDOUT] val=1.2633 PPL=3.54 BLEU=10.2 ROUGE-L=0.276 CIDEr-D=0.13 CLIP=25.6 BERT_F1=0.360
+[Stage B (SKINCAP)] ep 04/20 | train_loss=1.1865 | 305.8s | [GLOBAL] val=0.3551 PPL=1.43 BLEU=37.6 ROUGE-L=0.526 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.546 | [SKINCAP_HOLDOUT] val=1.2478 PPL=3.48 BLEU=10.1 ROUGE-L=0.275 CIDEr-D=0.13 CLIP=25.8 BERT_F1=0.364
+[Stage B (SKINCAP)] ep 05/20 | train_loss=1.1621 | 305.7s | [GLOBAL] val=0.3559 PPL=1.43 BLEU=37.3 ROUGE-L=0.524 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.542 | [SKINCAP_HOLDOUT] val=1.2354 PPL=3.44 BLEU=10.1 ROUGE-L=0.277 CIDEr-D=0.14 CLIP=25.9 BERT_F1=0.360
+[Stage B (SKINCAP)] ep 06/20 | train_loss=1.1415 | 306.2s | [GLOBAL] val=0.3563 PPL=1.43 BLEU=37.0 ROUGE-L=0.521 CIDEr-D=0.11 CLIP=24.6 BERT_F1=0.538 | [SKINCAP_HOLDOUT] val=1.2258 PPL=3.41 BLEU=9.9 ROUGE-L=0.274 CIDEr-D=0.14 CLIP=25.7 BERT_F1=0.359
+[Stage B (SKINCAP)] ep 07/20 | train_loss=1.1222 | 306.2s | [GLOBAL] val=0.3576 PPL=1.43 BLEU=37.0 ROUGE-L=0.521 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.537 | [SKINCAP_HOLDOUT] val=1.2170 PPL=3.38 BLEU=10.0 ROUGE-L=0.277 CIDEr-D=0.14 CLIP=25.8 BERT_F1=0.358
+[Stage B (SKINCAP)] ep 08/20 | train_loss=1.1064 | 306.2s | [GLOBAL] val=0.3584 PPL=1.43 BLEU=36.9 ROUGE-L=0.519 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.535 | [SKINCAP_HOLDOUT] val=1.2097 PPL=3.35 BLEU=10.2 ROUGE-L=0.279 CIDEr-D=0.13 CLIP=25.9 BERT_F1=0.362
+[Stage B (SKINCAP)] ep 09/20 | train_loss=1.0941 | 305.9s | [GLOBAL] val=0.3592 PPL=1.43 BLEU=36.6 ROUGE-L=0.516 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.533 | [SKINCAP_HOLDOUT] val=1.2033 PPL=3.33 BLEU=10.0 ROUGE-L=0.276 CIDEr-D=0.14 CLIP=25.9 BERT_F1=0.356
+[Stage B (SKINCAP)] ep 10/20 | train_loss=1.0827 | 306.3s | [GLOBAL] val=0.3600 PPL=1.43 BLEU=36.6 ROUGE-L=0.516 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.532 | [SKINCAP_HOLDOUT] val=1.2013 PPL=3.32 BLEU=10.3 ROUGE-L=0.280 CIDEr-D=0.14 CLIP=25.9 BERT_F1=0.367
+[Stage B (SKINCAP)] ep 11/20 | train_loss=1.0735 | 306.4s | [GLOBAL] val=0.3615 PPL=1.44 BLEU=36.4 ROUGE-L=0.515 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.531 | [SKINCAP_HOLDOUT] val=1.1977 PPL=3.31 BLEU=10.0 ROUGE-L=0.279 CIDEr-D=0.12 CLIP=25.9 BERT_F1=0.363
+[Stage B (SKINCAP)] ep 12/20 | train_loss=1.0657 | 307.2s | [GLOBAL] val=0.3621 PPL=1.44 BLEU=36.4 ROUGE-L=0.514 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.529 | [SKINCAP_HOLDOUT] val=1.1955 PPL=3.31 BLEU=10.2 ROUGE-L=0.280 CIDEr-D=0.13 CLIP=26.0 BERT_F1=0.363
+[Stage B (SKINCAP)] ep 13/20 | train_loss=1.0602 | 306.8s | [GLOBAL] val=0.3634 PPL=1.44 BLEU=36.3 ROUGE-L=0.513 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.529 | [SKINCAP_HOLDOUT] val=1.1949 PPL=3.30 BLEU=10.2 ROUGE-L=0.280 CIDEr-D=0.14 CLIP=25.9 BERT_F1=0.364
+[Stage B (SKINCAP)] ep 14/20 | train_loss=1.0548 | 306.4s | [GLOBAL] val=0.3642 PPL=1.44 BLEU=36.2 ROUGE-L=0.512 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.527 | [SKINCAP_HOLDOUT] val=1.1927 PPL=3.30 BLEU=10.0 ROUGE-L=0.278 CIDEr-D=0.14 CLIP=25.9 BERT_F1=0.361
+[Stage B (SKINCAP)] ep 15/20 | train_loss=1.0512 | 305.9s | [GLOBAL] val=0.3646 PPL=1.44 BLEU=36.2 ROUGE-L=0.512 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.527 | [SKINCAP_HOLDOUT] val=1.1919 PPL=3.29 BLEU=10.2 ROUGE-L=0.279 CIDEr-D=0.14 CLIP=25.9 BERT_F1=0.362
+[Stage B (SKINCAP)] ep 16/20 | train_loss=1.0462 | 306.8s | [GLOBAL] val=0.3656 PPL=1.44 BLEU=36.2 ROUGE-L=0.512 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.527 | [SKINCAP_HOLDOUT] val=1.1920 PPL=3.29 BLEU=10.2 ROUGE-L=0.281 CIDEr-D=0.14 CLIP=26.0 BERT_F1=0.365
+[Stage B (SKINCAP)] ep 17/20 | train_loss=1.0463 | 306.5s | [GLOBAL] val=0.3653 PPL=1.44 BLEU=36.2 ROUGE-L=0.512 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.527 | [SKINCAP_HOLDOUT] val=1.1912 PPL=3.29 BLEU=10.2 ROUGE-L=0.280 CIDEr-D=0.14 CLIP=26.0 BERT_F1=0.364
+[Stage B (SKINCAP)] ep 18/20 | train_loss=1.0437 | 306.7s | [GLOBAL] val=0.3651 PPL=1.44 BLEU=36.2 ROUGE-L=0.512 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.527 | [SKINCAP_HOLDOUT] val=1.1913 PPL=3.29 BLEU=10.1 ROUGE-L=0.280 CIDEr-D=0.14 CLIP=26.0 BERT_F1=0.363
+[Stage B (SKINCAP)] ep 19/20 | train_loss=1.0408 | 306.6s | [GLOBAL] val=0.3651 PPL=1.44 BLEU=36.2 ROUGE-L=0.512 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.526 | [SKINCAP_HOLDOUT] val=1.1909 PPL=3.29 BLEU=10.0 ROUGE-L=0.279 CIDEr-D=0.14 CLIP=25.9 BERT_F1=0.363
+[Stage B (SKINCAP)] ep 20/20 | train_loss=1.0412 | 306.3s | [GLOBAL] val=0.3653 PPL=1.44 BLEU=36.2 ROUGE-L=0.512 CIDEr-D=0.11 CLIP=24.7 BERT_F1=0.526 | [SKINCAP_HOLDOUT] val=1.1903 PPL=3.29 BLEU=10.0 ROUGE-L=0.278 CIDEr-D=0.13 CLIP=25.9 BERT_F1=0.363
+[Stage B (SKINCAP)] best: val_loss=1.1903 | PPL=3.29 | BLEU=10.0 | ROUGE-L=0.278 | CIDEr-D=0.13 | CLIP=25.9 | BERT_F1=0.363
+[save] Final model saved to: /root/clip_xai/final/final_dermlip_vitb16/final_captioner_gpt2-medium_VisionTransformer.pt
+[save] Inference config saved to: /root/clip_xai/final/final_dermlip_vitb16/final_captioner_gpt2-medium_VisionTransformer.json
+[plot] saved loss curve -> /root/clip_xai/final/final_dermlip_vitb16/loss_dermlip_vitb16.png
+
+[Examples @ GLOBAL]
+  #1 path=/root/clip_xai/dermaCAP/dermaCAP_img/derma_ham10000_b43d14781e7a.png
+     pred: Age (approx): 55, Anatomic site (general): posterior torso, Anatomic type (special): Unknown, Concomitant biopsy: No, Diagnosis 1: Malignant, Diagnosis 2: Malignant melanocytic proliferations (Melanoma), Diagnosis 3: Mel
+     true: Age (approx): 55, Anatomic site (general): Unknown, Anatomic site (special): Unknown, Concomitant biopsy: No, Diagnosis 1: Benign, Diagnosis 2: Benign melanocytic proliferations, Diagnosis 3: Nevus, Diagnosis confirm type: serial imaging showing no change, Image manipulation: Unknown, Image type: dermoscopic, Melanocytic: Yes, Pixels X: 600, Pixels Y: 450, Sex: Female
+  #2 path=/root/clip_xai/dermaCAP/dermaCAP_img/derma_skincap_3b0f30cc8c59.png
+     pred: This is a photo showing skin lesions on the back of the hand, which are consistent with the clinical presentation of scabies. Scabies is a contagious skin infestation caused by the Sarcoptes scabiei mite, commonly found on the hands, feet, and other parts of the
+     true: The photo shows a red, ring-like erythema with raised edges and central depression, consistent with the clinical presentation of keratosis pilaris. Keratosis pilaris is a common skin condition characterized by localized overgrowth of keratin in the skin, leading to the formation of keratin plugs, resulting in symptoms such as erythematous patches, papules, or nodules.
+
+[Examples @ SKINCAP_HOLDOUT]
+  #1 path=/root/clip_xai/dermaCAP/dermaCAP_img/derma_skincap_47f43a2f881a.png
+     pred: Based on the description and appearance of the lesion, the most likely diagnosis is squamous cell carcinoma, a common type of skin cancer that typically grows slowly but can invade surrounding tissues if not treated promptly.
+     true:  This photo shows irregular depigmentation on the patient's perioral area, glans penis, and fingertips, with irregular shapes, clear borders, and scattered normal pigment islands around, which are consistent with the characteristics of vitiligo. Vitiligo is a chronic, relapsing depigmenting skin disease. The etiology of vitiligo is currently unclear, but it may be related to factors such as autoimmunity and genetics. Treatment methods for vitiligo include topical medications, phototherapy, oral medications, etc.
+  #2 path=/root/clip_xai/dermaCAP/dermaCAP_img/derma_skincap_6b1cc598b8da.png
+     pred: This is a photo showing multiple follicular papules and nodules on the face, consistent with the clinical presentation of acne vulgaris. Acne vulgaris is a common chronic inflammatory skin condition that typically occurs during adolescence, characterized by follicular plugging, papules, and nodules around hair foll
+     true: This is a picture showing facial skin lesions, characterized by pale red papules and crusts densely distributed on the cheeks and nose bridge, without fusion, which is a typical presentation of nodular disease. Nodular disease is a chronic non-caseating inflammatory condition that can affect multiple organs in the body, especially the respiratory system and eyes. The exact cause of the disease is not yet clear, but it is believed to be related to immune system abnormalities. Treatment typically involves the use of anti-inflammatory medications, corticosteroids, and immunomodulators for control and management.
+[done]

@@ -1,0 +1,167 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1a7a8c068b8c.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of a skin lesion on the nasal ala of the patient's nose, showing a red papule with a rough surface, consistent with the clinical features of a basal cell carcinoma. Basal cell...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left nasal side wall, Anatomical site (general): Head and Neck, Diagnosis (detailed): Ruptured follicle/epidermal cyst, Diagnosis (general): Epidermal cyst, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Cantonese, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "nasal",
+    "ala",
+    "of",
+    "the",
+    "patient's",
+    "nose",
+    "showing",
+    "a",
+    "red",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "features",
+    "of",
+    "a",
+    "basal",
+    "cell",
+    "carcinoma",
+    "Basal",
+    "cell"
+  ],
+  "scores": [
+    0.2630155086517334,
+    0.26148003339767456,
+    0.16079379618167877,
+    0.0920269787311554,
+    0.010540137998759747,
+    0.11452140659093857,
+    0.2686111032962799,
+    0.5720646977424622,
+    0.21460431814193726,
+    0.1588790863752365,
+    0.0,
+    0.08331204205751419,
+    0.10012932121753693,
+    0.08694188296794891,
+    0.2768261432647705,
+    0.3684168756008148,
+    0.23599155247211456,
+    0.08119048923254013,
+    0.24606363475322723,
+    0.7119433283805847,
+    0.16787844896316528,
+    0.08767183125019073,
+    0.26000887155532837,
+    0.9999997615814209,
+    0.33321699500083923,
+    0.24412108957767487,
+    0.16193412244319916,
+    0.17889195680618286,
+    0.2743266820907593,
+    0.4200872778892517,
+    0.337907612323761,
+    0.23669233918190002,
+    0.16260240972042084,
+    0.5346922278404236,
+    0.14851729571819305,
+    0.14415551722049713
+  ],
+  "meta": {
+    "base_cos": 0.29148226976394653,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 36,
+    "masks_sampled": 36,
+    "token_max": 0.9999997615814209,
+    "token_cov@tau": 0.05555555555555555,
+    "top": [
+      {
+        "unit": "surface",
+        "score": 0.9999997615814209
+      },
+      {
+        "unit": "papule",
+        "score": 0.7119433283805847
+      },
+      {
+        "unit": "lesion",
+        "score": 0.5720646977424622
+      },
+      {
+        "unit": "carcinoma",
+        "score": 0.5346922278404236
+      },
+      {
+        "unit": "of",
+        "score": 0.4200872778892517
+      },
+      {
+        "unit": "nose",
+        "score": 0.3684168756008148
+      },
+      {
+        "unit": "a",
+        "score": 0.337907612323761
+      },
+      {
+        "unit": "consistent",
+        "score": 0.33321699500083923
+      },
+      {
+        "unit": "patient's",
+        "score": 0.2768261432647705
+      },
+      {
+        "unit": "features",
+        "score": 0.2743266820907593
+      },
+      {
+        "unit": "skin",
+        "score": 0.2686111032962799
+      },
+      {
+        "unit": "This",
+        "score": 0.2630155086517334
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_1a7a8c068b8c.png"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_bbe614d86bc3.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a common skin lesion on the earlobe, usually caused by seborrheic keratosis. It is recommended to seek medical attention promptly for further evaluation and treatment.",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Right temple, Anatomical site (general): Head and Neck, Diagnosis (detailed): Verruca vulgaris, Diagnosis (general): Verruca, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Tagalog, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "earlobe,",
+    "usually",
+    "caused",
+    "by",
+    "seborrheic",
+    "keratosis.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "seek",
+    "medical",
+    "attention",
+    "promptly",
+    "for",
+    "further",
+    "evaluation",
+    "and",
+    "treatment."
+  ],
+  "scores": [
+    0.0014459259109571576,
+    0.0,
+    0.3223312497138977,
+    0.1660388559103012,
+    0.08240800350904465,
+    0.44241249561309814,
+    0.09916513413190842,
+    0.15285781025886536,
+    0.4955380856990814,
+    0.2399626523256302,
+    0.05267894268035889,
+    0.1893865317106247,
+    0.20860327780246735,
+    0.7150129079818726,
+    0.22031086683273315,
+    1.0,
+    0.24293161928653717,
+    0.005936772562563419,
+    0.01714755780994892,
+    0.02744913659989834,
+    0.1137390062212944,
+    0.4306735098361969,
+    0.26961541175842285,
+    0.17078664898872375,
+    0.14217326045036316,
+    0.09424164146184921,
+    0.7167290449142456
+  ],
+  "meta": {
+    "cos": 0.27875012159347534,
+    "words_count": 27,
+    "tokens_count": 40,
+    "token_max": 1.0,
+    "token_cov@tau": 0.1111111111111111,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "is",
+      "score": 1.0
+    },
+    {
+      "word": "treatment.",
+      "score": 0.7167290449142456
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.7150129079818726
+    },
+    {
+      "word": "earlobe,",
+      "score": 0.4955380856990814
+    },
+    {
+      "word": "lesion",
+      "score": 0.44241249561309814
+    },
+    {
+      "word": "promptly",
+      "score": 0.4306735098361969
+    },
+    {
+      "word": "a",
+      "score": 0.3223312497138977
+    },
+    {
+      "word": "for",
+      "score": 0.26961541175842285
+    },
+    {
+      "word": "recommended",
+      "score": 0.24293161928653717
+    },
+    {
+      "word": "usually",
+      "score": 0.2399626523256302
+    },
+    {
+      "word": "It",
+      "score": 0.22031086683273315
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.20860327780246735
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_bbe614d86bc3.png"
+  }
+}

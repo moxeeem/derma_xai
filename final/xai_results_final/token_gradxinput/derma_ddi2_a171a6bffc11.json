@@ -1,0 +1,152 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_a171a6bffc11.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo showing multiple red papules on the back of the patient's chest, consistent with the clinical presentation of psoriasis. Psoriasis is a chronic inflammatory skin condition...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Chest, Anatomical site (general): Chest, Diagnosis (detailed): Spongiotic dermatitis with eosinophils and underlying folliculitis, Diagnosis (general): Spongiotic dermatitis, folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "showing",
+    "multiple",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "patient's",
+    "chest,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "psoriasis.",
+    "Psoriasis",
+    "is",
+    "a",
+    "chronic",
+    "inflammatory",
+    "skin",
+    "condition..."
+  ],
+  "scores": [
+    0.034083351492881775,
+    0.1327849179506302,
+    0.24991953372955322,
+    0.049748800694942474,
+    0.12465281039476395,
+    0.05999894440174103,
+    0.14278411865234375,
+    0.6538938879966736,
+    0.05736040696501732,
+    0.07468124479055405,
+    0.1423427313566208,
+    0.016747640445828438,
+    0.0027220891788601875,
+    0.3009117841720581,
+    0.10186032950878143,
+    0.10284115374088287,
+    0.2211483269929886,
+    0.08380665630102158,
+    0.13284896314144135,
+    0.2786896526813507,
+    0.0,
+    0.44997477531433105,
+    0.4661450684070587,
+    0.4500756859779358,
+    0.08868931233882904,
+    0.5921735167503357,
+    1.0,
+    0.12372308224439621,
+    0.6331886053085327
+  ],
+  "meta": {
+    "cos": 0.24933260679244995,
+    "words_count": 29,
+    "tokens_count": 38,
+    "token_max": 1.0,
+    "token_cov@tau": 0.10344827586206896,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "inflammatory",
+      "score": 1.0
+    },
+    {
+      "word": "papules",
+      "score": 0.6538938879966736
+    },
+    {
+      "word": "condition...",
+      "score": 0.6331886053085327
+    },
+    {
+      "word": "chronic",
+      "score": 0.5921735167503357
+    },
+    {
+      "word": "Psoriasis",
+      "score": 0.4661450684070587
+    },
+    {
+      "word": "is",
+      "score": 0.4500756859779358
+    },
+    {
+      "word": "psoriasis.",
+      "score": 0.44997477531433105
+    },
+    {
+      "word": "patient's",
+      "score": 0.3009117841720581
+    },
+    {
+      "word": "presentation",
+      "score": 0.2786896526813507
+    },
+    {
+      "word": "a",
+      "score": 0.24991953372955322
+    },
+    {
+      "word": "with",
+      "score": 0.2211483269929886
+    },
+    {
+      "word": "red",
+      "score": 0.14278411865234375
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_a171a6bffc11.png"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_e35cb8ddaab0.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the back of the patient's lower back. It is consistent with the clinical presentation of a melanocytic nevus. Melanoma is a common skin tumor that typically...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Right buttock, Anatomical site (general): Buttock, Diagnosis (detailed): Nevus lipomatosus, Diagnosis (general): Nevus lipomatosus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: No, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "patient's",
+    "lower",
+    "back.",
+    "It",
+    "is",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "a",
+    "melanocytic",
+    "nevus.",
+    "Melanoma",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "tumor",
+    "that",
+    "typically..."
+  ],
+  "scores": [
+    0.00679869344457984,
+    0.03734174370765686,
+    0.01203300803899765,
+    0.04303348809480667,
+    0.00662222970277071,
+    0.02988210693001747,
+    0.033971745520830154,
+    0.006023396272212267,
+    0.054095979779958725,
+    0.022910431027412415,
+    0.0,
+    0.012102272361516953,
+    0.04769748076796532,
+    0.027710149064660072,
+    0.032298170030117035,
+    0.05727212876081467,
+    0.1516125500202179,
+    0.05429978296160698,
+    0.08259625732898712,
+    0.049266163259744644,
+    0.047575775533914566,
+    0.08567190170288086,
+    0.05252549424767494,
+    0.3161503076553345,
+    0.09490244090557098,
+    0.055954061448574066,
+    1.0,
+    0.10626721382141113,
+    0.08413786441087723,
+    0.07160216569900513,
+    0.07129445672035217,
+    0.03196648508310318,
+    0.07689975947141647,
+    0.03609812632203102,
+    0.17541873455047607
+  ],
+  "meta": {
+    "cos": 0.20440256595611572,
+    "words_count": 35,
+    "tokens_count": 46,
+    "token_max": 1.0,
+    "token_cov@tau": 0.02857142857142857,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "nevus.",
+      "score": 1.0
+    },
+    {
+      "word": "of",
+      "score": 0.3161503076553345
+    },
+    {
+      "word": "typically...",
+      "score": 0.17541873455047607
+    },
+    {
+      "word": "It",
+      "score": 0.1516125500202179
+    },
+    {
+      "word": "Melanoma",
+      "score": 0.10626721382141113
+    },
+    {
+      "word": "a",
+      "score": 0.09490244090557098
+    },
+    {
+      "word": "clinical",
+      "score": 0.08567190170288086
+    },
+    {
+      "word": "is",
+      "score": 0.08413786441087723
+    },
+    {
+      "word": "consistent",
+      "score": 0.08259625732898712
+    },
+    {
+      "word": "tumor",
+      "score": 0.07689975947141647
+    },
+    {
+      "word": "a",
+      "score": 0.07160216569900513
+    },
+    {
+      "word": "common",
+      "score": 0.07129445672035217
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_e35cb8ddaab0.png"
+  }
+}

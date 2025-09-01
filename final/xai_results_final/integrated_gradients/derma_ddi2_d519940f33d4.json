@@ -1,0 +1,136 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_d519940f33d4.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: right back, Path (coarse): benign-seborrheic keratosis, Pathology report: mildly dysplastic junctional melanocytic nevus, excised",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right upper back, Anatomical site (general): Back, Diagnosis (detailed): Inflamed mildly dysplastic compound melanocytic nevus, Diagnosis (general): Inflamed nevus with atypia, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "1ft,",
+    "Location:",
+    "right",
+    "back,",
+    "Path",
+    "(coarse):",
+    "benign-seborrheic",
+    "keratosis,",
+    "Pathology",
+    "report:",
+    "mildly",
+    "dysplastic",
+    "junctional",
+    "melanocytic",
+    "nevus,",
+    "excised"
+  ],
+  "scores": [
+    0.0,
+    0.060157883912324905,
+    0.0379975400865078,
+    0.10613454878330231,
+    0.03795142471790314,
+    0.0684935450553894,
+    0.16214828193187714,
+    0.08371138572692871,
+    0.16340197622776031,
+    0.19337210059165955,
+    0.05103818699717522,
+    0.07643546909093857,
+    0.10608458518981934,
+    0.07010992616415024,
+    0.3136272132396698,
+    0.24341639876365662,
+    1.0,
+    0.30773594975471497,
+    0.120392344892025,
+    0.7127189636230469
+  ],
+  "meta": {
+    "cos": 0.23469769954681396,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.1,
+    "words_count": 20,
+    "tokens_count": 52,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "junctional",
+      "score": 1.0
+    },
+    {
+      "word": "excised",
+      "score": 0.7127189636230469
+    },
+    {
+      "word": "mildly",
+      "score": 0.3136272132396698
+    },
+    {
+      "word": "melanocytic",
+      "score": 0.30773594975471497
+    },
+    {
+      "word": "dysplastic",
+      "score": 0.24341639876365662
+    },
+    {
+      "word": "(coarse):",
+      "score": 0.19337210059165955
+    },
+    {
+      "word": "Path",
+      "score": 0.16340197622776031
+    },
+    {
+      "word": "right",
+      "score": 0.16214828193187714
+    },
+    {
+      "word": "nevus,",
+      "score": 0.120392344892025
+    },
+    {
+      "word": "Distance:",
+      "score": 0.10613454878330231
+    },
+    {
+      "word": "Pathology",
+      "score": 0.10608458518981934
+    },
+    {
+      "word": "back,",
+      "score": 0.08371138572692871
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_d519940f33d4.png"
+  }
+}

@@ -1,0 +1,198 @@
+{
+	"approach_name": "dermlip_vitb16",
+	"csv_path": "/root/clip_xai/dermaCAP/dermaCAP_v1_clean.csv",
+	"img_root": "",
+	"col_img": "img_path",
+	"col_txt": "caption",
+	"col_split": "split",
+
+	"ckpt_path": "/root/clip_xai/final/final_dermlip_vitb16/final_captioner_gpt2-medium_VisionTransformer.pt",
+	"gpt2_name": "gpt2-medium",
+	"clip_repo": "redlessone/DermLIP_ViT-B-16",
+	"device": "cuda",
+	"seed": 42,
+
+	"prompt": "Describe the skin lesion concisely (morphology, color, scale, border, location) in one sentence. Conclude with the most likely diagnosis (1–3 words).",
+	"output_dir": "/root/clip_xai/final/xai_results_final",
+	"num_samples": 50,
+
+	"methods": ["grad_cam_plusplus"],
+	"method_params": {
+		"score_cam": {
+		"score_centering": "min",
+			"score_norm": "minmax",
+			"mask_shape": "gauss",
+			"stride_frac": 0.3,
+			"sigma_frac": 0.5,
+			"work_resize_px": 384,
+			"heat_smooth_sigma_px": 1.5,
+			"grid_n": 16,
+			"edge_soften_px": 1,
+			"alpha_mode": "scaled",
+			"tau": 0.6,
+			"show_reference": true,
+
+			"p_low": 40.0,
+			"p_high": 99.0,
+			"gamma": 0.7,
+			"overlay_alpha": 0.65
+
+		},
+		"attention_rollout": {
+			"overlay_alpha": 0.55,
+			"head_fuse": "max",
+			"proxy_temp": 0.25,
+			"gamma": 1.2,
+			"p_low": 85.0,
+			"p_high": 99.8,
+			"rollout_blur_ksize": 3,
+			"rollout_blur_sigma": 0.8
+		},
+		"token_gradxinput": {
+			"dpi": 180,
+			"fig_width": 13.0,
+			"fig_height": 4.6,
+			"text_col_width_ratio": 1.35,
+			"show_reference": true,
+
+			"max_chars_per_line": 62,
+			"base_fontsize": 16,
+			"mono_fontsize": 16,
+			"token_box_pad_px": 4,
+			"token_row_gap_px": 8,
+			"token_col_gap_px": 6,
+
+			"drop_special_tokens": true,
+			"take_top_k_for_metrics": 8
+		},
+		"integrated_gradients": {
+			"dpi": 180,
+			"fig_width": 13.0,
+			"fig_height": 4.6,
+			"text_col_width_ratio": 1.35,
+			"show_reference": true,
+			"show_raw_caption": true,
+
+			"steps": 32,
+			"token_box_pad_px": 4,
+			"token_row_gap_px": 8,
+			"token_col_gap_px": 6
+		},
+		"grad_cam": {
+			"overlay_alpha": 0.6,
+			"alpha_mode": "scaled",
+			"p_low": 60.0,
+			"p_high": 95.0,
+			"gamma": 0.5,
+			"target_layer_hint": "blocks",
+			"exclude_cls": true,
+			"use_abs_grad": true,
+			"heat_smooth_sigma_px": 1.5,
+			"tau": 0.6
+		},
+		"token_occlusion": {
+			"show_reference": true,
+			"unit": "word",
+			"casefold": false,
+			"normalize": "minmax",
+			"batch_size": 64,
+			"topk": 12,
+			"tau": 0.6,
+			"canvas_width_px": 720,
+			"canvas_height_px": 1400,
+			"margins_px": 16,
+			"block_gap_px": 10,
+			"image_block_height_px": 360,
+			"fs_header": 22,
+			"fs_text": 20,
+			"fs_small": 16,
+			"auto_shrink_text": true,
+			"auto_expand_canvas": true
+		},
+		"grad_cam_plusplus": {
+			"cmap": "Reds",
+			"overlay_alpha": 0.55,
+			"alpha_mode": "uniform",
+			"gamma": 0.7,
+			"p_low": 85.0,
+			"p_high": 99.7,
+
+			"dpi": 180,
+			"fig_width": 13.0,
+			"fig_height": 4.6,
+			"text_col_width_ratio": 1.35,
+
+			"target_layer": "last",
+			"exclude_cls": true,
+			"smoothing_sigma": 0.0,
+			"norm": "minmax",
+			"tau": 0.6
+		},
+		"ablation_cam": {
+			"cmap": "Reds",
+			"overlay_alpha": 0.45,
+			"alpha_mode": "scaled",
+			"gamma": 0.8,
+			"p_low": 75.0,
+			"p_high": 99.7,
+			"dpi": 180,
+			"fig_width": 13.0,
+			"fig_height": 4.6,
+			"text_col_width_ratio": 1.35,
+			"show_reference": true,
+
+			"patch_px": 96,
+			"stride_px": 64,
+			"baseline": "blur",
+			"blur_sigma_px": 12.0,
+			"batch_vision": 64,
+			"normalize": "minmax",
+			"tau": 0.6
+		},
+		"grad_eclip": {
+			"cmap": "Reds",
+			"overlay_alpha": 0.65,
+			"gamma": 0.7,
+			"p_low": 70.0,
+			"p_high": 98.0,
+			"heat_smooth_sigma_px": 1.0,
+			"grad_pool": "sum",
+			"dpi": 180,
+			"fig_width": 13.0,
+			"fig_height": 4.6,
+			"text_col_width_ratio": 1.35,
+			"show_reference": true,
+			"rule": "grad_x_input"
+		},
+		"attentionxgradient": {
+			"dpi": 180,
+			"fig_width": 13.0,
+			"fig_height": 4.6,
+			"text_col_width_ratio": 1.35,
+			"show_reference": true,
+			"tau": 0.6,
+			"token_box_font": 18,
+			"token_box_gap": 6,
+			"max_line_chars": 62
+		},
+		"kernelshap": {
+			"canvas_width_px": 720,
+			"canvas_height_px": 1400,
+			"margins_px": 16,
+			"block_gap_px": 10,
+			"image_block_height_px": 360,
+			"max_tokens": 40,
+			"num_samples": 300,
+			"ridge_lambda": 0.01,
+			"batch_text": 32,
+			"tau": 0.6,
+			"fs_header": 22,
+			"fs_text": 20,
+			"fs_small": 16,
+			"fs_text_min": 14,
+			"auto_shrink_text": true,
+			"auto_expand_canvas": true,
+			"show_reference": true
+		}
+	}
+}

@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_db3b54c97837.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with black papules on the skin surface, with a rough surface and a rough texture. Based on the patient's symptoms and medical history, it is recommended to undergo a skin biopsy...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Scrotum, Anatomical site (general): Anogenital, Diagnosis (detailed): Condyloma acuminatum, Diagnosis (general): Condyloma acuminatum, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "black",
+    "papules",
+    "on",
+    "the",
+    "skin",
+    "surface,",
+    "with",
+    "a",
+    "rough",
+    "surface",
+    "and",
+    "a",
+    "rough",
+    "texture.",
+    "Based",
+    "on",
+    "the",
+    "patient's",
+    "symptoms",
+    "and",
+    "medical",
+    "history,",
+    "it",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy..."
+  ],
+  "scores": [
+    0.0,
+    0.10115335136651993,
+    0.18294432759284973,
+    0.08488589525222778,
+    0.0613853819668293,
+    0.4455874562263489,
+    0.04722068831324577,
+    0.10200504958629608,
+    0.02581881731748581,
+    0.08378954976797104,
+    0.005086448043584824,
+    0.03790275752544403,
+    0.13507801294326782,
+    0.21649682521820068,
+    0.0680394172668457,
+    0.08367960900068283,
+    0.191191166639328,
+    0.09799756854772568,
+    0.11481454968452454,
+    0.06117764115333557,
+    0.06466177105903625,
+    0.028911445289850235,
+    0.03507421910762787,
+    0.1464199721813202,
+    0.2641368806362152,
+    1.0,
+    0.07591958343982697,
+    0.19548822939395905,
+    0.13435304164886475,
+    0.14117896556854248,
+    0.5898138284683228,
+    0.3008028566837311,
+    0.2783396244049072,
+    0.47013211250305176
+  ],
+  "meta": {
+    "cos": 0.24232357740402222,
+    "words_count": 34,
+    "tokens_count": 43,
+    "token_max": 1.0,
+    "token_cov@tau": 0.029411764705882353,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "history,",
+      "score": 1.0
+    },
+    {
+      "word": "undergo",
+      "score": 0.5898138284683228
+    },
+    {
+      "word": "biopsy...",
+      "score": 0.47013211250305176
+    },
+    {
+      "word": "papules",
+      "score": 0.4455874562263489
+    },
+    {
+      "word": "a",
+      "score": 0.3008028566837311
+    },
+    {
+      "word": "skin",
+      "score": 0.2783396244049072
+    },
+    {
+      "word": "medical",
+      "score": 0.2641368806362152
+    },
+    {
+      "word": "surface",
+      "score": 0.21649682521820068
+    },
+    {
+      "word": "is",
+      "score": 0.19548822939395905
+    },
+    {
+      "word": "rough",
+      "score": 0.191191166639328
+    },
+    {
+      "word": "presents",
+      "score": 0.18294432759284973
+    },
+    {
+      "word": "and",
+      "score": 0.1464199721813202
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_db3b54c97837.png"
+  }
+}

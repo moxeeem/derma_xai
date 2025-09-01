@@ -1,0 +1,67 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_2c7a8a435089.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type 3-4, 4-5, 6-7, 8-9, 10-12, 13-14, 15-16, 17-18, 19-20, 21",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Chest, Anatomical site (general): Chest, Diagnosis (detailed): Graft versus host disease, Diagnosis (general): Graft versus host disease, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: Yes, Extra markings: none, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.015257889404892921,
+      0.003685612929984927,
+      0.010687349364161491,
+      0.005529702175408602,
+      0.01766033284366131,
+      0.01252712681889534,
+      0.01265435665845871,
+      0.017060380429029465,
+      0.006384027656167746,
+      0.02013886161148548,
+      0.01509198360145092,
+      0.0010741029400378466,
+      0.006442856974899769,
+      0.004528411198407412,
+      0.001504234503954649,
+      0.009798767045140266,
+      0.007366075646132231,
+      0.0148176783695817,
+      0.020075300708413124,
+      0.011706636287271976,
+      0.009946838021278381
+    ],
+    "words_count": 21,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.22392958402633667,
+    "token_max": 0.9999994039535522,
+    "token_cov@tau": 0.42857142857142855,
+    "reg_used": 0.01,
+    "weight_range": [
+      7.728337058412465e-08,
+      149.9249473642256
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_2c7a8a435089.png"
+  }
+}

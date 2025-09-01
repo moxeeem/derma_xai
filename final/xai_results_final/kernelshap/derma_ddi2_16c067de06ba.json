@@ -1,0 +1,66 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_16c067de06ba.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "Is control: No, Distance: 6in, Location: l thigh, Path (coarse): benign-seborrheic keratosis, Pathology report: mildly dysplastic junctional melanocytic nevus, excised",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Left thigh, Anatomical site (general): Lower Limb, Diagnosis (detailed): Tattoo, Diagnosis (general): Tattoo, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.015118948183953762,
+      0.009692332707345486,
+      0.023405306041240692,
+      0.008476058952510357,
+      0.001882897107861936,
+      0.01488208957016468,
+      0.011474481783807278,
+      0.025328466668725014,
+      -0.0038430076092481613,
+      0.0029477456118911505,
+      0.00829416885972023,
+      0.009533328004181385,
+      0.012373249977827072,
+      0.014520639553666115,
+      0.013080587610602379,
+      0.012369167059659958,
+      0.008935500867664814,
+      0.025592738762497902,
+      -0.003881050506606698,
+      -0.002139193471521139
+    ],
+    "words_count": 20,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.20803561806678772,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.15,
+    "reg_used": 0.01,
+    "weight_range": [
+      1.541802128719594e-07,
+      149.92483899669332
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_16c067de06ba.png"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1c764e978106.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with 1-3 red papules on the trunk, some of which are oval-shaped and have a diameter of 0.1-0.2 cm. Based on the patient's medical history and clinical presentation, it is...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Skin, suprapubic, Anatomical site (general): Anogenital, Diagnosis (detailed): Molluscum contagiosum, Diagnosis (general): Molluscum contagiosum, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "1-3",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "trunk,",
+    "some",
+    "of",
+    "which",
+    "are",
+    "oval-shaped",
+    "and",
+    "have",
+    "a",
+    "diameter",
+    "of",
+    "0.1-0.2",
+    "cm.",
+    "Based",
+    "on",
+    "the",
+    "patient's",
+    "medical",
+    "history",
+    "and",
+    "clinical",
+    "presentation,",
+    "it",
+    "is..."
+  ],
+  "scores": [
+    0.04583051800727844,
+    0.14129728078842163,
+    0.22437122464179993,
+    0.0006196339963935316,
+    0.1695803701877594,
+    0.4591180086135864,
+    0.28118255734443665,
+    0.011940190568566322,
+    0.23545967042446136,
+    0.3083774149417877,
+    0.0,
+    0.02783593349158764,
+    0.23837846517562866,
+    0.03478493541479111,
+    0.3884147107601166,
+    0.19606728851795197,
+    0.008864504285156727,
+    0.25900760293006897,
+    0.3568229377269745,
+    0.19415608048439026,
+    0.13721081614494324,
+    0.17296427488327026,
+    0.08236391097307205,
+    0.013009963557124138,
+    0.39819690585136414,
+    0.9633565545082092,
+    1.0,
+    0.0827239528298378,
+    0.024624401703476906,
+    0.5176758170127869,
+    0.5688121318817139,
+    0.07277514040470123,
+    0.5623064637184143
+  ],
+  "meta": {
+    "cos": 0.2891208529472351,
+    "words_count": 33,
+    "tokens_count": 51,
+    "token_max": 1.0,
+    "token_cov@tau": 0.06060606060606061,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "medical",
+      "score": 1.0
+    },
+    {
+      "word": "patient's",
+      "score": 0.9633565545082092
+    },
+    {
+      "word": "presentation,",
+      "score": 0.5688121318817139
+    },
+    {
+      "word": "is...",
+      "score": 0.5623064637184143
+    },
+    {
+      "word": "clinical",
+      "score": 0.5176758170127869
+    },
+    {
+      "word": "red",
+      "score": 0.4591180086135864
+    },
+    {
+      "word": "the",
+      "score": 0.39819690585136414
+    },
+    {
+      "word": "oval-shaped",
+      "score": 0.3884147107601166
+    },
+    {
+      "word": "diameter",
+      "score": 0.3568229377269745
+    },
+    {
+      "word": "trunk,",
+      "score": 0.3083774149417877
+    },
+    {
+      "word": "papules",
+      "score": 0.28118255734443665
+    },
+    {
+      "word": "a",
+      "score": 0.25900760293006897
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_1c764e978106.png"
+  }
+}

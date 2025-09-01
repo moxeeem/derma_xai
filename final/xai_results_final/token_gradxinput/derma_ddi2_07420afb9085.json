@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_07420afb9085.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with 1-3 red papules on the back of the neck, which are consistent with the clinical presentation of seborrheic keratosis. It is recommended to undergo a skin biopsy for a...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Left chest, Anatomical site (general): Chest, Diagnosis (detailed): Comedone, Diagnosis (general): Comedone, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "1-3",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "neck,",
+    "which",
+    "are",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy",
+    "for",
+    "a..."
+  ],
+  "scores": [
+    0.05365091934800148,
+    0.07991475611925125,
+    0.5240786075592041,
+    0.004675385542213917,
+    0.2623347342014313,
+    0.3939551115036011,
+    0.3187984526157379,
+    0.01869766227900982,
+    0.03370610997080803,
+    0.007853947579860687,
+    0.075917087495327,
+    0.22131860256195068,
+    0.0,
+    0.12523378431797028,
+    0.14154212176799774,
+    0.2792850434780121,
+    0.029272977262735367,
+    0.10363112390041351,
+    0.1744452267885208,
+    0.10547981411218643,
+    0.016478819772601128,
+    0.2798750400543213,
+    0.817224383354187,
+    0.17520475387573242,
+    0.03624376654624939,
+    0.24361668527126312,
+    0.6343336701393127,
+    0.23418813943862915,
+    0.18439440429210663,
+    0.5829740166664124,
+    0.9999999403953552,
+    0.49544891715049744,
+    0.622094988822937
+  ],
+  "meta": {
+    "cos": 0.26375043392181396,
+    "words_count": 33,
+    "tokens_count": 47,
+    "token_max": 0.9999999403953552,
+    "token_cov@tau": 0.12121212121212122,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "biopsy",
+      "score": 0.9999999403953552
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.817224383354187
+    },
+    {
+      "word": "to",
+      "score": 0.6343336701393127
+    },
+    {
+      "word": "a...",
+      "score": 0.622094988822937
+    },
+    {
+      "word": "skin",
+      "score": 0.5829740166664124
+    },
+    {
+      "word": "presents",
+      "score": 0.5240786075592041
+    },
+    {
+      "word": "for",
+      "score": 0.49544891715049744
+    },
+    {
+      "word": "red",
+      "score": 0.3939551115036011
+    },
+    {
+      "word": "papules",
+      "score": 0.3187984526157379
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.2798750400543213
+    },
+    {
+      "word": "consistent",
+      "score": 0.2792850434780121
+    },
+    {
+      "word": "1-3",
+      "score": 0.2623347342014313
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_07420afb9085.png"
+  }
+}

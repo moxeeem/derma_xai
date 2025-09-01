@@ -1,0 +1,72 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_6ab9e25e4fc0.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Head and Neck, Path (coarse): Follicular, Pathology report: Epidermolysis bullosa,",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left ear lobe, Anatomical site (general): Head and Neck, Diagnosis (detailed): Neutrophilic folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.010287487879395485,
+      0.007686172146350145,
+      0.009006686508655548,
+      0.005155535880476236,
+      0.012754490599036217,
+      0.00987307634204626,
+      -0.000565039343200624,
+      0.014215083792805672,
+      0.003037878079339862,
+      0.010337494313716888,
+      -0.002206923207268119,
+      0.010860634036362171,
+      0.009537095203995705,
+      0.008944991044700146,
+      0.008001609705388546,
+      0.011756503954529762,
+      0.003824219573289156,
+      0.010990276001393795,
+      0.013381932862102985,
+      -0.0011375570902600884,
+      -0.009513283148407936,
+      0.005616804584860802,
+      0.0064268154092133045,
+      0.0186601709574461,
+      0.006280458997935057,
+      0.0011349021224305034
+    ],
+    "words_count": 26,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.18434026837348938,
+    "token_max": 0.9999995231628418,
+    "token_cov@tau": 0.19230769230769232,
+    "reg_used": 0.01,
+    "weight_range": [
+      2.1324018871740397e-09,
+      149.92503129793806
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_6ab9e25e4fc0.png"
+  }
+}

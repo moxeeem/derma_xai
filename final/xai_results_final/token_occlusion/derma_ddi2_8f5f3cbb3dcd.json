@@ -1,0 +1,169 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_8f5f3cbb3dcd.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the skin lesion on the finger, showing a red nodule with a small amount of blood in it. Based on the characteristics of the lesion and the patient's medical history, it is...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right thumb, Anatomical site (general): Upper Limb, Diagnosis (detailed): Full-thickness epidermal necrosis with mixed inflammatory infiltrate and puncture wound, Diagnosis (general): Epidermal necrosis, puncture wound, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Vietnamese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "finger",
+    "showing",
+    "a",
+    "red",
+    "nodule",
+    "with",
+    "a",
+    "small",
+    "amount",
+    "of",
+    "blood",
+    "in",
+    "it",
+    "Based",
+    "on",
+    "the",
+    "characteristics",
+    "of",
+    "the",
+    "lesion",
+    "and",
+    "the",
+    "patient's",
+    "medical",
+    "history",
+    "it",
+    "is"
+  ],
+  "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0857396274805069,
+    0.0,
+    0.0,
+    0.3905598223209381,
+    0.0,
+    0.0,
+    0.0,
+    0.9999997019767761,
+    0.045206911861896515,
+    0.0,
+    0.015243368223309517,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2241481989622116,
+    0.23132546246051788,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.09441401809453964,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "meta": {
+    "base_cos": 0.30193793773651123,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 37,
+    "masks_sampled": 37,
+    "token_max": 0.9999997019767761,
+    "token_cov@tau": 0.02702702702702703,
+    "top": [
+      {
+        "unit": "nodule",
+        "score": 0.9999997019767761
+      },
+      {
+        "unit": "finger",
+        "score": 0.3905598223209381
+      },
+      {
+        "unit": "on",
+        "score": 0.23132546246051788
+      },
+      {
+        "unit": "Based",
+        "score": 0.2241481989622116
+      },
+      {
+        "unit": "lesion",
+        "score": 0.09441401809453964
+      },
+      {
+        "unit": "lesion",
+        "score": 0.0857396274805069
+      },
+      {
+        "unit": "with",
+        "score": 0.045206911861896515
+      },
+      {
+        "unit": "small",
+        "score": 0.015243368223309517
+      },
+      {
+        "unit": "patient's",
+        "score": 0.0
+      },
+      {
+        "unit": "is",
+        "score": 0.0
+      },
+      {
+        "unit": "medical",
+        "score": 0.0
+      },
+      {
+        "unit": "history",
+        "score": 0.0
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_8f5f3cbb3dcd.png"
+  }
+}

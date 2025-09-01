@@ -1,0 +1,154 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_d3f1502edb03.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left third toe, Anatomical site (general): Lower Limb, Diagnosis (detailed): Digital fibromyxoma, Diagnosis (general): Digital fibromyxoma, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: No, Extra markings: none, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Mandarin, Interpreter needed: Yes",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "5,",
+    "6,",
+    "7,",
+    "8,",
+    "9,",
+    "10,",
+    "11,",
+    "12,",
+    "13,",
+    "14,",
+    "15,",
+    "16,",
+    "17,",
+    "18,",
+    "19,",
+    "20,"
+  ],
+  "scores": [
+    0.5883485078811646,
+    0.6643584370613098,
+    0.2341393083333969,
+    0.2505594789981842,
+    0.8098270893096924,
+    0.08614169806241989,
+    0.0,
+    0.014893696643412113,
+    0.13546068966388702,
+    0.5227969288825989,
+    0.4949319660663605,
+    0.12787853181362152,
+    0.06406057626008987,
+    0.1610507369041443,
+    0.06919927150011063,
+    0.005056188441812992,
+    0.0317419059574604,
+    0.05632992461323738,
+    0.10932166129350662,
+    0.04264487698674202,
+    0.03258206322789192,
+    0.03022860363125801,
+    0.16846351325511932,
+    0.24541886150836945,
+    0.1273435354232788,
+    0.17512546479701996,
+    0.2997170090675354,
+    0.3386704623699188,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.21475562453269958,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.10344827586206896,
+    "words_count": 29,
+    "tokens_count": 63,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "20,",
+      "score": 1.0
+    },
+    {
+      "word": "for",
+      "score": 0.8098270893096924
+    },
+    {
+      "word": "than",
+      "score": 0.6643584370613098
+    },
+    {
+      "word": "More",
+      "score": 0.5883485078811646
+    },
+    {
+      "word": "skin",
+      "score": 0.5227969288825989
+    },
+    {
+      "word": "type:",
+      "score": 0.4949319660663605
+    },
+    {
+      "word": "19,",
+      "score": 0.3386704623699188
+    },
+    {
+      "word": "18,",
+      "score": 0.2997170090675354
+    },
+    {
+      "word": "photo",
+      "score": 0.2505594789981842
+    },
+    {
+      "word": "15,",
+      "score": 0.24541886150836945
+    },
+    {
+      "word": "1",
+      "score": 0.2341393083333969
+    },
+    {
+      "word": "17,",
+      "score": 0.17512546479701996
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_d3f1502edb03.png"
+  }
+}

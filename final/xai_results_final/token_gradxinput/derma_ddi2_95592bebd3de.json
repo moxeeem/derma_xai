@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_95592bebd3de.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a large number of small round papules on the skin surface, consistent with the clinical presentation of actinic keratosis. This is a common skin...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right cheek, Anatomical site (general): Head and Neck, Diagnosis (detailed): Seborrheic keratosis, Diagnosis (general): Benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Filipino, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face,",
+    "showing",
+    "a",
+    "large",
+    "number",
+    "of",
+    "small",
+    "round",
+    "papules",
+    "on",
+    "the",
+    "skin",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "actinic",
+    "keratosis.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin..."
+  ],
+  "scores": [
+    0.012067851610481739,
+    0.1922965794801712,
+    0.07977280765771866,
+    0.0,
+    0.1760713756084442,
+    0.05402835085988045,
+    0.10363639146089554,
+    0.06474862992763519,
+    0.07844866067171097,
+    0.03296025097370148,
+    0.0531272329390049,
+    0.16275297105312347,
+    0.32482245564460754,
+    0.10266351699829102,
+    0.3815908432006836,
+    0.006251073442399502,
+    0.3584221601486206,
+    0.02319147065281868,
+    0.07588684558868408,
+    0.44340795278549194,
+    0.16972671449184418,
+    0.19210150837898254,
+    0.037070028483867645,
+    0.31382718682289124,
+    0.4535015821456909,
+    1.0,
+    0.45949798822402954,
+    0.5002601742744446,
+    0.16156066954135895,
+    0.0581696517765522,
+    0.14132094383239746,
+    0.16700994968414307,
+    0.608404815196991
+  ],
+  "meta": {
+    "cos": 0.27149707078933716,
+    "words_count": 33,
+    "tokens_count": 45,
+    "token_max": 1.0,
+    "token_cov@tau": 0.06060606060606061,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "of",
+      "score": 1.0
+    },
+    {
+      "word": "skin...",
+      "score": 0.608404815196991
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.5002601742744446
+    },
+    {
+      "word": "actinic",
+      "score": 0.45949798822402954
+    },
+    {
+      "word": "presentation",
+      "score": 0.4535015821456909
+    },
+    {
+      "word": "surface,",
+      "score": 0.44340795278549194
+    },
+    {
+      "word": "round",
+      "score": 0.3815908432006836
+    },
+    {
+      "word": "on",
+      "score": 0.3584221601486206
+    },
+    {
+      "word": "of",
+      "score": 0.32482245564460754
+    },
+    {
+      "word": "clinical",
+      "score": 0.31382718682289124
+    },
+    {
+      "word": "is",
+      "score": 0.1922965794801712
+    },
+    {
+      "word": "with",
+      "score": 0.19210150837898254
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_95592bebd3de.png"
+  }
+}

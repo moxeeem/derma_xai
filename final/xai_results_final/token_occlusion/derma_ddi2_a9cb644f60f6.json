@@ -1,0 +1,163 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_a9cb644f60f6.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a single black-brown papule on the skin surface, with clear borders and a rough surface, consistent with a melanocytic nevus. Melanoma is a common skin...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right cheek, Anatomical site (general): Head and Neck, Diagnosis (detailed): Intradermal melanocytic nevus, Diagnosis (general): Benign nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face",
+    "showing",
+    "a",
+    "single",
+    "black-brown",
+    "papule",
+    "on",
+    "the",
+    "skin",
+    "surface",
+    "with",
+    "clear",
+    "borders",
+    "and",
+    "a",
+    "rough",
+    "surface",
+    "consistent",
+    "with",
+    "a",
+    "melanocytic",
+    "nevus",
+    "Melanoma",
+    "is",
+    "a",
+    "common",
+    "skin"
+  ],
+  "scores": [
+    0.6112346053123474,
+    0.6906619071960449,
+    0.05058060958981514,
+    0.011707860976457596,
+    0.0,
+    0.052940189838409424,
+    0.041643429547548294,
+    0.7724792957305908,
+    0.34759199619293213,
+    0.18972952663898468,
+    0.18984843790531158,
+    0.2818516492843628,
+    0.5555390119552612,
+    0.2952803373336792,
+    0.2739931643009186,
+    0.2452535331249237,
+    0.13791730999946594,
+    0.13067209720611572,
+    0.1205950453877449,
+    0.10601288080215454,
+    0.24579373002052307,
+    0.3236037790775299,
+    0.4542860686779022,
+    0.999999463558197,
+    0.8976932764053345,
+    0.4323635697364807,
+    0.44401195645332336,
+    0.25395798683166504,
+    0.18381953239440918,
+    0.5861133337020874,
+    0.6009842753410339,
+    0.4592328667640686,
+    0.29655101895332336,
+    0.3800604045391083
+  ],
+  "meta": {
+    "base_cos": 0.2925248146057129,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 34,
+    "masks_sampled": 34,
+    "token_max": 0.999999463558197,
+    "token_cov@tau": 0.17647058823529413,
+    "top": [
+      {
+        "unit": "surface",
+        "score": 0.999999463558197
+      },
+      {
+        "unit": "consistent",
+        "score": 0.8976932764053345
+      },
+      {
+        "unit": "face",
+        "score": 0.7724792957305908
+      },
+      {
+        "unit": "is",
+        "score": 0.6906619071960449
+      },
+      {
+        "unit": "This",
+        "score": 0.6112346053123474
+      },
+      {
+        "unit": "is",
+        "score": 0.6009842753410339
+      },
+      {
+        "unit": "Melanoma",
+        "score": 0.5861133337020874
+      },
+      {
+        "unit": "papule",
+        "score": 0.5555390119552612
+      },
+      {
+        "unit": "a",
+        "score": 0.4592328667640686
+      },
+      {
+        "unit": "rough",
+        "score": 0.4542860686779022
+      },
+      {
+        "unit": "a",
+        "score": 0.44401195645332336
+      },
+      {
+        "unit": "with",
+        "score": 0.4323635697364807
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_a9cb644f60f6.png"
+  }
+}

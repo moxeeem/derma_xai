@@ -1,0 +1,168 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_50fad8381434.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a skin lesion on the back of the hand, with a smooth surface and a rough texture. This is a common skin condition, usually caused by overgrowth of sebaceous glands. It is recommended to seek...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Central lower back, Anatomical site (general): Back, Diagnosis (detailed): Acrochordon, Diagnosis (general): Acrochordon, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Hispanic/Latino, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "with",
+    "a",
+    "smooth",
+    "surface",
+    "and",
+    "a",
+    "rough",
+    "texture.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition,",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth",
+    "of",
+    "sebaceous",
+    "glands.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "seek..."
+  ],
+  "scores": [
+    0.03221573308110237,
+    0.07803303748369217,
+    0.012241593562066555,
+    0.0,
+    0.0598808117210865,
+    0.49545401334762573,
+    0.19697833061218262,
+    0.03728127479553223,
+    0.2665817439556122,
+    0.26312559843063354,
+    0.3797747790813446,
+    0.3795771598815918,
+    0.40315112471580505,
+    0.05511951446533203,
+    0.16582341492176056,
+    0.14535517990589142,
+    0.3278863728046417,
+    0.18227984011173248,
+    0.04781830310821533,
+    0.4070763885974884,
+    0.33907008171081543,
+    0.02311312034726143,
+    0.08690892904996872,
+    0.12762409448623657,
+    0.10332693159580231,
+    0.194087415933609,
+    0.14504319429397583,
+    0.8712825179100037,
+    0.9665647745132446,
+    0.02350407838821411,
+    1.0,
+    0.24631713330745697,
+    0.2397540658712387,
+    0.013430974446237087,
+    0.09386184066534042,
+    0.10528764873743057,
+    0.31425926089286804
+  ],
+  "meta": {
+    "cos": 0.2475866675376892,
+    "words_count": 37,
+    "tokens_count": 48,
+    "token_max": 1.0,
+    "token_cov@tau": 0.08108108108108109,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "sebaceous",
+      "score": 1.0
+    },
+    {
+      "word": "overgrowth",
+      "score": 0.9665647745132446
+    },
+    {
+      "word": "by",
+      "score": 0.8712825179100037
+    },
+    {
+      "word": "on",
+      "score": 0.49545401334762573
+    },
+    {
+      "word": "This",
+      "score": 0.4070763885974884
+    },
+    {
+      "word": "a",
+      "score": 0.40315112471580505
+    },
+    {
+      "word": "hand,",
+      "score": 0.3797747790813446
+    },
+    {
+      "word": "with",
+      "score": 0.3795771598815918
+    },
+    {
+      "word": "is",
+      "score": 0.33907008171081543
+    },
+    {
+      "word": "a",
+      "score": 0.3278863728046417
+    },
+    {
+      "word": "seek...",
+      "score": 0.31425926089286804
+    },
+    {
+      "word": "of",
+      "score": 0.2665817439556122
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_50fad8381434.png"
+  }
+}

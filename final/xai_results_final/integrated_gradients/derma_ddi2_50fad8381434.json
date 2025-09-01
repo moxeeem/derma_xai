@@ -1,0 +1,170 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_50fad8381434.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a skin lesion on the back of the hand, with a smooth surface and a rough texture. This is a common skin condition, usually caused by overgrowth of sebaceous glands. It is recommended to seek...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Central lower back, Anatomical site (general): Back, Diagnosis (detailed): Acrochordon, Diagnosis (general): Acrochordon, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Hispanic/Latino, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "with",
+    "a",
+    "smooth",
+    "surface",
+    "and",
+    "a",
+    "rough",
+    "texture.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition,",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth",
+    "of",
+    "sebaceous",
+    "glands.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "seek..."
+  ],
+  "scores": [
+    0.0,
+    0.03022606298327446,
+    0.57793128490448,
+    0.23141337931156158,
+    0.6600011587142944,
+    0.8824743032455444,
+    0.10925863683223724,
+    0.14058507978916168,
+    0.0910680741071701,
+    0.10482324659824371,
+    0.2403729110956192,
+    0.5949891209602356,
+    0.8633137941360474,
+    0.11970487982034683,
+    0.30144649744033813,
+    0.08089226484298706,
+    0.07091372460126877,
+    0.12956078350543976,
+    0.4008604884147644,
+    0.11545559763908386,
+    0.07529406249523163,
+    0.19467094540596008,
+    0.28891721367836,
+    0.0932207852602005,
+    0.3272532522678375,
+    0.3281174600124359,
+    0.41479140520095825,
+    1.0,
+    0.7164956331253052,
+    0.09705596417188644,
+    0.8419549465179443,
+    0.2974069118499756,
+    0.4743174612522125,
+    0.38582876324653625,
+    0.34449154138565063,
+    0.09226879477500916,
+    0.8797038197517395
+  ],
+  "meta": {
+    "cos": 0.2475866675376892,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.1891891891891892,
+    "words_count": 37,
+    "tokens_count": 48,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "by",
+      "score": 1.0
+    },
+    {
+      "word": "on",
+      "score": 0.8824743032455444
+    },
+    {
+      "word": "seek...",
+      "score": 0.8797038197517395
+    },
+    {
+      "word": "a",
+      "score": 0.8633137941360474
+    },
+    {
+      "word": "sebaceous",
+      "score": 0.8419549465179443
+    },
+    {
+      "word": "overgrowth",
+      "score": 0.7164956331253052
+    },
+    {
+      "word": "lesion",
+      "score": 0.6600011587142944
+    },
+    {
+      "word": "with",
+      "score": 0.5949891209602356
+    },
+    {
+      "word": "a",
+      "score": 0.57793128490448
+    },
+    {
+      "word": "It",
+      "score": 0.4743174612522125
+    },
+    {
+      "word": "caused",
+      "score": 0.41479140520095825
+    },
+    {
+      "word": "texture.",
+      "score": 0.4008604884147644
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_50fad8381434.png"
+  }
+}

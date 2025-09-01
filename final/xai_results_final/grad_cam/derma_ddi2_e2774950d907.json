@@ -1,0 +1,50 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_e2774950d907.png",
+  "method": "grad_cam",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "canvas_height_max_px": 4000,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "p_low": 60.0,
+    "p_high": 95.0,
+    "gamma": 0.5,
+    "heat_smooth_sigma_px": 1.5,
+    "overlay_alpha": 0.6,
+    "alpha_mode": "scaled",
+    "tau": 0.6,
+    "target_layer_hint": "blocks",
+    "show_reference": true,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true
+  },
+  "caption_generated": "This is a photo of the skin lesion on the back of the patient's back, showing a light brown papule with a rough surface, consistent with the clinical presentation of seborrheic keratosis. This is a...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left shoulder, Anatomical site (general): Upper Limb, Diagnosis (detailed): Seborrheic keratosis, Diagnosis (general): Benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "clip_cosine": 0.2308342456817627,
+  "heatmap_stats": {
+    "coverage@τ": 0.20116891514061117,
+    "mass@top10%": 0.38476768136024475,
+    "entropy": 0.09946132451295853
+  },
+  "meta": {
+    "backend": "openclip",
+    "target_layer": "visual.transformer.resblocks[-2]",
+    "p_low": 60.0,
+    "p_high": 95.0,
+    "gamma": 0.5,
+    "heat_smooth_sigma_px": 1.5,
+    "overlay_alpha": 0.6,
+    "alpha_mode": "scaled"
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/grad_cam/derma_ddi2_e2774950d907.png"
+  }
+}

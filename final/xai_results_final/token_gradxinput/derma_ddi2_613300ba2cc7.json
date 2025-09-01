@@ -1,0 +1,136 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_613300ba2cc7.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: lr, Path (coarse): malignant- sccis, Pathology report: hyperplastic actinic keratosis, Gender: male, Age: 69, Fitzpatrick:",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Right medial thigh, Anatomical site (general): Lower Limb, Diagnosis (detailed): Metastatic melanoma, Diagnosis (general): Melanoma, Dermatological presentation: rash, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "1ft,",
+    "Location:",
+    "lr,",
+    "Path",
+    "(coarse):",
+    "malignant-",
+    "sccis,",
+    "Pathology",
+    "report:",
+    "hyperplastic",
+    "actinic",
+    "keratosis,",
+    "Gender:",
+    "male,",
+    "Age:",
+    "69,",
+    "Fitzpatrick:"
+  ],
+  "scores": [
+    0.0,
+    0.20721203088760376,
+    0.05725359916687012,
+    0.07932813465595245,
+    0.08751490712165833,
+    0.09945552051067352,
+    0.13833589851856232,
+    0.10500241816043854,
+    0.05205865949392319,
+    0.5599194169044495,
+    0.007847377099096775,
+    0.6386445760726929,
+    0.47842204570770264,
+    0.5561231374740601,
+    0.306240051984787,
+    0.3518314063549042,
+    1.0,
+    0.3677210509777069,
+    0.8555343747138977,
+    0.7118956446647644,
+    0.4162282943725586
+  ],
+  "meta": {
+    "cos": 0.26892513036727905,
+    "words_count": 21,
+    "tokens_count": 50,
+    "token_max": 1.0,
+    "token_cov@tau": 0.19047619047619047,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "Gender:",
+      "score": 1.0
+    },
+    {
+      "word": "Age:",
+      "score": 0.8555343747138977
+    },
+    {
+      "word": "69,",
+      "score": 0.7118956446647644
+    },
+    {
+      "word": "Pathology",
+      "score": 0.6386445760726929
+    },
+    {
+      "word": "malignant-",
+      "score": 0.5599194169044495
+    },
+    {
+      "word": "hyperplastic",
+      "score": 0.5561231374740601
+    },
+    {
+      "word": "report:",
+      "score": 0.47842204570770264
+    },
+    {
+      "word": "Fitzpatrick:",
+      "score": 0.4162282943725586
+    },
+    {
+      "word": "male,",
+      "score": 0.3677210509777069
+    },
+    {
+      "word": "keratosis,",
+      "score": 0.3518314063549042
+    },
+    {
+      "word": "actinic",
+      "score": 0.306240051984787
+    },
+    {
+      "word": "control:",
+      "score": 0.20721203088760376
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_613300ba2cc7.png"
+  }
+}

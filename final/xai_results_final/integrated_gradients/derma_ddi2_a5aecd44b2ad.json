@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_a5aecd44b2ad.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with 1-3-mm-thick papules on the back of the hand, some of which have a rough surface, and some have a smooth surface, consistent with the clinical presentation of seborrheic...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right forearm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Blue nevus, Diagnosis (general): Blue nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Filipino, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "1-3-mm-thick",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "some",
+    "of",
+    "which",
+    "have",
+    "a",
+    "rough",
+    "surface,",
+    "and",
+    "some",
+    "have",
+    "a",
+    "smooth",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic..."
+  ],
+  "scores": [
+    0.04217744246125221,
+    0.6455348134040833,
+    0.7156467437744141,
+    0.4711649417877197,
+    0.6359236240386963,
+    0.4580850303173065,
+    1.0,
+    0.04461076483130455,
+    0.25925853848457336,
+    0.15792812407016754,
+    0.13610850274562836,
+    0.3734506070613861,
+    0.006142091937363148,
+    0.5171453952789307,
+    0.42124518752098083,
+    0.0,
+    0.27589866518974304,
+    0.4363817572593689,
+    0.4428907632827759,
+    0.002116820542141795,
+    0.7692583203315735,
+    0.5703468918800354,
+    0.025212517008185387,
+    0.28836196660995483,
+    0.23215839266777039,
+    0.39803946018218994,
+    0.08001631498336792,
+    0.41673681139945984,
+    0.3592666685581207,
+    0.749068558216095,
+    0.024937104433774948,
+    0.3862103223800659
+  ],
+  "meta": {
+    "cos": 0.20020881295204163,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.1875,
+    "words_count": 32,
+    "tokens_count": 48,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "on",
+      "score": 1.0
+    },
+    {
+      "word": "some",
+      "score": 0.7692583203315735
+    },
+    {
+      "word": "presentation",
+      "score": 0.749068558216095
+    },
+    {
+      "word": "presents",
+      "score": 0.7156467437744141
+    },
+    {
+      "word": "patient",
+      "score": 0.6455348134040833
+    },
+    {
+      "word": "1-3-mm-thick",
+      "score": 0.6359236240386963
+    },
+    {
+      "word": "have",
+      "score": 0.5703468918800354
+    },
+    {
+      "word": "of",
+      "score": 0.5171453952789307
+    },
+    {
+      "word": "with",
+      "score": 0.4711649417877197
+    },
+    {
+      "word": "papules",
+      "score": 0.4580850303173065
+    },
+    {
+      "word": "surface,",
+      "score": 0.4428907632827759
+    },
+    {
+      "word": "rough",
+      "score": 0.4363817572593689
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_a5aecd44b2ad.png"
+  }
+}

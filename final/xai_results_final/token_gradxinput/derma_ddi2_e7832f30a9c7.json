@@ -1,0 +1,148 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_e7832f30a9c7.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right lower leg, 4th metacarpophalangeal joint, 3rd and 4th interphalangeal joints",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Right lower leg, Anatomical site (general): Lower Limb, Diagnosis (detailed): Folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "Anatomical",
+    "site",
+    "(detailed):",
+    "Right",
+    "lower",
+    "leg,",
+    "4th",
+    "metacarpophalangeal",
+    "joint,",
+    "3rd",
+    "and",
+    "4th",
+    "interphalangeal",
+    "joints"
+  ],
+  "scores": [
+    0.0,
+    0.058135949075222015,
+    0.10938951373100281,
+    0.24623297154903412,
+    0.16892287135124207,
+    0.03386971727013588,
+    0.20164906978607178,
+    0.08458121865987778,
+    0.1630110889673233,
+    0.010560068301856518,
+    0.2234973907470703,
+    0.010149791836738586,
+    0.14349398016929626,
+    0.19397364556789398,
+    0.019945815205574036,
+    0.28235119581222534,
+    0.12351110577583313,
+    0.16517414152622223,
+    0.09755375236272812,
+    0.2739904224872589,
+    1.0,
+    0.18355530500411987,
+    0.23010419309139252,
+    0.13408927619457245,
+    0.03465750440955162,
+    0.5276625156402588,
+    0.23794423043727875
+  ],
+  "meta": {
+    "cos": 0.14538364112377167,
+    "words_count": 27,
+    "tokens_count": 51,
+    "token_max": 1.0,
+    "token_cov@tau": 0.037037037037037035,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "metacarpophalangeal",
+      "score": 1.0
+    },
+    {
+      "word": "interphalangeal",
+      "score": 0.5276625156402588
+    },
+    {
+      "word": "(detailed):",
+      "score": 0.28235119581222534
+    },
+    {
+      "word": "4th",
+      "score": 0.2739904224872589
+    },
+    {
+      "word": "photo",
+      "score": 0.24623297154903412
+    },
+    {
+      "word": "joints",
+      "score": 0.23794423043727875
+    },
+    {
+      "word": "3rd",
+      "score": 0.23010419309139252
+    },
+    {
+      "word": "type:",
+      "score": 0.2234973907470703
+    },
+    {
+      "word": "patient:",
+      "score": 0.20164906978607178
+    },
+    {
+      "word": "Anatomical",
+      "score": 0.19397364556789398
+    },
+    {
+      "word": "joint,",
+      "score": 0.18355530500411987
+    },
+    {
+      "word": "for",
+      "score": 0.16892287135124207
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_e7832f30a9c7.png"
+  }
+}

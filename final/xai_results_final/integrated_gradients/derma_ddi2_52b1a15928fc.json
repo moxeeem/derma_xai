@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_52b1a15928fc.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the scalp, with a rough surface, consistent with the clinical presentation of seborrheic keratosis. This is a common skin condition, usually caused by overgrowth...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Posterior neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Prurigo nodularis, Diagnosis (general): Prurigo nodularis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "scalp,",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition,",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth..."
+  ],
+  "scores": [
+    0.0,
+    0.06829830259084702,
+    0.03365647792816162,
+    0.11797074228525162,
+    0.0063172513619065285,
+    0.04073110595345497,
+    0.29111841320991516,
+    0.20544390380382538,
+    0.3558397591114044,
+    0.0018868009792640805,
+    0.1727076917886734,
+    0.026677673682570457,
+    0.019695453345775604,
+    0.02905324287712574,
+    0.1255805641412735,
+    0.0465589240193367,
+    0.025433925911784172,
+    0.04659498482942581,
+    0.05064394325017929,
+    0.10155106335878372,
+    0.03715458884835243,
+    0.09231573343276978,
+    0.16282716393470764,
+    0.1388723999261856,
+    0.17567463219165802,
+    0.0857735350728035,
+    0.04622674360871315,
+    0.03664753586053848,
+    0.08108098059892654,
+    0.0459384024143219,
+    0.1139867752790451,
+    0.1790747344493866,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.2647438645362854,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.030303030303030304,
+    "words_count": 33,
+    "tokens_count": 47,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "overgrowth...",
+      "score": 1.0
+    },
+    {
+      "word": "on",
+      "score": 0.3558397591114044
+    },
+    {
+      "word": "skin",
+      "score": 0.29111841320991516
+    },
+    {
+      "word": "lesion",
+      "score": 0.20544390380382538
+    },
+    {
+      "word": "by",
+      "score": 0.1790747344493866
+    },
+    {
+      "word": "is",
+      "score": 0.17567463219165802
+    },
+    {
+      "word": "scalp,",
+      "score": 0.1727076917886734
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.16282716393470764
+    },
+    {
+      "word": "This",
+      "score": 0.1388723999261856
+    },
+    {
+      "word": "surface,",
+      "score": 0.1255805641412735
+    },
+    {
+      "word": "photo",
+      "score": 0.11797074228525162
+    },
+    {
+      "word": "caused",
+      "score": 0.1139867752790451
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_52b1a15928fc.png"
+  }
+}

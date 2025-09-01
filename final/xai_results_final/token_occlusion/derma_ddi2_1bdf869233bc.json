@@ -1,0 +1,149 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1bdf869233bc.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right hand, Anatomic site (general): Verrucous, Diagnosis (1-3 words): Inflamed",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Right hand, Anatomical site (general): Upper Limb, Diagnosis (detailed): Squamous cell carcinoma, at least in-situ, Diagnosis (general): Squamous cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese & American, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient",
+    "No",
+    "Fitzpatrick",
+    "skin",
+    "type",
+    "3",
+    "4",
+    "Anatomical",
+    "site",
+    "detailed",
+    "Right",
+    "hand",
+    "Anatomic",
+    "site",
+    "general",
+    "Verrucous",
+    "Diagnosis",
+    "1",
+    "3",
+    "words",
+    "Inflamed"
+  ],
+  "scores": [
+    0.0,
+    0.003443822031840682,
+    0.0,
+    0.06764581054449081,
+    0.39271488785743713,
+    0.45071226358413696,
+    0.408724844455719,
+    0.8697919845581055,
+    0.0,
+    0.24194982647895813,
+    0.27634507417678833,
+    0.46606653928756714,
+    0.30736878514289856,
+    0.13102932274341583,
+    0.25696226954460144,
+    0.42618227005004883,
+    0.5795856714248657,
+    0.9999995827674866,
+    0.0,
+    0.18955346941947937,
+    0.0,
+    0.0,
+    0.4318777024745941,
+    0.3219696879386902,
+    0.49979957938194275,
+    0.6892944574356079,
+    0.5871654748916626
+  ],
+  "meta": {
+    "base_cos": 0.2285335212945938,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 27,
+    "masks_sampled": 27,
+    "token_max": 0.9999995827674866,
+    "token_cov@tau": 0.1111111111111111,
+    "top": [
+      {
+        "unit": "hand",
+        "score": 0.9999995827674866
+      },
+      {
+        "unit": "No",
+        "score": 0.8697919845581055
+      },
+      {
+        "unit": "words",
+        "score": 0.6892944574356079
+      },
+      {
+        "unit": "Inflamed",
+        "score": 0.5871654748916626
+      },
+      {
+        "unit": "Right",
+        "score": 0.5795856714248657
+      },
+      {
+        "unit": "3",
+        "score": 0.49979957938194275
+      },
+      {
+        "unit": "3",
+        "score": 0.46606653928756714
+      },
+      {
+        "unit": "this",
+        "score": 0.45071226358413696
+      },
+      {
+        "unit": "Diagnosis",
+        "score": 0.4318777024745941
+      },
+      {
+        "unit": "detailed",
+        "score": 0.42618227005004883
+      },
+      {
+        "unit": "patient",
+        "score": 0.408724844455719
+      },
+      {
+        "unit": "for",
+        "score": 0.39271488785743713
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_1bdf869233bc.png"
+  }
+}

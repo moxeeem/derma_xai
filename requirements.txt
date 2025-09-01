@@ -1,0 +1,45 @@
+# CLIP-XAI: Зафиксированные зависимости для дерматологических CLIP моделей с XAI
+# PyTorch ecosystem
+torch==2.8.0
+torchvision==0.23.0
+
+# Transformers and CLIP models
+transformers==4.56.0
+open-clip-torch==3.1.0
+huggingface-hub==0.34.4
+
+# Data processing
+pandas==2.3.2
+numpy==2.2.6
+Pillow==11.3.0
+
+# Computer vision
+opencv-python==4.12.0.88
+albumentations==2.0.8
+
+# Visualization and metrics
+matplotlib==3.10.5
+tqdm==4.67.1
+
+# NLP metrics
+sacrebleu==2.5.1
+rouge-score==0.1.2
+
+# Scientific computing
+scipy==1.15.3
+
+# Configuration and utilities
+PyYAML==6.0.2
+requests==2.32.4
+certifi==2025.8.3
+charset-normalizer==3.4.3
+urllib3==2.5.0
+filelock==3.18.0
+fsspec==2025.7.0
+packaging==25.0
+typing_extensions==4.14.1
+
+# Optional dependencies (install if needed for advanced XAI)
+# spacy==3.8.7
+# nltk==3.9.1
+# bert-score==0.3.13

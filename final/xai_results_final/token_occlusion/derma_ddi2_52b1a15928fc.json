@@ -1,0 +1,161 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_52b1a15928fc.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of a skin lesion on the scalp, with a rough surface, consistent with the clinical presentation of seborrheic keratosis. This is a common skin condition, usually caused by overgrowth...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Posterior neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Prurigo nodularis, Diagnosis (general): Prurigo nodularis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "scalp",
+    "with",
+    "a",
+    "rough",
+    "surface",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth"
+  ],
+  "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.009589397348463535,
+    0.0,
+    0.0,
+    0.9999996423721313,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.045538388192653656,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01989588513970375,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "meta": {
+    "base_cos": 0.2647438645362854,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 33,
+    "masks_sampled": 33,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.030303030303030304,
+    "top": [
+      {
+        "unit": "scalp",
+        "score": 0.9999996423721313
+      },
+      {
+        "unit": "consistent",
+        "score": 0.045538388192653656
+      },
+      {
+        "unit": "of",
+        "score": 0.01989588513970375
+      },
+      {
+        "unit": "lesion",
+        "score": 0.009589397348463535
+      },
+      {
+        "unit": "overgrowth",
+        "score": 0.0
+      },
+      {
+        "unit": "skin",
+        "score": 0.0
+      },
+      {
+        "unit": "by",
+        "score": 0.0
+      },
+      {
+        "unit": "usually",
+        "score": 0.0
+      },
+      {
+        "unit": "caused",
+        "score": 0.0
+      },
+      {
+        "unit": "is",
+        "score": 0.0
+      },
+      {
+        "unit": "This",
+        "score": 0.0
+      },
+      {
+        "unit": "keratosis",
+        "score": 0.0
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_52b1a15928fc.png"
+  }
+}

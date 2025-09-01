@@ -1,0 +1,158 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_a5aecd44b2ad.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with 1-3-mm-thick papules on the back of the hand, some of which have a rough surface, and some have a smooth surface, consistent with the clinical presentation of seborrheic...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right forearm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Blue nevus, Diagnosis (general): Blue nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Filipino, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "1-3-mm-thick",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "some",
+    "of",
+    "which",
+    "have",
+    "a",
+    "rough",
+    "surface,",
+    "and",
+    "some",
+    "have",
+    "a",
+    "smooth",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic..."
+  ],
+  "scores": [
+    0.0,
+    0.21304970979690552,
+    0.16349326074123383,
+    0.25255098938941956,
+    0.07241129875183105,
+    0.22855541110038757,
+    0.3549130856990814,
+    0.45058968663215637,
+    0.1386173963546753,
+    0.2959336042404175,
+    0.09923893958330154,
+    0.19734041392803192,
+    0.223814457654953,
+    0.0474548265337944,
+    0.3173587918281555,
+    0.13831880688667297,
+    0.060095563530921936,
+    0.3276958763599396,
+    0.2923974394798279,
+    0.06920520216226578,
+    0.5834223628044128,
+    0.32179149985313416,
+    0.11566820740699768,
+    0.4400772750377655,
+    0.0676996260881424,
+    0.29795971512794495,
+    0.2579602599143982,
+    0.10130847245454788,
+    0.6639730334281921,
+    0.6323032379150391,
+    0.15628206729888916,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.20020881295204163,
+    "words_count": 32,
+    "tokens_count": 48,
+    "token_max": 1.0,
+    "token_cov@tau": 0.09375,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "seborrheic...",
+      "score": 1.0
+    },
+    {
+      "word": "clinical",
+      "score": 0.6639730334281921
+    },
+    {
+      "word": "presentation",
+      "score": 0.6323032379150391
+    },
+    {
+      "word": "some",
+      "score": 0.5834223628044128
+    },
+    {
+      "word": "the",
+      "score": 0.45058968663215637
+    },
+    {
+      "word": "smooth",
+      "score": 0.4400772750377655
+    },
+    {
+      "word": "on",
+      "score": 0.3549130856990814
+    },
+    {
+      "word": "rough",
+      "score": 0.3276958763599396
+    },
+    {
+      "word": "have",
+      "score": 0.32179149985313416
+    },
+    {
+      "word": "which",
+      "score": 0.3173587918281555
+    },
+    {
+      "word": "consistent",
+      "score": 0.29795971512794495
+    },
+    {
+      "word": "of",
+      "score": 0.2959336042404175
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_a5aecd44b2ad.png"
+  }
+}

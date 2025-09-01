@@ -1,0 +1,148 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1bdf869233bc.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right hand, Anatomic site (general): Verrucous, Diagnosis (1-3 words): Inflamed",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Right hand, Anatomical site (general): Upper Limb, Diagnosis (detailed): Squamous cell carcinoma, at least in-situ, Diagnosis (general): Squamous cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese & American, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "Anatomical",
+    "site",
+    "(detailed):",
+    "Right",
+    "hand,",
+    "Anatomic",
+    "site",
+    "(general):",
+    "Verrucous,",
+    "Diagnosis",
+    "(1-3",
+    "words):",
+    "Inflamed"
+  ],
+  "scores": [
+    0.0,
+    0.029816554859280586,
+    0.15910398960113525,
+    0.07902086526155472,
+    0.01712261699140072,
+    0.09395355731248856,
+    0.05017001926898956,
+    0.01935221627354622,
+    0.09366397559642792,
+    0.011570111848413944,
+    0.011426778510212898,
+    0.03550369292497635,
+    0.05218517407774925,
+    0.038823507726192474,
+    0.012037756852805614,
+    0.05378567799925804,
+    0.05628940835595131,
+    0.07468538731336594,
+    0.05161154642701149,
+    0.012713723815977573,
+    0.19964942336082458,
+    0.1499941498041153,
+    0.06597696989774704,
+    0.072062186896801,
+    0.2088717818260193,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.2285335212945938,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.038461538461538464,
+    "words_count": 26,
+    "tokens_count": 48,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "Inflamed",
+      "score": 1.0
+    },
+    {
+      "word": "words):",
+      "score": 0.2088717818260193
+    },
+    {
+      "word": "(general):",
+      "score": 0.19964942336082458
+    },
+    {
+      "word": "1",
+      "score": 0.15910398960113525
+    },
+    {
+      "word": "Verrucous,",
+      "score": 0.1499941498041153
+    },
+    {
+      "word": "this",
+      "score": 0.09395355731248856
+    },
+    {
+      "word": "Fitzpatrick",
+      "score": 0.09366397559642792
+    },
+    {
+      "word": "photo",
+      "score": 0.07902086526155472
+    },
+    {
+      "word": "hand,",
+      "score": 0.07468538731336594
+    },
+    {
+      "word": "(1-3",
+      "score": 0.072062186896801
+    },
+    {
+      "word": "Diagnosis",
+      "score": 0.06597696989774704
+    },
+    {
+      "word": "Right",
+      "score": 0.05628940835595131
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_1bdf869233bc.png"
+  }
+}

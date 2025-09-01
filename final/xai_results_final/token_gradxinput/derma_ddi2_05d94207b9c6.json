@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_05d94207b9c6.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with red papules on the surface of the skin with a central ulceration. This is a common skin condition, usually caused by over-exposure to ultraviolet light. It is recommended to...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Right lateral lower leg, Anatomical site (general): Lower Limb, Diagnosis (detailed): Diffuse large b-cell lymphoma, Diagnosis (general): Diffuse large B-cell lymphoma, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "surface",
+    "of",
+    "the",
+    "skin",
+    "with",
+    "a",
+    "central",
+    "ulceration.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition,",
+    "usually",
+    "caused",
+    "by",
+    "over-exposure",
+    "to",
+    "ultraviolet",
+    "light.",
+    "It",
+    "is",
+    "recommended",
+    "to..."
+  ],
+  "scores": [
+    0.03928118199110031,
+    0.17821228504180908,
+    0.08049692958593369,
+    0.42953240871429443,
+    0.14778053760528564,
+    0.43307480216026306,
+    0.14134250581264496,
+    0.025269662961363792,
+    0.13380567729473114,
+    0.007842459715902805,
+    0.14669227600097656,
+    0.46223166584968567,
+    0.15633638203144073,
+    0.04049268364906311,
+    0.6714537739753723,
+    0.9303629398345947,
+    0.04860876128077507,
+    0.09197819232940674,
+    0.04017489403486252,
+    0.04876197874546051,
+    0.07009793072938919,
+    0.0,
+    0.08977760374546051,
+    0.23690223693847656,
+    0.3493718206882477,
+    0.5141530632972717,
+    0.061195407062768936,
+    0.5430539846420288,
+    1.0,
+    0.16852985322475433,
+    0.24936030805110931,
+    0.7949315309524536,
+    0.04660118371248245
+  ],
+  "meta": {
+    "cos": 0.2332775890827179,
+    "words_count": 33,
+    "tokens_count": 45,
+    "token_max": 1.0,
+    "token_cov@tau": 0.12121212121212122,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "light.",
+      "score": 1.0
+    },
+    {
+      "word": "ulceration.",
+      "score": 0.9303629398345947
+    },
+    {
+      "word": "recommended",
+      "score": 0.7949315309524536
+    },
+    {
+      "word": "central",
+      "score": 0.6714537739753723
+    },
+    {
+      "word": "ultraviolet",
+      "score": 0.5430539846420288
+    },
+    {
+      "word": "over-exposure",
+      "score": 0.5141530632972717
+    },
+    {
+      "word": "skin",
+      "score": 0.46223166584968567
+    },
+    {
+      "word": "papules",
+      "score": 0.43307480216026306
+    },
+    {
+      "word": "with",
+      "score": 0.42953240871429443
+    },
+    {
+      "word": "by",
+      "score": 0.3493718206882477
+    },
+    {
+      "word": "is",
+      "score": 0.24936030805110931
+    },
+    {
+      "word": "caused",
+      "score": 0.23690223693847656
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_05d94207b9c6.png"
+  }
+}

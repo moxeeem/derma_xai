@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9650d638ca4f.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's abdomen showing a large number of red papules and nodules, consistent with the clinical presentation of a skin tumor. Based on the characteristics of the lesion, the...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left breast, Anatomical site (general): Chest, Diagnosis (detailed): Hypertrophic scar, Diagnosis (general): Scar, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Filipino, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen",
+    "showing",
+    "a",
+    "large",
+    "number",
+    "of",
+    "red",
+    "papules",
+    "and",
+    "nodules,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "a",
+    "skin",
+    "tumor.",
+    "Based",
+    "on",
+    "the",
+    "characteristics",
+    "of",
+    "the",
+    "lesion,",
+    "the..."
+  ],
+  "scores": [
+    0.03414474427700043,
+    0.05582783371210098,
+    0.22706247866153717,
+    0.16848018765449524,
+    0.0366508774459362,
+    0.036717489361763,
+    0.057440683245658875,
+    0.3288402557373047,
+    0.38936829566955566,
+    0.05290308594703674,
+    0.0,
+    0.30351489782333374,
+    0.19461938738822937,
+    0.20152969658374786,
+    0.44429811835289,
+    0.15745185315608978,
+    0.2244919091463089,
+    0.347526878118515,
+    0.07248314470052719,
+    0.3831503391265869,
+    0.05630243197083473,
+    0.13489213585853577,
+    0.2740229070186615,
+    0.5168553590774536,
+    0.6299045085906982,
+    0.398760586977005,
+    0.5573869347572327,
+    0.4917069375514984,
+    0.10566433519124985,
+    0.16874879598617554,
+    0.057783547788858414,
+    0.07103338837623596,
+    0.02770567685365677,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.24519750475883484,
+    "words_count": 34,
+    "tokens_count": 47,
+    "token_max": 1.0,
+    "token_cov@tau": 0.058823529411764705,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "the...",
+      "score": 1.0
+    },
+    {
+      "word": "skin",
+      "score": 0.6299045085906982
+    },
+    {
+      "word": "Based",
+      "score": 0.5573869347572327
+    },
+    {
+      "word": "a",
+      "score": 0.5168553590774536
+    },
+    {
+      "word": "on",
+      "score": 0.4917069375514984
+    },
+    {
+      "word": "papules",
+      "score": 0.44429811835289
+    },
+    {
+      "word": "tumor.",
+      "score": 0.398760586977005
+    },
+    {
+      "word": "showing",
+      "score": 0.38936829566955566
+    },
+    {
+      "word": "the",
+      "score": 0.3831503391265869
+    },
+    {
+      "word": "consistent",
+      "score": 0.347526878118515
+    },
+    {
+      "word": "abdomen",
+      "score": 0.3288402557373047
+    },
+    {
+      "word": "number",
+      "score": 0.30351489782333374
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_9650d638ca4f.png"
+  }
+}

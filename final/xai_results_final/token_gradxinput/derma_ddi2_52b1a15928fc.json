@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_52b1a15928fc.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the scalp, with a rough surface, consistent with the clinical presentation of seborrheic keratosis. This is a common skin condition, usually caused by overgrowth...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Posterior neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Prurigo nodularis, Diagnosis (general): Prurigo nodularis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "scalp,",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition,",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth..."
+  ],
+  "scores": [
+    0.012425918132066727,
+    0.07823532819747925,
+    0.07469601929187775,
+    0.059372060000896454,
+    0.13186128437519073,
+    0.007676728069782257,
+    0.0006723884725943208,
+    0.013629216700792313,
+    0.09265222400426865,
+    0.07517994195222855,
+    0.10280413180589676,
+    0.11181097477674484,
+    0.4278925955295563,
+    0.010228902101516724,
+    0.7675804495811462,
+    0.3898206055164337,
+    0.03659319505095482,
+    0.014542089775204659,
+    0.11445022374391556,
+    0.3471059501171112,
+    0.15174636244773865,
+    1.0,
+    0.6622055172920227,
+    0.39198794960975647,
+    0.5155377388000488,
+    0.1488860696554184,
+    0.1843271404504776,
+    0.0,
+    0.20270048081874847,
+    0.05626373365521431,
+    0.0725570023059845,
+    0.16348770260810852,
+    0.43870970606803894
+  ],
+  "meta": {
+    "cos": 0.2647438645362854,
+    "words_count": 33,
+    "tokens_count": 47,
+    "token_max": 1.0,
+    "token_cov@tau": 0.09090909090909091,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "seborrheic",
+      "score": 1.0
+    },
+    {
+      "word": "surface,",
+      "score": 0.7675804495811462
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.6622055172920227
+    },
+    {
+      "word": "is",
+      "score": 0.5155377388000488
+    },
+    {
+      "word": "overgrowth...",
+      "score": 0.43870970606803894
+    },
+    {
+      "word": "a",
+      "score": 0.4278925955295563
+    },
+    {
+      "word": "This",
+      "score": 0.39198794960975647
+    },
+    {
+      "word": "consistent",
+      "score": 0.3898206055164337
+    },
+    {
+      "word": "presentation",
+      "score": 0.3471059501171112
+    },
+    {
+      "word": "condition,",
+      "score": 0.20270048081874847
+    },
+    {
+      "word": "common",
+      "score": 0.1843271404504776
+    },
+    {
+      "word": "by",
+      "score": 0.16348770260810852
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_52b1a15928fc.png"
+  }
+}

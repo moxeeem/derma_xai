@@ -1,0 +1,158 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_b431695a5e21.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's abdomen showing multiple small red papules on the surface of the skin, consistent with the clinical presentation of urticaria. Urticaria is a common skin condition...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right flank, Anatomical site (general): Abdomen, Diagnosis (detailed): Spongiotic dermatitis with eosinophils and underlying folliculitis, Diagnosis (general): Spongiotic dermatitis, folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen",
+    "showing",
+    "multiple",
+    "small",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "surface",
+    "of",
+    "the",
+    "skin,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "urticaria.",
+    "Urticaria",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition..."
+  ],
+  "scores": [
+    0.0,
+    0.11068201810121536,
+    0.22571253776550293,
+    0.15725232660770416,
+    0.1109948381781578,
+    0.006121904123574495,
+    0.21073581278324127,
+    0.035631079226732254,
+    0.05306578055024147,
+    0.21586237847805023,
+    0.02271423116326332,
+    0.15720373392105103,
+    0.08952862024307251,
+    0.012298067100346088,
+    0.11472712457180023,
+    0.09126495569944382,
+    0.019682833924889565,
+    0.026069652289152145,
+    0.18399161100387573,
+    0.49202388525009155,
+    0.12819917500019073,
+    0.2953539490699768,
+    0.4981197714805603,
+    0.36453965306282043,
+    0.25239360332489014,
+    0.3850937485694885,
+    0.2675132155418396,
+    0.08042383939027786,
+    0.21651479601860046,
+    0.35150381922721863,
+    0.0930045023560524,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.24781714379787445,
+    "words_count": 32,
+    "tokens_count": 45,
+    "token_max": 1.0,
+    "token_cov@tau": 0.03125,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "condition...",
+      "score": 1.0
+    },
+    {
+      "word": "clinical",
+      "score": 0.4981197714805603
+    },
+    {
+      "word": "consistent",
+      "score": 0.49202388525009155
+    },
+    {
+      "word": "urticaria.",
+      "score": 0.3850937485694885
+    },
+    {
+      "word": "presentation",
+      "score": 0.36453965306282043
+    },
+    {
+      "word": "common",
+      "score": 0.35150381922721863
+    },
+    {
+      "word": "the",
+      "score": 0.2953539490699768
+    },
+    {
+      "word": "Urticaria",
+      "score": 0.2675132155418396
+    },
+    {
+      "word": "of",
+      "score": 0.25239360332489014
+    },
+    {
+      "word": "a",
+      "score": 0.22571253776550293
+    },
+    {
+      "word": "a",
+      "score": 0.21651479601860046
+    },
+    {
+      "word": "multiple",
+      "score": 0.21586237847805023
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_b431695a5e21.png"
+  }
+}

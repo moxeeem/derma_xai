@@ -1,0 +1,161 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_aac8b3d62b16.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "In this case, the patient presents with red patches on the back of the lower leg, which are consistent with the clinical presentation of seborrheic keratosis. It is recommended to undergo a skin...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left inner thigh, Anatomical site (general): Lower Limb, Diagnosis (detailed): Lichenoid dermatitis, Diagnosis (general): Lichenoid dermatitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: Cantonese, Interpreter needed: No",
+  "display_units": [
+    "In",
+    "this",
+    "case",
+    "the",
+    "patient",
+    "presents",
+    "with",
+    "red",
+    "patches",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "lower",
+    "leg",
+    "which",
+    "are",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin"
+  ],
+  "scores": [
+    0.03756836801767349,
+    0.2106092870235443,
+    0.1791011095046997,
+    0.13196048140525818,
+    0.13246925175189972,
+    0.30343878269195557,
+    0.026637978851795197,
+    0.12119701504707336,
+    0.0,
+    0.0,
+    0.0579817034304142,
+    0.0,
+    0.09529384225606918,
+    0.06945781409740448,
+    0.17360635101795197,
+    0.8779255151748657,
+    0.3667144477367401,
+    0.0,
+    0.31719693541526794,
+    0.191685289144516,
+    0.017010290175676346,
+    0.0159009899944067,
+    0.12073567509651184,
+    0.08119015395641327,
+    0.30924519896507263,
+    0.9999996423721313,
+    0.0,
+    0.26892420649528503,
+    0.08134043961763382,
+    0.16103510558605194,
+    0.0,
+    0.13563884794712067,
+    0.062122639268636703
+  ],
+  "meta": {
+    "base_cos": 0.25010091066360474,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 33,
+    "masks_sampled": 33,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.06060606060606061,
+    "top": [
+      {
+        "unit": "keratosis",
+        "score": 0.9999996423721313
+      },
+      {
+        "unit": "leg",
+        "score": 0.8779255151748657
+      },
+      {
+        "unit": "which",
+        "score": 0.3667144477367401
+      },
+      {
+        "unit": "consistent",
+        "score": 0.31719693541526794
+      },
+      {
+        "unit": "seborrheic",
+        "score": 0.30924519896507263
+      },
+      {
+        "unit": "presents",
+        "score": 0.30343878269195557
+      },
+      {
+        "unit": "is",
+        "score": 0.26892420649528503
+      },
+      {
+        "unit": "this",
+        "score": 0.2106092870235443
+      },
+      {
+        "unit": "with",
+        "score": 0.191685289144516
+      },
+      {
+        "unit": "case",
+        "score": 0.1791011095046997
+      },
+      {
+        "unit": "lower",
+        "score": 0.17360635101795197
+      },
+      {
+        "unit": "to",
+        "score": 0.16103510558605194
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_aac8b3d62b16.png"
+  }
+}

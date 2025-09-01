@@ -1,0 +1,144 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_695b3bd2a904.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: right lower leg, Path (coarse): malignant- sccis, Pathology report: squamous cell carcinoma in situ, Gender: male, Age: 69, Fitzpatrick:",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left leg, Anatomical site (general): Lower Limb, Diagnosis (detailed): Basal cell carcinoma, Diagnosis (general): Basal cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "1ft,",
+    "Location:",
+    "right",
+    "lower",
+    "leg,",
+    "Path",
+    "(coarse):",
+    "malignant-",
+    "sccis,",
+    "Pathology",
+    "report:",
+    "squamous",
+    "cell",
+    "carcinoma",
+    "in",
+    "situ,",
+    "Gender:",
+    "male,",
+    "Age:",
+    "69,",
+    "Fitzpatrick:"
+  ],
+  "scores": [
+    0.0080623934045434,
+    0.03766448423266411,
+    0.016668079420924187,
+    0.009743504226207733,
+    0.003829133929684758,
+    0.003495793556794524,
+    0.01393792312592268,
+    0.03896375745534897,
+    0.02298242598772049,
+    0.016693897545337677,
+    0.04897557199001312,
+    0.011629980988800526,
+    0.23374375700950623,
+    1.0,
+    0.08598720282316208,
+    0.14476804435253143,
+    0.024089982733130455,
+    0.034299325197935104,
+    0.05551780387759209,
+    0.15456660091876984,
+    0.01493505947291851,
+    0.18940933048725128,
+    0.0,
+    0.19586870074272156,
+    0.27162855863571167
+  ],
+  "meta": {
+    "cos": 0.27711766958236694,
+    "words_count": 25,
+    "tokens_count": 51,
+    "token_max": 1.0,
+    "token_cov@tau": 0.04,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "Pathology",
+      "score": 1.0
+    },
+    {
+      "word": "Fitzpatrick:",
+      "score": 0.27162855863571167
+    },
+    {
+      "word": "sccis,",
+      "score": 0.23374375700950623
+    },
+    {
+      "word": "69,",
+      "score": 0.19586870074272156
+    },
+    {
+      "word": "male,",
+      "score": 0.18940933048725128
+    },
+    {
+      "word": "situ,",
+      "score": 0.15456660091876984
+    },
+    {
+      "word": "squamous",
+      "score": 0.14476804435253143
+    },
+    {
+      "word": "report:",
+      "score": 0.08598720282316208
+    },
+    {
+      "word": "in",
+      "score": 0.05551780387759209
+    },
+    {
+      "word": "(coarse):",
+      "score": 0.04897557199001312
+    },
+    {
+      "word": "lower",
+      "score": 0.03896375745534897
+    },
+    {
+      "word": "control:",
+      "score": 0.03766448423266411
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_695b3bd2a904.png"
+  }
+}

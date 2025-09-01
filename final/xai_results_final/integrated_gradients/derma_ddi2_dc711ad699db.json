@@ -1,0 +1,164 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_dc711ad699db.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a red papule with a rough surface, suggestive of a basal cell carcinoma. It is recommended to undergo a skin biopsy for a definitive diagnosis.",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right lower cheek, Anatomical site (general): Head and Neck, Diagnosis (detailed): Folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Mandarin, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face,",
+    "showing",
+    "a",
+    "red",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "suggestive",
+    "of",
+    "a",
+    "basal",
+    "cell",
+    "carcinoma.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "undergo",
+    "a",
+    "skin",
+    "biopsy",
+    "for",
+    "a",
+    "definitive",
+    "diagnosis."
+  ],
+  "scores": [
+    0.02152564749121666,
+    0.6517845392227173,
+    0.07802417874336243,
+    0.004659068305045366,
+    0.09890345484018326,
+    0.2768053412437439,
+    0.4246813654899597,
+    0.14856187999248505,
+    0.07397490739822388,
+    0.13789355754852295,
+    0.0,
+    0.16714097559452057,
+    0.4001641571521759,
+    0.008659254759550095,
+    0.08415887504816055,
+    0.09206516295671463,
+    0.17870788276195526,
+    0.28735050559043884,
+    0.12405984103679657,
+    0.09025713801383972,
+    1.0,
+    0.45335936546325684,
+    0.5003588199615479,
+    0.30988824367523193,
+    0.19114215672016144,
+    0.3489281237125397,
+    0.12031073123216629,
+    0.44993093609809875,
+    0.7780545949935913,
+    0.40511348843574524,
+    0.1012633666396141,
+    0.28238576650619507,
+    0.16952267289161682,
+    0.29603928327560425
+  ],
+  "meta": {
+    "cos": 0.2713230550289154,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.08823529411764706,
+    "words_count": 34,
+    "tokens_count": 45,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "cell",
+      "score": 1.0
+    },
+    {
+      "word": "skin",
+      "score": 0.7780545949935913
+    },
+    {
+      "word": "is",
+      "score": 0.6517845392227173
+    },
+    {
+      "word": "It",
+      "score": 0.5003588199615479
+    },
+    {
+      "word": "carcinoma.",
+      "score": 0.45335936546325684
+    },
+    {
+      "word": "a",
+      "score": 0.44993093609809875
+    },
+    {
+      "word": "patient's",
+      "score": 0.4246813654899597
+    },
+    {
+      "word": "biopsy",
+      "score": 0.40511348843574524
+    },
+    {
+      "word": "with",
+      "score": 0.4001641571521759
+    },
+    {
+      "word": "to",
+      "score": 0.3489281237125397
+    },
+    {
+      "word": "is",
+      "score": 0.30988824367523193
+    },
+    {
+      "word": "diagnosis.",
+      "score": 0.29603928327560425
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_dc711ad699db.png"
+  }
+}

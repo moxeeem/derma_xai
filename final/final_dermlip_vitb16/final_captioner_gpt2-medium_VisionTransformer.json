@@ -1,0 +1,28 @@
+{
+  "gpt2_name": "gpt2-medium",
+  "clip_backend_kind": "open_clip",
+  "clip_repo": "redlessone/DermLIP_ViT-B-16",
+  "clip_arch": "VisionTransformer",
+  "clip_weight_path": "hf-hub:redlessone/DermLIP_ViT-B-16",
+  "embed_dim": 512,
+  "prefix_tokens": 32,
+  "prompt": "Describe the skin lesion concisely (morphology, color, scale, border, location) in one sentence.Conclude with the most likely diagnosis (1–3 words).",
+  "cliche_phrases": [
+    "seek medical attention",
+    "consult a dermatologist",
+    "promptly for further",
+    "It is recommended to",
+    "further evaluation is required",
+    "should be considered for",
+    "medical attention",
+    "follow up",
+    "consult your doctor",
+    "should be evaluated"
+  ],
+  "columns": {
+    "image_path": "img_path",
+    "caption": "caption",
+    "split": "split",
+    "source": "source"
+  }
+}

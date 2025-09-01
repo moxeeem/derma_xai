@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1c764e978106.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "The patient presents with 1-3 red papules on the trunk, some of which are oval-shaped and have a diameter of 0.1-0.2 cm. Based on the patient's medical history and clinical presentation, it is...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Skin, suprapubic, Anatomical site (general): Anogenital, Diagnosis (detailed): Molluscum contagiosum, Diagnosis (general): Molluscum contagiosum, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "1-3",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "trunk,",
+    "some",
+    "of",
+    "which",
+    "are",
+    "oval-shaped",
+    "and",
+    "have",
+    "a",
+    "diameter",
+    "of",
+    "0.1-0.2",
+    "cm.",
+    "Based",
+    "on",
+    "the",
+    "patient's",
+    "medical",
+    "history",
+    "and",
+    "clinical",
+    "presentation,",
+    "it",
+    "is..."
+  ],
+  "scores": [
+    0.012889551930129528,
+    0.3310287594795227,
+    0.06860088557004929,
+    0.0802474319934845,
+    0.02262067422270775,
+    0.12425358593463898,
+    0.25865694880485535,
+    0.2955782413482666,
+    0.1351926326751709,
+    0.2875400185585022,
+    0.09877987205982208,
+    0.036075349897146225,
+    0.047415800392627716,
+    0.018048493191599846,
+    0.3132200241088867,
+    0.03709874302148819,
+    0.01632603257894516,
+    0.0659371167421341,
+    0.12556681036949158,
+    0.0,
+    0.07539337128400803,
+    0.010518263094127178,
+    0.19981372356414795,
+    0.2921369671821594,
+    0.0003809277550317347,
+    0.26803794503211975,
+    0.05089829862117767,
+    0.002768144477158785,
+    0.03015753999352455,
+    0.3167914152145386,
+    0.09609847515821457,
+    0.08903931081295013,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.2891208529472351,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.030303030303030304,
+    "words_count": 33,
+    "tokens_count": 51,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "is...",
+      "score": 1.0
+    },
+    {
+      "word": "patient",
+      "score": 0.3310287594795227
+    },
+    {
+      "word": "clinical",
+      "score": 0.3167914152145386
+    },
+    {
+      "word": "oval-shaped",
+      "score": 0.3132200241088867
+    },
+    {
+      "word": "on",
+      "score": 0.2955782413482666
+    },
+    {
+      "word": "on",
+      "score": 0.2921369671821594
+    },
+    {
+      "word": "trunk,",
+      "score": 0.2875400185585022
+    },
+    {
+      "word": "patient's",
+      "score": 0.26803794503211975
+    },
+    {
+      "word": "papules",
+      "score": 0.25865694880485535
+    },
+    {
+      "word": "Based",
+      "score": 0.19981372356414795
+    },
+    {
+      "word": "the",
+      "score": 0.1351926326751709
+    },
+    {
+      "word": "diameter",
+      "score": 0.12556681036949158
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_1c764e978106.png"
+  }
+}

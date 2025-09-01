@@ -1,0 +1,60 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_52b1a15928fc.png",
+  "method": "grad_cam_pp",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "canvas_height_max_px": 4000,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "p_low": 85.0,
+    "p_high": 99.7,
+    "gamma": 0.7,
+    "heat_smooth_sigma_px": 2.0,
+    "auto_contrast": true,
+    "overlay_alpha": 0.55,
+    "alpha_mode": "uniform",
+    "tau": 0.6,
+    "target_layer_hint": null,
+    "show_reference": true,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "force_fp32": true,
+    "cam_samples": 1,
+    "cam_noise_std": 0.0,
+    "caption_source": "generated",
+    "token_target": "last",
+    "objective": "logit"
+  },
+  "caption_generated": "This is a photo of a skin lesion on the scalp, with a rough surface, consistent with the clinical presentation of seborrheic keratosis. This is a common skin condition, usually caused by overgrowth...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Posterior neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Prurigo nodularis, Diagnosis (general): Prurigo nodularis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "clip_cosine": 0.2647438645362854,
+  "heatmap_stats": {
+    "coverage@τ": 0.01796910042611816,
+    "mass@top10%": 0.9353442788124084,
+    "entropy": 0.036463141441345215
+  },
+  "meta": {
+    "backend": "openclip",
+    "target_layer": "visual.transformer.resblocks[-2]",
+    "p_low": 85.0,
+    "p_high": 99.7,
+    "gamma": 0.7,
+    "heat_smooth_sigma_px": 2.0,
+    "overlay_alpha": 0.55,
+    "alpha_mode": "uniform",
+    "samples": 1,
+    "noise_std": 0.0,
+    "objective": "cosine"
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/grad_cam_plusplus/derma_ddi2_52b1a15928fc.png"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_e726e276dc7a.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 6in, Location: l neck, Path (coarse): benign-seborrheic keratosis, Pathology report: intradermal melanocytic nevus, transected at",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left posterior neck, Anatomical site (general): Head and Neck, Diagnosis (detailed): Intradermal melanocytic nevus, Diagnosis (general): Benign nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "6in,",
+    "Location:",
+    "l",
+    "neck,",
+    "Path",
+    "(coarse):",
+    "benign-seborrheic",
+    "keratosis,",
+    "Pathology",
+    "report:",
+    "intradermal",
+    "melanocytic",
+    "nevus,",
+    "transected",
+    "at"
+  ],
+  "scores": [
+    0.0014921792317181826,
+    0.016010941937565804,
+    0.028628705069422722,
+    0.0603000745177269,
+    0.12409650534391403,
+    0.08660408854484558,
+    0.019889388233423233,
+    0.005198632832616568,
+    0.06296458095312119,
+    0.14300213754177094,
+    0.10947101563215256,
+    0.08734691888093948,
+    0.1681218296289444,
+    0.2124328911304474,
+    0.40681567788124084,
+    1.0,
+    0.21663521230220795,
+    0.31241902709007263,
+    0.0
+  ],
+  "meta": {
+    "cos": 0.20221614837646484,
+    "words_count": 19,
+    "tokens_count": 50,
+    "token_max": 1.0,
+    "token_cov@tau": 0.05263157894736842,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "melanocytic",
+      "score": 1.0
+    },
+    {
+      "word": "intradermal",
+      "score": 0.40681567788124084
+    },
+    {
+      "word": "transected",
+      "score": 0.31241902709007263
+    },
+    {
+      "word": "nevus,",
+      "score": 0.21663521230220795
+    },
+    {
+      "word": "report:",
+      "score": 0.2124328911304474
+    },
+    {
+      "word": "Pathology",
+      "score": 0.1681218296289444
+    },
+    {
+      "word": "(coarse):",
+      "score": 0.14300213754177094
+    },
+    {
+      "word": "6in,",
+      "score": 0.12409650534391403
+    },
+    {
+      "word": "benign-seborrheic",
+      "score": 0.10947101563215256
+    },
+    {
+      "word": "keratosis,",
+      "score": 0.08734691888093948
+    },
+    {
+      "word": "Location:",
+      "score": 0.08660408854484558
+    },
+    {
+      "word": "Path",
+      "score": 0.06296458095312119
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_e726e276dc7a.png"
+  }
+}

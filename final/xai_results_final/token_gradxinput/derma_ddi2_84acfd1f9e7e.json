@@ -1,0 +1,150 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_84acfd1f9e7e.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right lower back, Path (coarse): Basal cell carcinoma, Pathology report: Follicular cyst,",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left inner thigh, Anatomical site (general): Lower Limb, Diagnosis (detailed): Acrochordon, Diagnosis (general): Acrochordon, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Asian Indian, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "Anatomical",
+    "site",
+    "(detailed):",
+    "Right",
+    "lower",
+    "back,",
+    "Path",
+    "(coarse):",
+    "Basal",
+    "cell",
+    "carcinoma,",
+    "Pathology",
+    "report:",
+    "Follicular",
+    "cyst,"
+  ],
+  "scores": [
+    0.0,
+    0.052528563886880875,
+    0.3121972382068634,
+    0.23039361834526062,
+    0.11685306578874588,
+    0.05468975007534027,
+    0.2394358217716217,
+    0.059557098895311356,
+    0.1504369080066681,
+    0.0045454902574419975,
+    0.13022953271865845,
+    0.0771208107471466,
+    0.051780372858047485,
+    0.10704754292964935,
+    0.2823621928691864,
+    0.07170258462429047,
+    0.21196094155311584,
+    0.07341922074556351,
+    0.3548005223274231,
+    0.09978146851062775,
+    1.0,
+    0.08928797394037247,
+    0.0745701789855957,
+    0.23566263914108276,
+    0.9169406890869141,
+    0.25240832567214966,
+    0.4762447476387024,
+    0.33978378772735596
+  ],
+  "meta": {
+    "cos": 0.2042407989501953,
+    "words_count": 28,
+    "tokens_count": 49,
+    "token_max": 1.0,
+    "token_cov@tau": 0.07142857142857142,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "(coarse):",
+      "score": 1.0
+    },
+    {
+      "word": "Pathology",
+      "score": 0.9169406890869141
+    },
+    {
+      "word": "Follicular",
+      "score": 0.4762447476387024
+    },
+    {
+      "word": "back,",
+      "score": 0.3548005223274231
+    },
+    {
+      "word": "cyst,",
+      "score": 0.33978378772735596
+    },
+    {
+      "word": "1",
+      "score": 0.3121972382068634
+    },
+    {
+      "word": "site",
+      "score": 0.2823621928691864
+    },
+    {
+      "word": "report:",
+      "score": 0.25240832567214966
+    },
+    {
+      "word": "patient:",
+      "score": 0.2394358217716217
+    },
+    {
+      "word": "carcinoma,",
+      "score": 0.23566263914108276
+    },
+    {
+      "word": "photo",
+      "score": 0.23039361834526062
+    },
+    {
+      "word": "Right",
+      "score": 0.21196094155311584
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_84acfd1f9e7e.png"
+  }
+}

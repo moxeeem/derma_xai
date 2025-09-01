@@ -1,0 +1,136 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_2c7a8a435089.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type 3-4, 4-5, 6-7, 8-9, 10-12, 13-14, 15-16, 17-18, 19-20, 21",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Chest, Anatomical site (general): Chest, Diagnosis (detailed): Graft versus host disease, Diagnosis (general): Graft versus host disease, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: Yes, Extra markings: none, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type",
+    "3-4,",
+    "4-5,",
+    "6-7,",
+    "8-9,",
+    "10-12,",
+    "13-14,",
+    "15-16,",
+    "17-18,",
+    "19-20,",
+    "21"
+  ],
+  "scores": [
+    0.2514324486255646,
+    0.631443977355957,
+    0.0,
+    0.3074548840522766,
+    0.38128024339675903,
+    0.10955299437046051,
+    0.13713133335113525,
+    0.5722337365150452,
+    0.38740023970603943,
+    0.6220563650131226,
+    0.3082801401615143,
+    0.4584266245365143,
+    0.2658838629722595,
+    0.33144262433052063,
+    0.5992831587791443,
+    1.0,
+    0.5146081447601318,
+    0.8685325980186462,
+    0.17011454701423645,
+    0.3478003144264221,
+    0.7045359015464783
+  ],
+  "meta": {
+    "cos": 0.22392958402633667,
+    "words_count": 21,
+    "tokens_count": 63,
+    "token_max": 1.0,
+    "token_cov@tau": 0.23809523809523808,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "10-12,",
+      "score": 1.0
+    },
+    {
+      "word": "15-16,",
+      "score": 0.8685325980186462
+    },
+    {
+      "word": "21",
+      "score": 0.7045359015464783
+    },
+    {
+      "word": "than",
+      "score": 0.631443977355957
+    },
+    {
+      "word": "skin",
+      "score": 0.6220563650131226
+    },
+    {
+      "word": "8-9,",
+      "score": 0.5992831587791443
+    },
+    {
+      "word": "No,",
+      "score": 0.5722337365150452
+    },
+    {
+      "word": "13-14,",
+      "score": 0.5146081447601318
+    },
+    {
+      "word": "3-4,",
+      "score": 0.4584266245365143
+    },
+    {
+      "word": "Fitzpatrick",
+      "score": 0.38740023970603943
+    },
+    {
+      "word": "for",
+      "score": 0.38128024339675903
+    },
+    {
+      "word": "19-20,",
+      "score": 0.3478003144264221
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_2c7a8a435089.png"
+  }
+}

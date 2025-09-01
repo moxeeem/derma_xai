@@ -1,0 +1,170 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_09062554266e.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the back of the hand, showing a black-brown papule with a rough surface. This is a common skin condition, usually caused by overgrowth of sebaceous glands. It is...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left posterior upper arm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Angiokeratoma, Diagnosis (general): Angiokeratoma, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "showing",
+    "a",
+    "black-brown",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition,",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth",
+    "of",
+    "sebaceous",
+    "glands.",
+    "It",
+    "is..."
+  ],
+  "scores": [
+    0.0003795891534537077,
+    0.10728415101766586,
+    0.22512753307819366,
+    0.33357924222946167,
+    0.1364833563566208,
+    0.30954915285110474,
+    0.42296314239501953,
+    0.5172264575958252,
+    0.026381881907582283,
+    0.0,
+    0.03570026159286499,
+    0.028240837156772614,
+    0.16819697618484497,
+    0.36511582136154175,
+    0.1903965026140213,
+    0.1582813262939453,
+    0.9999999403953552,
+    0.3634420335292816,
+    0.8338280320167542,
+    0.05233731120824814,
+    0.44918113946914673,
+    0.08211300522089005,
+    0.15131820738315582,
+    0.048249501734972,
+    0.009781534783542156,
+    0.07956241816282272,
+    0.01541945431381464,
+    0.09097766876220703,
+    0.044385455548763275,
+    0.6326714754104614,
+    0.08440599590539932,
+    0.9737896919250488,
+    0.35836246609687805,
+    0.22489698231220245,
+    0.16576214134693146,
+    0.09074337035417557,
+    0.19409310817718506
+  ],
+  "meta": {
+    "cos": 0.26381224393844604,
+    "steps": 32,
+    "token_max": 0.9999999403953552,
+    "token_cov@tau": 0.10810810810810811,
+    "words_count": 37,
+    "tokens_count": 51,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "black-brown",
+      "score": 0.9999999403953552
+    },
+    {
+      "word": "overgrowth",
+      "score": 0.9737896919250488
+    },
+    {
+      "word": "with",
+      "score": 0.8338280320167542
+    },
+    {
+      "word": "caused",
+      "score": 0.6326714754104614
+    },
+    {
+      "word": "lesion",
+      "score": 0.5172264575958252
+    },
+    {
+      "word": "rough",
+      "score": 0.44918113946914673
+    },
+    {
+      "word": "skin",
+      "score": 0.42296314239501953
+    },
+    {
+      "word": "hand,",
+      "score": 0.36511582136154175
+    },
+    {
+      "word": "papule",
+      "score": 0.3634420335292816
+    },
+    {
+      "word": "of",
+      "score": 0.35836246609687805
+    },
+    {
+      "word": "photo",
+      "score": 0.33357924222946167
+    },
+    {
+      "word": "a",
+      "score": 0.30954915285110474
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_09062554266e.png"
+  }
+}

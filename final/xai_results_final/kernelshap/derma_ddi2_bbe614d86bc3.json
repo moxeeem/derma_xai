@@ -1,0 +1,73 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_bbe614d86bc3.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a common skin lesion on the earlobe, usually caused by seborrheic keratosis. It is recommended to seek medical attention promptly for further evaluation and treatment.",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Right temple, Anatomical site (general): Head and Neck, Diagnosis (detailed): Verruca vulgaris, Diagnosis (general): Verruca, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Tagalog, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.00870717503130436,
+      0.004931129049509764,
+      0.007131550926715136,
+      0.008203823119401932,
+      0.008657116442918777,
+      0.01716274954378605,
+      0.008664492517709732,
+      0.00651396531611681,
+      0.02378138154745102,
+      0.005668055731803179,
+      0.007729978766292334,
+      0.011367250233888626,
+      0.010176782496273518,
+      0.02072138525545597,
+      0.008853384293615818,
+      0.004920027684420347,
+      0.008465672843158245,
+      0.009885747916996479,
+      0.012836748734116554,
+      0.013721085153520107,
+      0.007334274705499411,
+      0.01118114497512579,
+      0.01006180327385664,
+      0.019190382212400436,
+      0.008811780251562595,
+      0.010288042016327381,
+      0.0037899354938417673
+    ],
+    "words_count": 27,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.27875012159347534,
+    "token_max": 0.9999995231628418,
+    "token_cov@tau": 0.14814814814814814,
+    "reg_used": 0.01,
+    "weight_range": [
+      1.0677805096186515e-09,
+      149.9250325725866
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_bbe614d86bc3.png"
+  }
+}

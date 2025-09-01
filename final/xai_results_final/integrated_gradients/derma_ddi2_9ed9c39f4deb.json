@@ -1,0 +1,166 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9ed9c39f4deb.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the skin lesion on the right side of the head, showing a red-brown patch with a central ulceration. It is consistent with the clinical presentation of seborrheic keratosis. This is...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left vertex scalp, Anatomical site (general): Head and Neck, Diagnosis (detailed): Basal cell carcinoma, Diagnosis (general): Basal cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Tagalog, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "right",
+    "side",
+    "of",
+    "the",
+    "head,",
+    "showing",
+    "a",
+    "red-brown",
+    "patch",
+    "with",
+    "a",
+    "central",
+    "ulceration.",
+    "It",
+    "is",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "This",
+    "is..."
+  ],
+  "scores": [
+    0.0,
+    0.05634312704205513,
+    0.12306997925043106,
+    0.1075051799416542,
+    0.4874872863292694,
+    0.0020758702885359526,
+    0.05887369066476822,
+    0.299090713262558,
+    0.042339157313108444,
+    0.013538157567381859,
+    0.044344909489154816,
+    0.026128781959414482,
+    0.3369522988796234,
+    0.48522940278053284,
+    0.028674043715000153,
+    0.06567759066820145,
+    0.2128184288740158,
+    0.7125279307365417,
+    0.13606169819831848,
+    0.052645713090896606,
+    0.1520988941192627,
+    0.23939739167690277,
+    0.06373434513807297,
+    0.00358055392280221,
+    0.12608981132507324,
+    0.03471217676997185,
+    0.0969400629401207,
+    0.006170641165226698,
+    0.19260846078395844,
+    0.24953043460845947,
+    0.04588964208960533,
+    0.5437896847724915,
+    0.25157007575035095,
+    0.03439947962760925,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.2657647728919983,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.05714285714285714,
+    "words_count": 35,
+    "tokens_count": 51,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "is...",
+      "score": 1.0
+    },
+    {
+      "word": "red-brown",
+      "score": 0.7125279307365417
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.5437896847724915
+    },
+    {
+      "word": "of",
+      "score": 0.4874872863292694
+    },
+    {
+      "word": "the",
+      "score": 0.48522940278053284
+    },
+    {
+      "word": "of",
+      "score": 0.3369522988796234
+    },
+    {
+      "word": "lesion",
+      "score": 0.299090713262558
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.25157007575035095
+    },
+    {
+      "word": "presentation",
+      "score": 0.24953043460845947
+    },
+    {
+      "word": "central",
+      "score": 0.23939739167690277
+    },
+    {
+      "word": "a",
+      "score": 0.2128184288740158
+    },
+    {
+      "word": "clinical",
+      "score": 0.19260846078395844
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_9ed9c39f4deb.png"
+  }
+}

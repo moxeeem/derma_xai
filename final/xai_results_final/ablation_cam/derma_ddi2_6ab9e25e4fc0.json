@@ -1,0 +1,51 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_6ab9e25e4fc0.png",
+  "method": "ablation_cam",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "overlay_alpha": 0.45,
+    "alpha_mode": "scaled",
+    "gamma": 0.8,
+    "p_low": 75.0,
+    "p_high": 99.7,
+    "tau": 0.6,
+    "patch_px": 96,
+    "stride_px": 64,
+    "baseline": "blur",
+    "blur_sigma_px": 12.0,
+    "batch_vision": 64,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Head and Neck, Path (coarse): Follicular, Pathology report: Epidermolysis bullosa,",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left ear lobe, Anatomical site (general): Head and Neck, Diagnosis (detailed): Neutrophilic folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "cos": 0.18434026837348938,
+    "coverage@tau": 0.015250544662309368,
+    "mass@top10%": 0.7702502012252808,
+    "entropy": 0.059351298958063126,
+    "patch_px": 96,
+    "stride_px": 64,
+    "baseline": "blur",
+    "overlay_alpha": 0.45,
+    "alpha_mode": "scaled",
+    "gamma": 0.8,
+    "p_low": 75.0,
+    "p_high": 99.7
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/ablation_cam/derma_ddi2_6ab9e25e4fc0.png"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_d9d350922cde.png",
+  "method": "ablation_cam",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "overlay_alpha": 0.45,
+    "alpha_mode": "scaled",
+    "gamma": 0.9,
+    "p_low": 80.0,
+    "p_high": 99.5,
+    "tau": 0.6,
+    "patch_px": 64,
+    "stride_px": 32,
+    "baseline": "blur",
+    "blur_sigma_px": 8.0,
+    "batch_vision": 32,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Anogenital, Path (coarse): Actinic keratosis, Dermatological presentation: growth, Benign/",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Left inguinal fold, Anatomical site (general): Anogenital, Diagnosis (detailed): Acrochordon, Diagnosis (general): Acrochordon, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "meta": {
+    "cos": 0.2087763547897339,
+    "coverage@tau": 0.014697236919459141,
+    "mass@top10%": 0.8713123798370361,
+    "entropy": 0.04395534470677376,
+    "patch_px": 64,
+    "stride_px": 32,
+    "baseline": "blur",
+    "overlay_alpha": 0.45,
+    "alpha_mode": "scaled",
+    "gamma": 0.9,
+    "p_low": 80.0,
+    "p_high": 99.5
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/ablation_cam/derma_ddi2_d9d350922cde.png"
+  }
+}

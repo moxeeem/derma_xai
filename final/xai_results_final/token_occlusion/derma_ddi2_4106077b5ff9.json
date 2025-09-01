@@ -1,0 +1,165 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_4106077b5ff9.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the skin lesion on the back of the hand, showing a light red patch with a rough surface, consistent with the clinical presentation of seborrheic keratosis. It is recommended to...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left dorsum foot, Anatomical site (general): Lower Limb, Diagnosis (detailed): Lichenoid keratosis, Diagnosis (general): Inflamed benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand",
+    "showing",
+    "a",
+    "light",
+    "red",
+    "patch",
+    "with",
+    "a",
+    "rough",
+    "surface",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis",
+    "It",
+    "is",
+    "recommended",
+    "to"
+  ],
+  "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2171003818511963,
+    0.0,
+    0.0,
+    0.9999982118606567,
+    0.9729379415512085,
+    0.0,
+    0.03333580493927002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.3545522689819336,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5420811176300049,
+    0.0,
+    0.34511181712150574,
+    0.0,
+    0.0,
+    0.12955999374389648,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "meta": {
+    "base_cos": 0.24706551432609558,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 35,
+    "masks_sampled": 35,
+    "token_max": 0.9999982118606567,
+    "token_cov@tau": 0.05714285714285714,
+    "top": [
+      {
+        "unit": "lesion",
+        "score": 0.9999982118606567
+      },
+      {
+        "unit": "on",
+        "score": 0.9729379415512085
+      },
+      {
+        "unit": "rough",
+        "score": 0.5420811176300049
+      },
+      {
+        "unit": "a",
+        "score": 0.3545522689819336
+      },
+      {
+        "unit": "consistent",
+        "score": 0.34511181712150574
+      },
+      {
+        "unit": "of",
+        "score": 0.2171003818511963
+      },
+      {
+        "unit": "clinical",
+        "score": 0.12955999374389648
+      },
+      {
+        "unit": "back",
+        "score": 0.03333580493927002
+      },
+      {
+        "unit": "is",
+        "score": 0.0
+      },
+      {
+        "unit": "to",
+        "score": 0.0
+      },
+      {
+        "unit": "recommended",
+        "score": 0.0
+      },
+      {
+        "unit": "with",
+        "score": 0.0
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_4106077b5ff9.png"
+  }
+}

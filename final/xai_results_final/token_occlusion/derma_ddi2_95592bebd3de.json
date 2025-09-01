@@ -1,0 +1,161 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_95592bebd3de.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a large number of small round papules on the skin surface, consistent with the clinical presentation of actinic keratosis. This is a common skin...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right cheek, Anatomical site (general): Head and Neck, Diagnosis (detailed): Seborrheic keratosis, Diagnosis (general): Benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Filipino, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face",
+    "showing",
+    "a",
+    "large",
+    "number",
+    "of",
+    "small",
+    "round",
+    "papules",
+    "on",
+    "the",
+    "skin",
+    "surface",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "actinic",
+    "keratosis",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin"
+  ],
+  "scores": [
+    0.43806546926498413,
+    0.19129666686058044,
+    0.0,
+    0.2792099118232727,
+    0.7806357145309448,
+    0.26878485083580017,
+    0.4727418124675751,
+    0.8560726642608643,
+    0.42846089601516724,
+    0.2003597766160965,
+    0.010984630323946476,
+    0.3487827479839325,
+    0.23173300921916962,
+    0.35443568229675293,
+    0.0,
+    0.9999995231628418,
+    0.28941476345062256,
+    0.25695860385894775,
+    0.20162519812583923,
+    0.30356672406196594,
+    0.21368974447250366,
+    0.12110241502523422,
+    0.18387603759765625,
+    0.2870498299598694,
+    0.40397587418556213,
+    0.35312652587890625,
+    0.7593482136726379,
+    0.816559374332428,
+    0.08259361982345581,
+    0.08673831075429916,
+    0.05365169048309326,
+    0.2703292965888977,
+    0.08170223981142044
+  ],
+  "meta": {
+    "base_cos": 0.27149704098701477,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 33,
+    "masks_sampled": 33,
+    "token_max": 0.9999995231628418,
+    "token_cov@tau": 0.15151515151515152,
+    "top": [
+      {
+        "unit": "papules",
+        "score": 0.9999995231628418
+      },
+      {
+        "unit": "face",
+        "score": 0.8560726642608643
+      },
+      {
+        "unit": "keratosis",
+        "score": 0.816559374332428
+      },
+      {
+        "unit": "of",
+        "score": 0.7806357145309448
+      },
+      {
+        "unit": "actinic",
+        "score": 0.7593482136726379
+      },
+      {
+        "unit": "patient's",
+        "score": 0.4727418124675751
+      },
+      {
+        "unit": "This",
+        "score": 0.43806546926498413
+      },
+      {
+        "unit": "showing",
+        "score": 0.42846089601516724
+      },
+      {
+        "unit": "presentation",
+        "score": 0.40397587418556213
+      },
+      {
+        "unit": "small",
+        "score": 0.35443568229675293
+      },
+      {
+        "unit": "of",
+        "score": 0.35312652587890625
+      },
+      {
+        "unit": "number",
+        "score": 0.3487827479839325
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_95592bebd3de.png"
+  }
+}

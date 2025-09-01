@@ -1,0 +1,167 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_ab755c5984e1.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the patient's face, showing a single round papule on the nasal sebaceous gland. It is a common skin lesion, usually caused by blockage of hair follicles, and it is recommended to...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left lower eyelid, Anatomical site (general): Head and Neck, Diagnosis (detailed): IgG4-related disease, Diagnosis (general): IgG4-related disease, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "face",
+    "showing",
+    "a",
+    "single",
+    "round",
+    "papule",
+    "on",
+    "the",
+    "nasal",
+    "sebaceous",
+    "gland",
+    "It",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "lesion",
+    "usually",
+    "caused",
+    "by",
+    "blockage",
+    "of",
+    "hair",
+    "follicles",
+    "and",
+    "it",
+    "is",
+    "recommended",
+    "to"
+  ],
+  "scores": [
+    0.04679981619119644,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9999995231628418,
+    0.038786206394433975,
+    0.0,
+    0.1479341685771942,
+    0.0,
+    0.0,
+    0.40501776337623596,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.1306670904159546,
+    0.1442941278219223,
+    0.035844944417476654,
+    0.16912633180618286,
+    0.25148752331733704,
+    0.0910012498497963,
+    0.11647436022758484,
+    0.031307902187108994,
+    0.1579168289899826,
+    0.16612285375595093,
+    0.39432331919670105,
+    0.07187217473983765,
+    0.015257538296282291,
+    0.1793462485074997,
+    0.11985399574041367,
+    0.01941552944481373,
+    0.16825248301029205,
+    0.3243492841720581,
+    0.12339422106742859
+  ],
+  "meta": {
+    "base_cos": 0.26809579133987427,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 36,
+    "masks_sampled": 36,
+    "token_max": 0.9999995231628418,
+    "token_cov@tau": 0.027777777777777776,
+    "top": [
+      {
+        "unit": "patient's",
+        "score": 0.9999995231628418
+      },
+      {
+        "unit": "papule",
+        "score": 0.40501776337623596
+      },
+      {
+        "unit": "blockage",
+        "score": 0.39432331919670105
+      },
+      {
+        "unit": "recommended",
+        "score": 0.3243492841720581
+      },
+      {
+        "unit": "common",
+        "score": 0.25148752331733704
+      },
+      {
+        "unit": "follicles",
+        "score": 0.1793462485074997
+      },
+      {
+        "unit": "a",
+        "score": 0.16912633180618286
+      },
+      {
+        "unit": "is",
+        "score": 0.16825248301029205
+      },
+      {
+        "unit": "by",
+        "score": 0.16612285375595093
+      },
+      {
+        "unit": "caused",
+        "score": 0.1579168289899826
+      },
+      {
+        "unit": "a",
+        "score": 0.1479341685771942
+      },
+      {
+        "unit": "It",
+        "score": 0.1442941278219223
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_ab755c5984e1.png"
+  }
+}

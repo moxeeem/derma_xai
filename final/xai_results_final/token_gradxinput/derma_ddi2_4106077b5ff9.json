@@ -1,0 +1,164 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_4106077b5ff9.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the skin lesion on the back of the hand, showing a light red patch with a rough surface, consistent with the clinical presentation of seborrheic keratosis. It is recommended to...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left dorsum foot, Anatomical site (general): Lower Limb, Diagnosis (detailed): Lichenoid keratosis, Diagnosis (general): Inflamed benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "showing",
+    "a",
+    "light",
+    "red",
+    "patch",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "It",
+    "is",
+    "recommended",
+    "to..."
+  ],
+  "scores": [
+    0.010342451743781567,
+    0.008244982920587063,
+    0.14494135975837708,
+    0.02705899439752102,
+    0.03531563654541969,
+    0.13475537300109863,
+    0.02790099009871483,
+    0.11064047366380692,
+    0.16954441368579865,
+    0.02158990316092968,
+    0.019776619970798492,
+    0.04671157896518707,
+    0.170038104057312,
+    0.2997490465641022,
+    0.07849524915218353,
+    0.03646625578403473,
+    0.10734474658966064,
+    0.06782495975494385,
+    0.08062852919101715,
+    0.0,
+    0.05456414818763733,
+    0.09309735894203186,
+    0.6882421970367432,
+    0.05454757437109947,
+    0.1742832064628601,
+    0.24410398304462433,
+    0.17705155909061432,
+    0.03471669927239418,
+    0.225413978099823,
+    1.0,
+    0.18317390978336334,
+    0.06813426315784454,
+    0.11901506036520004,
+    0.1687941551208496,
+    0.7960386872291565
+  ],
+  "meta": {
+    "cos": 0.24706551432609558,
+    "words_count": 35,
+    "tokens_count": 47,
+    "token_max": 1.0,
+    "token_cov@tau": 0.08571428571428572,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "seborrheic",
+      "score": 1.0
+    },
+    {
+      "word": "to...",
+      "score": 0.7960386872291565
+    },
+    {
+      "word": "surface,",
+      "score": 0.6882421970367432
+    },
+    {
+      "word": "hand,",
+      "score": 0.2997490465641022
+    },
+    {
+      "word": "the",
+      "score": 0.24410398304462433
+    },
+    {
+      "word": "of",
+      "score": 0.225413978099823
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.18317390978336334
+    },
+    {
+      "word": "clinical",
+      "score": 0.17705155909061432
+    },
+    {
+      "word": "with",
+      "score": 0.1742832064628601
+    },
+    {
+      "word": "the",
+      "score": 0.170038104057312
+    },
+    {
+      "word": "on",
+      "score": 0.16954441368579865
+    },
+    {
+      "word": "recommended",
+      "score": 0.1687941551208496
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_4106077b5ff9.png"
+  }
+}

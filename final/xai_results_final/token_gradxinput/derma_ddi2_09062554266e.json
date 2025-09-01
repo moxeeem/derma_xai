@@ -1,0 +1,168 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_09062554266e.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the back of the hand, showing a black-brown papule with a rough surface. This is a common skin condition, usually caused by overgrowth of sebaceous glands. It is...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left posterior upper arm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Angiokeratoma, Diagnosis (general): Angiokeratoma, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand,",
+    "showing",
+    "a",
+    "black-brown",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition,",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth",
+    "of",
+    "sebaceous",
+    "glands.",
+    "It",
+    "is..."
+  ],
+  "scores": [
+    0.014224324375391006,
+    0.23003201186656952,
+    0.10431959480047226,
+    0.1108609139919281,
+    0.0270994883030653,
+    0.06369393318891525,
+    0.03486664593219757,
+    0.1769973337650299,
+    0.07086776196956635,
+    0.07143893837928772,
+    0.054916322231292725,
+    0.10689787566661835,
+    0.3743147552013397,
+    0.6824110150337219,
+    0.00650746701285243,
+    0.08508142083883286,
+    0.2366095781326294,
+    0.6786335706710815,
+    1.0,
+    0.16865263879299164,
+    0.620590329170227,
+    0.4036654531955719,
+    0.04540242254734039,
+    0.003712836652994156,
+    0.023079952225089073,
+    0.0752994567155838,
+    0.05969183146953583,
+    0.02286698669195175,
+    0.11111383140087128,
+    0.15402069687843323,
+    0.12673108279705048,
+    0.05711141228675842,
+    0.20163656771183014,
+    0.3613714575767517,
+    0.2802368998527527,
+    0.0,
+    0.44399696588516235
+  ],
+  "meta": {
+    "cos": 0.26381224393844604,
+    "words_count": 37,
+    "tokens_count": 51,
+    "token_max": 1.0,
+    "token_cov@tau": 0.10810810810810811,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "with",
+      "score": 1.0
+    },
+    {
+      "word": "hand,",
+      "score": 0.6824110150337219
+    },
+    {
+      "word": "papule",
+      "score": 0.6786335706710815
+    },
+    {
+      "word": "rough",
+      "score": 0.620590329170227
+    },
+    {
+      "word": "is...",
+      "score": 0.44399696588516235
+    },
+    {
+      "word": "surface.",
+      "score": 0.4036654531955719
+    },
+    {
+      "word": "the",
+      "score": 0.3743147552013397
+    },
+    {
+      "word": "sebaceous",
+      "score": 0.3613714575767517
+    },
+    {
+      "word": "glands.",
+      "score": 0.2802368998527527
+    },
+    {
+      "word": "black-brown",
+      "score": 0.2366095781326294
+    },
+    {
+      "word": "is",
+      "score": 0.23003201186656952
+    },
+    {
+      "word": "of",
+      "score": 0.20163656771183014
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_09062554266e.png"
+  }
+}

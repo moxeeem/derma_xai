@@ -1,0 +1,150 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_bee82d67b9c5.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Right upper arm, Path (coarse): Actinic keratosis, Dermatological presentation: rash, Benign/",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Left arm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Spongiotic dermatitis, Diagnosis (general): Spongiotic dermatitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "Anatomical",
+    "site",
+    "(detailed):",
+    "Right",
+    "upper",
+    "arm,",
+    "Path",
+    "(coarse):",
+    "Actinic",
+    "keratosis,",
+    "Dermatological",
+    "presentation:",
+    "rash,",
+    "Benign/"
+  ],
+  "scores": [
+    0.0,
+    0.2938491106033325,
+    0.43340951204299927,
+    0.2025831937789917,
+    0.5825127363204956,
+    0.015969160944223404,
+    0.05931761488318443,
+    0.249261736869812,
+    0.16497620940208435,
+    0.004192478954792023,
+    0.014769046567380428,
+    0.051935452967882156,
+    0.020409485325217247,
+    0.25554603338241577,
+    0.16039663553237915,
+    0.5807489156723022,
+    0.19249165058135986,
+    0.19890299439430237,
+    0.3304295539855957,
+    0.21158750355243683,
+    0.41925048828125,
+    0.26076558232307434,
+    0.4100087881088257,
+    0.24795013666152954,
+    0.5457164645195007,
+    0.4418712556362152,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.2124176323413849,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.037037037037037035,
+    "words_count": 27,
+    "tokens_count": 52,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "Benign/",
+      "score": 1.0
+    },
+    {
+      "word": "for",
+      "score": 0.5825127363204956
+    },
+    {
+      "word": "(detailed):",
+      "score": 0.5807489156723022
+    },
+    {
+      "word": "presentation:",
+      "score": 0.5457164645195007
+    },
+    {
+      "word": "rash,",
+      "score": 0.4418712556362152
+    },
+    {
+      "word": "1",
+      "score": 0.43340951204299927
+    },
+    {
+      "word": "(coarse):",
+      "score": 0.41925048828125
+    },
+    {
+      "word": "keratosis,",
+      "score": 0.4100087881088257
+    },
+    {
+      "word": "arm,",
+      "score": 0.3304295539855957
+    },
+    {
+      "word": "than",
+      "score": 0.2938491106033325
+    },
+    {
+      "word": "Actinic",
+      "score": 0.26076558232307434
+    },
+    {
+      "word": "Anatomical",
+      "score": 0.25554603338241577
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_bee82d67b9c5.png"
+  }
+}

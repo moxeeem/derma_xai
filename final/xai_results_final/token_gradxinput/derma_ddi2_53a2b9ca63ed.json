@@ -1,0 +1,158 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_53a2b9ca63ed.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "In this case, the patient presents with black-brown papules on the back of the neck, which are consistent with the clinical features of seborrheic keratosis. This is a common skin condition that...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right upper back, Anatomical site (general): Back, Diagnosis (detailed): Intradermal melanocytic nevus, Diagnosis (general): Benign nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "In",
+    "this",
+    "case,",
+    "the",
+    "patient",
+    "presents",
+    "with",
+    "black-brown",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "neck,",
+    "which",
+    "are",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "features",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition",
+    "that..."
+  ],
+  "scores": [
+    0.0147794084623456,
+    0.09432511776685715,
+    0.17396560311317444,
+    0.1484680026769638,
+    0.1485307216644287,
+    0.013220218941569328,
+    0.058893050998449326,
+    0.1701863408088684,
+    0.15829874575138092,
+    0.13835489749908447,
+    0.0,
+    0.06329290568828583,
+    0.005086997989565134,
+    0.007699876558035612,
+    0.11908169090747833,
+    0.37946557998657227,
+    0.06316094100475311,
+    0.17567582428455353,
+    0.05688512325286865,
+    0.2675921320915222,
+    0.07939047366380692,
+    0.16416580975055695,
+    0.25235649943351746,
+    1.0,
+    0.7675420641899109,
+    0.23661881685256958,
+    0.06506272405385971,
+    0.030383452773094177,
+    0.1483876258134842,
+    0.1428615152835846,
+    0.11918886005878448,
+    0.40248459577560425
+  ],
+  "meta": {
+    "cos": 0.2524741291999817,
+    "words_count": 32,
+    "tokens_count": 46,
+    "token_max": 1.0,
+    "token_cov@tau": 0.0625,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "seborrheic",
+      "score": 1.0
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.7675420641899109
+    },
+    {
+      "word": "that...",
+      "score": 0.40248459577560425
+    },
+    {
+      "word": "which",
+      "score": 0.37946557998657227
+    },
+    {
+      "word": "the",
+      "score": 0.2675921320915222
+    },
+    {
+      "word": "of",
+      "score": 0.25235649943351746
+    },
+    {
+      "word": "This",
+      "score": 0.23661881685256958
+    },
+    {
+      "word": "consistent",
+      "score": 0.17567582428455353
+    },
+    {
+      "word": "case,",
+      "score": 0.17396560311317444
+    },
+    {
+      "word": "black-brown",
+      "score": 0.1701863408088684
+    },
+    {
+      "word": "features",
+      "score": 0.16416580975055695
+    },
+    {
+      "word": "papules",
+      "score": 0.15829874575138092
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_53a2b9ca63ed.png"
+  }
+}

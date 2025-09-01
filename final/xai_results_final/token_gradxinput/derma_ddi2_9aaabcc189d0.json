@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9aaabcc189d0.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's hand, showing multiple small papules on the surface of the skin, consistent with the clinical presentation of a skin-colored skin tag. Skin tags are common skin...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right wrist, Anatomical site (general): Upper Limb, Diagnosis (detailed): Verruca plana, Diagnosis (general): Verruca, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "hand,",
+    "showing",
+    "multiple",
+    "small",
+    "papules",
+    "on",
+    "the",
+    "surface",
+    "of",
+    "the",
+    "skin,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "a",
+    "skin-colored",
+    "skin",
+    "tag.",
+    "Skin",
+    "tags",
+    "are",
+    "common",
+    "skin..."
+  ],
+  "scores": [
+    0.03818219527602196,
+    0.1488238424062729,
+    0.015500581823289394,
+    0.09670853614807129,
+    0.05281955748796463,
+    0.007466411683708429,
+    0.008055835962295532,
+    0.007376484107226133,
+    0.2925160229206085,
+    0.12699337303638458,
+    0.1434100866317749,
+    0.1178177148103714,
+    0.276101678609848,
+    0.07629992812871933,
+    0.05947957560420036,
+    0.088880255818367,
+    0.04343566671013832,
+    0.02778737060725689,
+    0.31148597598075867,
+    0.06717690080404282,
+    0.0,
+    0.32707685232162476,
+    0.2968601584434509,
+    0.18136213719844818,
+    0.18275482952594757,
+    0.2889699935913086,
+    0.48738786578178406,
+    1.0,
+    0.12417460232973099,
+    0.8899887800216675,
+    0.04671873152256012,
+    0.11983895301818848,
+    0.22392356395721436
+  ],
+  "meta": {
+    "cos": 0.23675298690795898,
+    "words_count": 33,
+    "tokens_count": 43,
+    "token_max": 1.0,
+    "token_cov@tau": 0.06060606060606061,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "tag.",
+      "score": 1.0
+    },
+    {
+      "word": "tags",
+      "score": 0.8899887800216675
+    },
+    {
+      "word": "skin",
+      "score": 0.48738786578178406
+    },
+    {
+      "word": "clinical",
+      "score": 0.32707685232162476
+    },
+    {
+      "word": "consistent",
+      "score": 0.31148597598075867
+    },
+    {
+      "word": "presentation",
+      "score": 0.2968601584434509
+    },
+    {
+      "word": "showing",
+      "score": 0.2925160229206085
+    },
+    {
+      "word": "skin-colored",
+      "score": 0.2889699935913086
+    },
+    {
+      "word": "on",
+      "score": 0.276101678609848
+    },
+    {
+      "word": "skin...",
+      "score": 0.22392356395721436
+    },
+    {
+      "word": "a",
+      "score": 0.18275482952594757
+    },
+    {
+      "word": "of",
+      "score": 0.18136213719844818
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_9aaabcc189d0.png"
+  }
+}

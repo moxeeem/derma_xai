@@ -1,0 +1,146 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_695b3bd2a904.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: right lower leg, Path (coarse): malignant- sccis, Pathology report: squamous cell carcinoma in situ, Gender: male, Age: 69, Fitzpatrick:",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left leg, Anatomical site (general): Lower Limb, Diagnosis (detailed): Basal cell carcinoma, Diagnosis (general): Basal cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "1ft,",
+    "Location:",
+    "right",
+    "lower",
+    "leg,",
+    "Path",
+    "(coarse):",
+    "malignant-",
+    "sccis,",
+    "Pathology",
+    "report:",
+    "squamous",
+    "cell",
+    "carcinoma",
+    "in",
+    "situ,",
+    "Gender:",
+    "male,",
+    "Age:",
+    "69,",
+    "Fitzpatrick:"
+  ],
+  "scores": [
+    0.016064811497926712,
+    0.31088101863861084,
+    0.008501024916768074,
+    0.2790437936782837,
+    0.15094619989395142,
+    0.13006968796253204,
+    0.14553603529930115,
+    0.253337025642395,
+    0.09642844647169113,
+    0.0,
+    0.014265975914895535,
+    0.32692864537239075,
+    0.04144731163978577,
+    0.3821767568588257,
+    0.1315150409936905,
+    0.22160086035728455,
+    0.06662733107805252,
+    0.2590823173522949,
+    0.13504716753959656,
+    0.2298671156167984,
+    0.08774179965257645,
+    0.4028599262237549,
+    0.611646831035614,
+    0.1721424162387848,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.27711766958236694,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.08,
+    "words_count": 25,
+    "tokens_count": 51,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "Fitzpatrick:",
+      "score": 1.0
+    },
+    {
+      "word": "Age:",
+      "score": 0.611646831035614
+    },
+    {
+      "word": "male,",
+      "score": 0.4028599262237549
+    },
+    {
+      "word": "Pathology",
+      "score": 0.3821767568588257
+    },
+    {
+      "word": "malignant-",
+      "score": 0.32692864537239075
+    },
+    {
+      "word": "control:",
+      "score": 0.31088101863861084
+    },
+    {
+      "word": "Distance:",
+      "score": 0.2790437936782837
+    },
+    {
+      "word": "carcinoma",
+      "score": 0.2590823173522949
+    },
+    {
+      "word": "lower",
+      "score": 0.253337025642395
+    },
+    {
+      "word": "situ,",
+      "score": 0.2298671156167984
+    },
+    {
+      "word": "squamous",
+      "score": 0.22160086035728455
+    },
+    {
+      "word": "69,",
+      "score": 0.1721424162387848
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_695b3bd2a904.png"
+  }
+}

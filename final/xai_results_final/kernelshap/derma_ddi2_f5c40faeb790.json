@@ -1,0 +1,71 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_f5c40faeb790.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "Is control: No, Distance: 6in, Location: l forearm, Path (coarse): malignant- sccis, Pathology report: invasive squamous cell carcinoma in situ, Gender: male, Age: 69, Fitzpatrick:",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: III, Anatomical site (detailed): Right forearm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Squamous cell carcinoma, in-situ, Diagnosis (general): Squamous cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Japanese & American, Language: English, Interpreter needed: No",
+  "meta": {
+    "phi_raw": [
+      0.01006935816258192,
+      0.015313531272113323,
+      0.01798478327691555,
+      0.013918961398303509,
+      -0.006455616559833288,
+      0.019812988117337227,
+      0.0034001811873167753,
+      0.020460838451981544,
+      -0.004560899455100298,
+      0.006808699108660221,
+      0.006264465861022472,
+      -0.0012675890466198325,
+      0.009985843673348427,
+      0.009049215354025364,
+      0.009518655948340893,
+      0.01872049830853939,
+      0.013581260107457638,
+      0.011724536307156086,
+      0.00930640660226345,
+      0.011652983725070953,
+      0.013265717774629593,
+      0.004532890394330025,
+      0.01556624285876751,
+      0.010336983948946,
+      0.005037073977291584
+    ],
+    "words_count": 25,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.24402129650115967,
+    "token_max": 0.9999995231628418,
+    "token_cov@tau": 0.36,
+    "reg_used": 0.01,
+    "weight_range": [
+      4.435395864860031e-09,
+      149.92502925420553
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_f5c40faeb790.png"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_09062554266e.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of a skin lesion on the back of the hand, showing a black-brown papule with a rough surface. This is a common skin condition, usually caused by overgrowth of sebaceous glands. It is...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left posterior upper arm, Anatomical site (general): Upper Limb, Diagnosis (detailed): Angiokeratoma, Diagnosis (general): Angiokeratoma, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "hand",
+    "showing",
+    "a",
+    "black-brown",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition",
+    "usually",
+    "caused",
+    "by",
+    "overgrowth",
+    "of",
+    "sebaceous",
+    "glands",
+    "It",
+    "is"
+  ],
+  "scores": [
+    0.17471390962600708,
+    0.3312009871006012,
+    0.251358300447464,
+    0.3502933084964752,
+    0.0,
+    0.040511708706617355,
+    0.35724586248397827,
+    0.8142821788787842,
+    0.4821583926677704,
+    0.1935325413942337,
+    0.425235390663147,
+    0.13896381855010986,
+    0.3058553636074066,
+    0.0,
+    0.8557919263839722,
+    0.3966785967350006,
+    0.9999995231628418,
+    0.13814131915569305,
+    0.16395549476146698,
+    0.04872237890958786,
+    0.29558560252189636,
+    0.0,
+    0.12549573183059692,
+    0.24030756950378418,
+    0.050466250628232956,
+    0.0217905193567276,
+    0.2111131250858307,
+    0.06766854226589203,
+    0.17588460445404053,
+    0.252758264541626,
+    0.1943163424730301,
+    0.0207473486661911,
+    0.03626164793968201,
+    0.2936554253101349,
+    0.072248175740242,
+    0.06402317434549332,
+    0.13100820779800415
+  ],
+  "meta": {
+    "base_cos": 0.26381224393844604,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 37,
+    "masks_sampled": 37,
+    "token_max": 0.9999995231628418,
+    "token_cov@tau": 0.08108108108108109,
+    "top": [
+      {
+        "unit": "black-brown",
+        "score": 0.9999995231628418
+      },
+      {
+        "unit": "showing",
+        "score": 0.8557919263839722
+      },
+      {
+        "unit": "lesion",
+        "score": 0.8142821788787842
+      },
+      {
+        "unit": "on",
+        "score": 0.4821583926677704
+      },
+      {
+        "unit": "back",
+        "score": 0.425235390663147
+      },
+      {
+        "unit": "a",
+        "score": 0.3966785967350006
+      },
+      {
+        "unit": "skin",
+        "score": 0.35724586248397827
+      },
+      {
+        "unit": "photo",
+        "score": 0.3502933084964752
+      },
+      {
+        "unit": "is",
+        "score": 0.3312009871006012
+      },
+      {
+        "unit": "the",
+        "score": 0.3058553636074066
+      },
+      {
+        "unit": "rough",
+        "score": 0.29558560252189636
+      },
+      {
+        "unit": "sebaceous",
+        "score": 0.2936554253101349
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_09062554266e.png"
+  }
+}

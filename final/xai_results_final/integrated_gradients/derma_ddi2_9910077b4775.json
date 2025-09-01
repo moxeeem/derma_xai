@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9910077b4775.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's abdomen, showing a small black-brown patch on the skin surface, with a central black spot. It is consistent with the clinical presentation of seborrheic keratosis....",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Mid abdomen, Anatomical site (general): Abdomen, Diagnosis (detailed): B cell-rich cutaneous lymphoid hyperplasia, Diagnosis (general): Cutaneous lymphoid hyperplasia, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: Yes, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen,",
+    "showing",
+    "a",
+    "small",
+    "black-brown",
+    "patch",
+    "on",
+    "the",
+    "skin",
+    "surface,",
+    "with",
+    "a",
+    "central",
+    "black",
+    "spot.",
+    "It",
+    "is",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis...."
+  ],
+  "scores": [
+    0.0017121616983786225,
+    0.7429079413414001,
+    0.04966412112116814,
+    0.20594540238380432,
+    0.323444664478302,
+    0.09691576659679413,
+    0.47015583515167236,
+    1.0,
+    0.159948468208313,
+    0.24355590343475342,
+    0.04029456153512001,
+    0.4003222584724426,
+    0.18461187183856964,
+    0.1876053810119629,
+    0.03655095398426056,
+    0.011227651499211788,
+    0.17749936878681183,
+    0.06608641147613525,
+    0.02334972470998764,
+    0.28589558601379395,
+    0.13925045728683472,
+    0.0034221026580780745,
+    0.0,
+    0.056848254054784775,
+    0.06787872314453125,
+    0.1043127030134201,
+    0.025868728756904602,
+    0.20581024885177612,
+    0.24547040462493896,
+    0.30755844712257385,
+    0.31932932138442993,
+    0.7956254482269287
+  ],
+  "meta": {
+    "cos": 0.2787832021713257,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.09375,
+    "words_count": 32,
+    "tokens_count": 48,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "abdomen,",
+      "score": 1.0
+    },
+    {
+      "word": "keratosis....",
+      "score": 0.7956254482269287
+    },
+    {
+      "word": "is",
+      "score": 0.7429079413414001
+    },
+    {
+      "word": "patient's",
+      "score": 0.47015583515167236
+    },
+    {
+      "word": "black-brown",
+      "score": 0.4003222584724426
+    },
+    {
+      "word": "of",
+      "score": 0.323444664478302
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.31932932138442993
+    },
+    {
+      "word": "of",
+      "score": 0.30755844712257385
+    },
+    {
+      "word": "central",
+      "score": 0.28589558601379395
+    },
+    {
+      "word": "presentation",
+      "score": 0.24547040462493896
+    },
+    {
+      "word": "a",
+      "score": 0.24355590343475342
+    },
+    {
+      "word": "photo",
+      "score": 0.20594540238380432
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_9910077b4775.png"
+  }
+}

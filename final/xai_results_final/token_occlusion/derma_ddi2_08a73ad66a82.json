@@ -1,0 +1,145 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_08a73ad66a82.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "Is control: No, Distance: 6in, Location: frontal scalp, Path (coarse): malignant- bcc, Pathology report: basal cell carcinoma, nodular type, Gender: male, Age: 69, Pesticide",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Vertex scalp, Anatomical site (general): Head and Neck, Diagnosis (detailed): Hyperplastic actinic keratosis, Diagnosis (general): Actinic keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Cantonese, Interpreter needed: Yes",
+  "display_units": [
+    "Is",
+    "control",
+    "No",
+    "Distance",
+    "6",
+    "in",
+    "Location",
+    "frontal",
+    "scalp",
+    "Path",
+    "coarse",
+    "malignant",
+    "bcc",
+    "Pathology",
+    "report",
+    "basal",
+    "cell",
+    "carcinoma",
+    "nodular",
+    "type",
+    "Gender",
+    "male",
+    "Age",
+    "69",
+    "Pesticide"
+  ],
+  "scores": [
+    0.20477278530597687,
+    0.6719852089881897,
+    0.6477369666099548,
+    0.7725738883018494,
+    0.41803520917892456,
+    0.3776034414768219,
+    0.7824051380157471,
+    0.5030628442764282,
+    0.7825628519058228,
+    0.5698241591453552,
+    0.31204953789711,
+    0.2301035076379776,
+    0.9999997019767761,
+    0.3077627122402191,
+    0.5203141570091248,
+    0.5696679353713989,
+    0.5027720332145691,
+    0.5498469471931458,
+    0.07265402376651764,
+    0.3666646480560303,
+    0.0,
+    0.07190434634685516,
+    0.34619978070259094,
+    0.6813992261886597,
+    0.5133231282234192
+  ],
+  "meta": {
+    "base_cos": 0.23377284407615662,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 25,
+    "masks_sampled": 25,
+    "token_max": 0.9999997019767761,
+    "token_cov@tau": 0.28,
+    "top": [
+      {
+        "unit": "bcc",
+        "score": 0.9999997019767761
+      },
+      {
+        "unit": "scalp",
+        "score": 0.7825628519058228
+      },
+      {
+        "unit": "Location",
+        "score": 0.7824051380157471
+      },
+      {
+        "unit": "Distance",
+        "score": 0.7725738883018494
+      },
+      {
+        "unit": "69",
+        "score": 0.6813992261886597
+      },
+      {
+        "unit": "control",
+        "score": 0.6719852089881897
+      },
+      {
+        "unit": "No",
+        "score": 0.6477369666099548
+      },
+      {
+        "unit": "Path",
+        "score": 0.5698241591453552
+      },
+      {
+        "unit": "basal",
+        "score": 0.5696679353713989
+      },
+      {
+        "unit": "carcinoma",
+        "score": 0.5498469471931458
+      },
+      {
+        "unit": "report",
+        "score": 0.5203141570091248
+      },
+      {
+        "unit": "Pesticide",
+        "score": 0.5133231282234192
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_08a73ad66a82.png"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_16c067de06ba.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 6in, Location: l thigh, Path (coarse): benign-seborrheic keratosis, Pathology report: mildly dysplastic junctional melanocytic nevus, excised",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: IV, Anatomical site (detailed): Left thigh, Anatomical site (general): Lower Limb, Diagnosis (detailed): Tattoo, Diagnosis (general): Tattoo, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "6in,",
+    "Location:",
+    "l",
+    "thigh,",
+    "Path",
+    "(coarse):",
+    "benign-seborrheic",
+    "keratosis,",
+    "Pathology",
+    "report:",
+    "mildly",
+    "dysplastic",
+    "junctional",
+    "melanocytic",
+    "nevus,",
+    "excised"
+  ],
+  "scores": [
+    0.02763400226831436,
+    0.08773057907819748,
+    0.027030901983380318,
+    0.22086964547634125,
+    0.11447449773550034,
+    0.20121094584465027,
+    0.04250849038362503,
+    0.061896875500679016,
+    0.0,
+    0.14202289283275604,
+    0.17614758014678955,
+    0.10113418102264404,
+    0.26236897706985474,
+    0.4233802855014801,
+    0.17571988701820374,
+    1.0,
+    0.8451058268547058,
+    0.9716662168502808,
+    0.9075150489807129,
+    0.395366907119751
+  ],
+  "meta": {
+    "cos": 0.20803561806678772,
+    "words_count": 20,
+    "tokens_count": 52,
+    "token_max": 1.0,
+    "token_cov@tau": 0.2,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "dysplastic",
+      "score": 1.0
+    },
+    {
+      "word": "melanocytic",
+      "score": 0.9716662168502808
+    },
+    {
+      "word": "nevus,",
+      "score": 0.9075150489807129
+    },
+    {
+      "word": "junctional",
+      "score": 0.8451058268547058
+    },
+    {
+      "word": "report:",
+      "score": 0.4233802855014801
+    },
+    {
+      "word": "excised",
+      "score": 0.395366907119751
+    },
+    {
+      "word": "Pathology",
+      "score": 0.26236897706985474
+    },
+    {
+      "word": "Distance:",
+      "score": 0.22086964547634125
+    },
+    {
+      "word": "Location:",
+      "score": 0.20121094584465027
+    },
+    {
+      "word": "benign-seborrheic",
+      "score": 0.17614758014678955
+    },
+    {
+      "word": "mildly",
+      "score": 0.17571988701820374
+    },
+    {
+      "word": "(coarse):",
+      "score": 0.14202289283275604
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_16c067de06ba.png"
+  }
+}

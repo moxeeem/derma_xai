@@ -1,0 +1,166 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1a7a8c068b8c.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the nasal ala of the patient's nose, showing a red papule with a rough surface, consistent with the clinical features of a basal cell carcinoma. Basal cell...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left nasal side wall, Anatomical site (general): Head and Neck, Diagnosis (detailed): Ruptured follicle/epidermal cyst, Diagnosis (general): Epidermal cyst, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Cantonese, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "nasal",
+    "ala",
+    "of",
+    "the",
+    "patient's",
+    "nose,",
+    "showing",
+    "a",
+    "red",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "features",
+    "of",
+    "a",
+    "basal",
+    "cell",
+    "carcinoma.",
+    "Basal",
+    "cell..."
+  ],
+  "scores": [
+    0.0,
+    0.05374465882778168,
+    0.04643163084983826,
+    0.058403026312589645,
+    0.005530149210244417,
+    0.045096833258867264,
+    0.06990079581737518,
+    0.03547137975692749,
+    0.027068879455327988,
+    0.024269619956612587,
+    0.032458290457725525,
+    0.1847364455461502,
+    0.25389811396598816,
+    0.10688596963882446,
+    0.06458811461925507,
+    0.10134749114513397,
+    0.07855737954378128,
+    0.06743518263101578,
+    0.18544812500476837,
+    0.27625465393066406,
+    0.03542107343673706,
+    0.020170733332633972,
+    0.10344944894313812,
+    0.11438151448965073,
+    0.18406915664672852,
+    0.18932445347309113,
+    0.599638819694519,
+    0.343077152967453,
+    0.7052509188652039,
+    1.0,
+    0.21558982133865356,
+    0.242168590426445,
+    0.07873877882957458,
+    0.11137328296899796,
+    0.31566429138183594,
+    0.2124873250722885
+  ],
+  "meta": {
+    "cos": 0.29148226976394653,
+    "words_count": 36,
+    "tokens_count": 47,
+    "token_max": 1.0,
+    "token_cov@tau": 0.05555555555555555,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "of",
+      "score": 1.0
+    },
+    {
+      "word": "features",
+      "score": 0.7052509188652039
+    },
+    {
+      "word": "the",
+      "score": 0.599638819694519
+    },
+    {
+      "word": "clinical",
+      "score": 0.343077152967453
+    },
+    {
+      "word": "Basal",
+      "score": 0.31566429138183594
+    },
+    {
+      "word": "papule",
+      "score": 0.27625465393066406
+    },
+    {
+      "word": "of",
+      "score": 0.25389811396598816
+    },
+    {
+      "word": "basal",
+      "score": 0.242168590426445
+    },
+    {
+      "word": "a",
+      "score": 0.21558982133865356
+    },
+    {
+      "word": "cell...",
+      "score": 0.2124873250722885
+    },
+    {
+      "word": "with",
+      "score": 0.18932445347309113
+    },
+    {
+      "word": "red",
+      "score": 0.18544812500476837
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_1a7a8c068b8c.png"
+  }
+}

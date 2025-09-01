@@ -1,0 +1,165 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9ed9c39f4deb.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "This is a photo of the skin lesion on the right side of the head, showing a red-brown patch with a central ulceration. It is consistent with the clinical presentation of seborrheic keratosis. This is...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left vertex scalp, Anatomical site (general): Head and Neck, Diagnosis (detailed): Basal cell carcinoma, Diagnosis (general): Basal cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Tagalog, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "right",
+    "side",
+    "of",
+    "the",
+    "head",
+    "showing",
+    "a",
+    "red-brown",
+    "patch",
+    "with",
+    "a",
+    "central",
+    "ulceration",
+    "It",
+    "is",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis",
+    "This",
+    "is"
+  ],
+  "scores": [
+    0.41458961367607117,
+    0.023592859506607056,
+    0.0,
+    0.0,
+    0.026060663163661957,
+    0.0,
+    0.0,
+    0.15568862855434418,
+    0.40770965814590454,
+    0.0,
+    0.0,
+    0.13945959508419037,
+    0.9999995827674866,
+    0.0,
+    0.8893352746963501,
+    0.0,
+    0.2732750177383423,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.41147708892822266,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.13828888535499573,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "meta": {
+    "base_cos": 0.2657647728919983,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 35,
+    "masks_sampled": 35,
+    "token_max": 0.9999995827674866,
+    "token_cov@tau": 0.05714285714285714,
+    "top": [
+      {
+        "unit": "of",
+        "score": 0.9999995827674866
+      },
+      {
+        "unit": "head",
+        "score": 0.8893352746963501
+      },
+      {
+        "unit": "This",
+        "score": 0.41458961367607117
+      },
+      {
+        "unit": "ulceration",
+        "score": 0.41147708892822266
+      },
+      {
+        "unit": "on",
+        "score": 0.40770965814590454
+      },
+      {
+        "unit": "a",
+        "score": 0.2732750177383423
+      },
+      {
+        "unit": "lesion",
+        "score": 0.15568862855434418
+      },
+      {
+        "unit": "side",
+        "score": 0.13945959508419037
+      },
+      {
+        "unit": "seborrheic",
+        "score": 0.13828888535499573
+      },
+      {
+        "unit": "of",
+        "score": 0.026060663163661957
+      },
+      {
+        "unit": "is",
+        "score": 0.023592859506607056
+      },
+      {
+        "unit": "keratosis",
+        "score": 0.0
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_9ed9c39f4deb.png"
+  }
+}

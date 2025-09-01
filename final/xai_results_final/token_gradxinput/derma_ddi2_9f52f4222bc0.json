@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9f52f4222bc0.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of a skin lesion on the external genitalia of the male genitalia, with a rough surface, consistent with the clinical presentation of seborrheic keratosis. It is recommended to seek...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Right scrotum, Anatomical site (general): Anogenital, Diagnosis (detailed): Basal cell carcinoma, nodular type, Diagnosis (general): Basal cell carcinoma, Dermatological presentation: growth, Benign/Malignant: malignant, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Mandarin, Interpreter needed: Yes",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "a",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "external",
+    "genitalia",
+    "of",
+    "the",
+    "male",
+    "genitalia,",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "It",
+    "is",
+    "recommended",
+    "to",
+    "seek..."
+  ],
+  "scores": [
+    0.012606414034962654,
+    0.06375643610954285,
+    0.01368570327758789,
+    0.08832003176212311,
+    0.0,
+    0.07583576440811157,
+    0.0376790426671505,
+    0.04854288697242737,
+    0.018054062500596046,
+    0.009904976934194565,
+    0.09383250772953033,
+    0.3837575614452362,
+    0.0209028460085392,
+    0.15754196047782898,
+    0.10174718499183655,
+    0.12623244524002075,
+    0.08831159770488739,
+    0.00891436729580164,
+    0.12082642316818237,
+    0.020510107278823853,
+    0.07412576675415039,
+    0.19306866824626923,
+    0.07056748121976852,
+    0.20935310423374176,
+    0.17768801748752594,
+    0.037259165197610855,
+    0.5682245492935181,
+    1.0,
+    0.13747788965702057,
+    0.08866577595472336,
+    0.19467119872570038,
+    0.02248508110642433,
+    0.25778889656066895
+  ],
+  "meta": {
+    "cos": 0.2547875940799713,
+    "words_count": 33,
+    "tokens_count": 47,
+    "token_max": 1.0,
+    "token_cov@tau": 0.030303030303030304,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "keratosis.",
+      "score": 1.0
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.5682245492935181
+    },
+    {
+      "word": "genitalia",
+      "score": 0.3837575614452362
+    },
+    {
+      "word": "seek...",
+      "score": 0.25778889656066895
+    },
+    {
+      "word": "clinical",
+      "score": 0.20935310423374176
+    },
+    {
+      "word": "recommended",
+      "score": 0.19467119872570038
+    },
+    {
+      "word": "with",
+      "score": 0.19306866824626923
+    },
+    {
+      "word": "presentation",
+      "score": 0.17768801748752594
+    },
+    {
+      "word": "the",
+      "score": 0.15754196047782898
+    },
+    {
+      "word": "It",
+      "score": 0.13747788965702057
+    },
+    {
+      "word": "genitalia,",
+      "score": 0.12623244524002075
+    },
+    {
+      "word": "rough",
+      "score": 0.12082642316818237
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_9f52f4222bc0.png"
+  }
+}

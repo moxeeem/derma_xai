@@ -1,0 +1,160 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_53a2b9ca63ed.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "In this case, the patient presents with black-brown papules on the back of the neck, which are consistent with the clinical features of seborrheic keratosis. This is a common skin condition that...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right upper back, Anatomical site (general): Back, Diagnosis (detailed): Intradermal melanocytic nevus, Diagnosis (general): Benign nevus, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "In",
+    "this",
+    "case,",
+    "the",
+    "patient",
+    "presents",
+    "with",
+    "black-brown",
+    "papules",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "neck,",
+    "which",
+    "are",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "features",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "This",
+    "is",
+    "a",
+    "common",
+    "skin",
+    "condition",
+    "that..."
+  ],
+  "scores": [
+    0.0,
+    1.0,
+    0.15029560029506683,
+    0.08875665068626404,
+    0.34145674109458923,
+    0.6420400738716125,
+    0.33598366379737854,
+    0.01861439272761345,
+    0.18809938430786133,
+    0.6803507804870605,
+    0.03815999999642372,
+    0.09673111885786057,
+    0.05174681171774864,
+    0.048386350274086,
+    0.003961408976465464,
+    0.233755961060524,
+    0.06861358135938644,
+    0.08763005584478378,
+    0.026218460872769356,
+    0.04236149042844772,
+    0.22169679403305054,
+    0.25376588106155396,
+    0.2929368019104004,
+    0.6258145570755005,
+    0.35965853929519653,
+    0.22358858585357666,
+    0.027436528354883194,
+    0.10171117633581161,
+    0.20473000407218933,
+    0.06963375210762024,
+    0.45774996280670166,
+    0.2658298909664154
+  ],
+  "meta": {
+    "cos": 0.2524741291999817,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.125,
+    "words_count": 32,
+    "tokens_count": 46,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "this",
+      "score": 1.0
+    },
+    {
+      "word": "on",
+      "score": 0.6803507804870605
+    },
+    {
+      "word": "presents",
+      "score": 0.6420400738716125
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.6258145570755005
+    },
+    {
+      "word": "condition",
+      "score": 0.45774996280670166
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.35965853929519653
+    },
+    {
+      "word": "patient",
+      "score": 0.34145674109458923
+    },
+    {
+      "word": "with",
+      "score": 0.33598366379737854
+    },
+    {
+      "word": "of",
+      "score": 0.2929368019104004
+    },
+    {
+      "word": "that...",
+      "score": 0.2658298909664154
+    },
+    {
+      "word": "features",
+      "score": 0.25376588106155396
+    },
+    {
+      "word": "which",
+      "score": 0.233755961060524
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_53a2b9ca63ed.png"
+  }
+}

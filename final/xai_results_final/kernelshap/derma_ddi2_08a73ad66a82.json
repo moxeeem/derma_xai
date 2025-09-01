@@ -1,0 +1,70 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_08a73ad66a82.png",
+  "method": "kernelshap_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "max_tokens": 40,
+    "num_samples": 300,
+    "ridge_lambda": 0.01,
+    "batch_text": 32,
+    "tau": 0.6,
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "Is control: No, Distance: 6in, Location: frontal scalp, Path (coarse): malignant- bcc, Pathology report: basal cell carcinoma, nodular type, Gender: male, Age: 69, Pesticide",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Vertex scalp, Anatomical site (general): Head and Neck, Diagnosis (detailed): Hyperplastic actinic keratosis, Diagnosis (general): Actinic keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: none, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Cantonese, Interpreter needed: Yes",
+  "meta": {
+    "phi_raw": [
+      0.005592417437583208,
+      0.02010558731853962,
+      0.012221072800457478,
+      0.009087424725294113,
+      0.006322670727968216,
+      0.014286057092249393,
+      0.00651931157335639,
+      0.019020022824406624,
+      0.001369979465380311,
+      -0.0018970693927258253,
+      0.013115005567669868,
+      0.0282234288752079,
+      0.008187815546989441,
+      0.012142594903707504,
+      0.013226717710494995,
+      0.016169961541891098,
+      0.01165595930069685,
+      0.002240639878436923,
+      0.0022600761149078608,
+      0.00012474048708099872,
+      0.0017044215928763151,
+      0.016239145770668983,
+      0.011653020977973938,
+      0.004208895843476057
+    ],
+    "words_count": 24,
+    "masks_sampled": 300,
+    "masks_unique": 300,
+    "base_sim": 0.23377284407615662,
+    "token_max": 0.9999996423721313,
+    "token_cov@tau": 0.125,
+    "reg_used": 0.01,
+    "weight_range": [
+      8.855390568773364e-09,
+      149.92502111306234
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/kernelshap/derma_ddi2_08a73ad66a82.png"
+  }
+}

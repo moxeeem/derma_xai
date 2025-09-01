@@ -1,0 +1,165 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_1c764e978106.png",
+  "method": "token_occlusion_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "unit": "word",
+    "casefold": false,
+    "normalize": "minmax",
+    "batch_size": 64,
+    "tau": 0.6,
+    "topk": 12,
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000,
+    "show_reference": true
+  },
+  "caption_generated": "The patient presents with 1-3 red papules on the trunk, some of which are oval-shaped and have a diameter of 0.1-0.2 cm. Based on the patient's medical history and clinical presentation, it is...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Skin, suprapubic, Anatomical site (general): Anogenital, Diagnosis (detailed): Molluscum contagiosum, Diagnosis (general): Molluscum contagiosum, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Chinese, except Taiwanese, Language: English, Interpreter needed: No",
+  "display_units": [
+    "The",
+    "patient",
+    "presents",
+    "with",
+    "1",
+    "3",
+    "red",
+    "papules",
+    "on",
+    "the",
+    "trunk",
+    "some",
+    "of",
+    "which",
+    "are",
+    "oval-shaped",
+    "and",
+    "have",
+    "a",
+    "diameter",
+    "of",
+    "0.1",
+    "0.2",
+    "cm",
+    "Based",
+    "on",
+    "the",
+    "patient's",
+    "medical",
+    "history",
+    "and",
+    "clinical",
+    "presentation",
+    "it",
+    "is"
+  ],
+  "scores": [
+    0.0,
+    0.49383848905563354,
+    0.14496171474456787,
+    0.07097511738538742,
+    0.012210989370942116,
+    0.09449425339698792,
+    0.3240119218826294,
+    0.9999997019767761,
+    0.45593932271003723,
+    0.23077480494976044,
+    0.7382374405860901,
+    0.26674550771713257,
+    0.06532154232263565,
+    0.06789116561412811,
+    0.22185812890529633,
+    0.302671879529953,
+    0.1312761902809143,
+    0.15330366790294647,
+    0.23983542621135712,
+    0.09871254116296768,
+    0.08451268821954727,
+    0.0785742700099945,
+    0.06739998608827591,
+    0.2770461142063141,
+    0.237619087100029,
+    0.23507361114025116,
+    0.012384109199047089,
+    0.035215798765420914,
+    0.10493579506874084,
+    0.07138778269290924,
+    0.09147371351718903,
+    0.08202056586742401,
+    0.1296989768743515,
+    0.1812625378370285,
+    0.1724998503923416
+  ],
+  "meta": {
+    "base_cos": 0.2891208529472351,
+    "unit": "word",
+    "normalize": "minmax",
+    "words_count": 35,
+    "masks_sampled": 35,
+    "token_max": 0.9999997019767761,
+    "token_cov@tau": 0.05714285714285714,
+    "top": [
+      {
+        "unit": "papules",
+        "score": 0.9999997019767761
+      },
+      {
+        "unit": "trunk",
+        "score": 0.7382374405860901
+      },
+      {
+        "unit": "patient",
+        "score": 0.49383848905563354
+      },
+      {
+        "unit": "on",
+        "score": 0.45593932271003723
+      },
+      {
+        "unit": "red",
+        "score": 0.3240119218826294
+      },
+      {
+        "unit": "oval-shaped",
+        "score": 0.302671879529953
+      },
+      {
+        "unit": "cm",
+        "score": 0.2770461142063141
+      },
+      {
+        "unit": "some",
+        "score": 0.26674550771713257
+      },
+      {
+        "unit": "a",
+        "score": 0.23983542621135712
+      },
+      {
+        "unit": "Based",
+        "score": 0.237619087100029
+      },
+      {
+        "unit": "on",
+        "score": 0.23507361114025116
+      },
+      {
+        "unit": "the",
+        "score": 0.23077480494976044
+      }
+    ]
+  },
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_occlusion/derma_ddi2_1c764e978106.png"
+  }
+}

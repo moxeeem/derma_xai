@@ -1,0 +1,162 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9aaabcc189d0.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's hand, showing multiple small papules on the surface of the skin, consistent with the clinical presentation of a skin-colored skin tag. Skin tags are common skin...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Right wrist, Anatomical site (general): Upper Limb, Diagnosis (detailed): Verruca plana, Diagnosis (general): Verruca, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "hand,",
+    "showing",
+    "multiple",
+    "small",
+    "papules",
+    "on",
+    "the",
+    "surface",
+    "of",
+    "the",
+    "skin,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "a",
+    "skin-colored",
+    "skin",
+    "tag.",
+    "Skin",
+    "tags",
+    "are",
+    "common",
+    "skin..."
+  ],
+  "scores": [
+    0.012453960254788399,
+    1.0,
+    0.06104264035820961,
+    0.10313977301120758,
+    0.04028773307800293,
+    0.24869325757026672,
+    0.06349998712539673,
+    0.44438087940216064,
+    0.4627250134944916,
+    0.07345810532569885,
+    0.09100521355867386,
+    0.40079420804977417,
+    0.3155275881290436,
+    0.1889878362417221,
+    0.09575708210468292,
+    0.06199394538998604,
+    0.10927262157201767,
+    0.013347632251679897,
+    0.16077786684036255,
+    0.09464968740940094,
+    0.008523669093847275,
+    0.047990720719099045,
+    0.17419826984405518,
+    0.020640086382627487,
+    0.01676366664469242,
+    0.09717163443565369,
+    0.12288010120391846,
+    0.27918705344200134,
+    0.15870851278305054,
+    0.3131871223449707,
+    0.0,
+    0.08193402737379074,
+    0.39213621616363525
+  ],
+  "meta": {
+    "cos": 0.23675298690795898,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.030303030303030304,
+    "words_count": 33,
+    "tokens_count": 43,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "is",
+      "score": 1.0
+    },
+    {
+      "word": "showing",
+      "score": 0.4627250134944916
+    },
+    {
+      "word": "hand,",
+      "score": 0.44438087940216064
+    },
+    {
+      "word": "papules",
+      "score": 0.40079420804977417
+    },
+    {
+      "word": "skin...",
+      "score": 0.39213621616363525
+    },
+    {
+      "word": "on",
+      "score": 0.3155275881290436
+    },
+    {
+      "word": "tags",
+      "score": 0.3131871223449707
+    },
+    {
+      "word": "tag.",
+      "score": 0.27918705344200134
+    },
+    {
+      "word": "the",
+      "score": 0.24869325757026672
+    },
+    {
+      "word": "the",
+      "score": 0.1889878362417221
+    },
+    {
+      "word": "presentation",
+      "score": 0.17419826984405518
+    },
+    {
+      "word": "consistent",
+      "score": 0.16077786684036255
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_9aaabcc189d0.png"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9650d638ca4f.png",
+  "method": "integrated_gradients_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "steps": 32,
+    "tau": 0.6,
+    "word_agg": "max",
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's abdomen showing a large number of red papules and nodules, consistent with the clinical presentation of a skin tumor. Based on the characteristics of the lesion, the...",
+  "caption_reference": "More than 1 photo for this patient: Yes, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Left breast, Anatomical site (general): Chest, Diagnosis (detailed): Hypertrophic scar, Diagnosis (general): Scar, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Filipino, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen",
+    "showing",
+    "a",
+    "large",
+    "number",
+    "of",
+    "red",
+    "papules",
+    "and",
+    "nodules,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "a",
+    "skin",
+    "tumor.",
+    "Based",
+    "on",
+    "the",
+    "characteristics",
+    "of",
+    "the",
+    "lesion,",
+    "the..."
+  ],
+  "scores": [
+    0.0,
+    0.7990477085113525,
+    0.05545582249760628,
+    0.08480275422334671,
+    0.10887216776609421,
+    0.0012429312337189913,
+    0.1306247115135193,
+    0.08208005130290985,
+    0.8853772878646851,
+    0.21506398916244507,
+    0.008569339290261269,
+    0.29769206047058105,
+    0.1921871453523636,
+    0.2903071641921997,
+    0.5947484374046326,
+    0.025040721520781517,
+    0.38758519291877747,
+    0.6506612300872803,
+    0.22955694794654846,
+    0.05148497596383095,
+    0.01763773150742054,
+    0.2632330656051636,
+    0.21182118356227875,
+    0.015795240178704262,
+    0.1241786777973175,
+    0.2673853039741516,
+    0.035827990621328354,
+    0.0224152784794569,
+    0.03681724891066551,
+    0.17194822430610657,
+    0.15985143184661865,
+    0.04575657472014427,
+    0.2129388451576233,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.24519750475883484,
+    "steps": 32,
+    "token_max": 1.0,
+    "token_cov@tau": 0.11764705882352941,
+    "words_count": 34,
+    "tokens_count": 47,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "the...",
+      "score": 1.0
+    },
+    {
+      "word": "showing",
+      "score": 0.8853772878646851
+    },
+    {
+      "word": "is",
+      "score": 0.7990477085113525
+    },
+    {
+      "word": "consistent",
+      "score": 0.6506612300872803
+    },
+    {
+      "word": "papules",
+      "score": 0.5947484374046326
+    },
+    {
+      "word": "nodules,",
+      "score": 0.38758519291877747
+    },
+    {
+      "word": "number",
+      "score": 0.29769206047058105
+    },
+    {
+      "word": "red",
+      "score": 0.2903071641921997
+    },
+    {
+      "word": "tumor.",
+      "score": 0.2673853039741516
+    },
+    {
+      "word": "presentation",
+      "score": 0.2632330656051636
+    },
+    {
+      "word": "with",
+      "score": 0.22955694794654846
+    },
+    {
+      "word": "a",
+      "score": 0.21506398916244507
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/integrated_gradients/derma_ddi2_9650d638ca4f.png"
+  }
+}

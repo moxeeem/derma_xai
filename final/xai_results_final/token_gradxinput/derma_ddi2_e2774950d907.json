@@ -1,0 +1,164 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_e2774950d907.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the skin lesion on the back of the patient's back, showing a light brown papule with a rough surface, consistent with the clinical presentation of seborrheic keratosis. This is a...",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: IV, Anatomical site (detailed): Left shoulder, Anatomical site (general): Upper Limb, Diagnosis (detailed): Seborrheic keratosis, Diagnosis (general): Benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "skin",
+    "lesion",
+    "on",
+    "the",
+    "back",
+    "of",
+    "the",
+    "patient's",
+    "back,",
+    "showing",
+    "a",
+    "light",
+    "brown",
+    "papule",
+    "with",
+    "a",
+    "rough",
+    "surface,",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis.",
+    "This",
+    "is",
+    "a..."
+  ],
+  "scores": [
+    0.00045872482587583363,
+    0.115959532558918,
+    0.07427356392145157,
+    0.02119217813014984,
+    0.053487565368413925,
+    0.0009811093332245946,
+    0.06263039261102676,
+    0.08723717927932739,
+    0.06083379313349724,
+    0.0935470461845398,
+    0.0,
+    0.05359359830617905,
+    0.11751556396484375,
+    0.1596534103155136,
+    0.47622013092041016,
+    0.06324685364961624,
+    0.053236689418554306,
+    0.06396397203207016,
+    0.6422240138053894,
+    0.807945191860199,
+    0.08043467253446579,
+    0.08879404515028,
+    0.3984552025794983,
+    0.4736510217189789,
+    0.6660348176956177,
+    0.0696902722120285,
+    0.0795883908867836,
+    0.1336774230003357,
+    1.0,
+    0.8434672951698303,
+    0.7219964861869812,
+    0.2949449419975281,
+    0.24343232810497284,
+    0.1549619734287262,
+    0.7137083411216736
+  ],
+  "meta": {
+    "cos": 0.2308342456817627,
+    "words_count": 35,
+    "tokens_count": 49,
+    "token_max": 1.0,
+    "token_cov@tau": 0.2,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "presentation",
+      "score": 1.0
+    },
+    {
+      "word": "of",
+      "score": 0.8434672951698303
+    },
+    {
+      "word": "papule",
+      "score": 0.807945191860199
+    },
+    {
+      "word": "seborrheic",
+      "score": 0.7219964861869812
+    },
+    {
+      "word": "a...",
+      "score": 0.7137083411216736
+    },
+    {
+      "word": "consistent",
+      "score": 0.6660348176956177
+    },
+    {
+      "word": "brown",
+      "score": 0.6422240138053894
+    },
+    {
+      "word": "back,",
+      "score": 0.47622013092041016
+    },
+    {
+      "word": "surface,",
+      "score": 0.4736510217189789
+    },
+    {
+      "word": "rough",
+      "score": 0.3984552025794983
+    },
+    {
+      "word": "keratosis.",
+      "score": 0.2949449419975281
+    },
+    {
+      "word": "This",
+      "score": 0.24343232810497284
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_e2774950d907.png"
+  }
+}

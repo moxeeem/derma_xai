@@ -1,0 +1,158 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_9910077b4775.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "This is a photo of the patient's abdomen, showing a small black-brown patch on the skin surface, with a central black spot. It is consistent with the clinical presentation of seborrheic keratosis....",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Mid abdomen, Anatomical site (general): Abdomen, Diagnosis (detailed): B cell-rich cutaneous lymphoid hyperplasia, Diagnosis (general): Cutaneous lymphoid hyperplasia, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: uncommon, Cropped: Yes, Extra markings: marker, ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "This",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "the",
+    "patient's",
+    "abdomen,",
+    "showing",
+    "a",
+    "small",
+    "black-brown",
+    "patch",
+    "on",
+    "the",
+    "skin",
+    "surface,",
+    "with",
+    "a",
+    "central",
+    "black",
+    "spot.",
+    "It",
+    "is",
+    "consistent",
+    "with",
+    "the",
+    "clinical",
+    "presentation",
+    "of",
+    "seborrheic",
+    "keratosis...."
+  ],
+  "scores": [
+    0.011820313520729542,
+    0.008848464116454124,
+    0.0,
+    0.02356288582086563,
+    0.0012190669076517224,
+    0.02171313390135765,
+    0.12492502480745316,
+    0.1661733090877533,
+    0.23688603937625885,
+    0.07897134125232697,
+    0.0718194767832756,
+    0.05783596262335777,
+    0.108038991689682,
+    0.10705841332674026,
+    0.05513883754611015,
+    0.06388603150844574,
+    0.08364212512969971,
+    0.28485652804374695,
+    0.06994026899337769,
+    0.09938886016607285,
+    0.17892809212207794,
+    0.21115991473197937,
+    0.08876492828130722,
+    0.042390551418066025,
+    0.05961381644010544,
+    0.1147652119398117,
+    0.0957920104265213,
+    0.26726821064949036,
+    0.4449186623096466,
+    0.6715237498283386,
+    1.0,
+    0.5393728613853455
+  ],
+  "meta": {
+    "cos": 0.2787832021713257,
+    "words_count": 32,
+    "tokens_count": 48,
+    "token_max": 1.0,
+    "token_cov@tau": 0.0625,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "seborrheic",
+      "score": 1.0
+    },
+    {
+      "word": "of",
+      "score": 0.6715237498283386
+    },
+    {
+      "word": "keratosis....",
+      "score": 0.5393728613853455
+    },
+    {
+      "word": "presentation",
+      "score": 0.4449186623096466
+    },
+    {
+      "word": "with",
+      "score": 0.28485652804374695
+    },
+    {
+      "word": "clinical",
+      "score": 0.26726821064949036
+    },
+    {
+      "word": "showing",
+      "score": 0.23688603937625885
+    },
+    {
+      "word": "spot.",
+      "score": 0.21115991473197937
+    },
+    {
+      "word": "black",
+      "score": 0.17892809212207794
+    },
+    {
+      "word": "abdomen,",
+      "score": 0.1661733090877533
+    },
+    {
+      "word": "patient's",
+      "score": 0.12492502480745316
+    },
+    {
+      "word": "with",
+      "score": 0.1147652119398117
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_9910077b4775.png"
+  }
+}

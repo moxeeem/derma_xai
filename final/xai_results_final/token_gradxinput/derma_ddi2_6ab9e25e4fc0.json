@@ -1,0 +1,146 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_6ab9e25e4fc0.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "More than 1 photo for this patient: No, Fitzpatrick skin type: 3, 4, Anatomical site (detailed): Head and Neck, Path (coarse): Follicular, Pathology report: Epidermolysis bullosa,",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left ear lobe, Anatomical site (general): Head and Neck, Diagnosis (detailed): Neutrophilic folliculitis, Diagnosis (general): Folliculitis, Dermatological presentation: rash, Benign/Malignant: benign, Common/Uncommon: common, Cropped: No, Extra markings: ruler, Sex: Female, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: English, Interpreter needed: No",
+  "display_units": [
+    "More",
+    "than",
+    "1",
+    "photo",
+    "for",
+    "this",
+    "patient:",
+    "No,",
+    "Fitzpatrick",
+    "skin",
+    "type:",
+    "3,",
+    "4,",
+    "Anatomical",
+    "site",
+    "(detailed):",
+    "Head",
+    "and",
+    "Neck,",
+    "Path",
+    "(coarse):",
+    "Follicular,",
+    "Pathology",
+    "report:",
+    "Epidermolysis",
+    "bullosa,"
+  ],
+  "scores": [
+    0.0,
+    0.015545275062322617,
+    0.08943866193294525,
+    0.10626426339149475,
+    0.11984682828187943,
+    0.03352375701069832,
+    0.07075691968202591,
+    0.11421574652194977,
+    0.039838869124650955,
+    0.10563960671424866,
+    0.05391564220190048,
+    0.006611408665776253,
+    0.06148337200284004,
+    0.10436204075813293,
+    0.01004156656563282,
+    0.10406747460365295,
+    0.04895519092679024,
+    0.09417202323675156,
+    0.056816164404153824,
+    0.34102970361709595,
+    0.09621402621269226,
+    0.10580950230360031,
+    0.5901632905006409,
+    0.3381887674331665,
+    1.0,
+    0.257313996553421
+  ],
+  "meta": {
+    "cos": 0.18434026837348938,
+    "words_count": 26,
+    "tokens_count": 50,
+    "token_max": 1.0,
+    "token_cov@tau": 0.038461538461538464,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "Epidermolysis",
+      "score": 1.0
+    },
+    {
+      "word": "Pathology",
+      "score": 0.5901632905006409
+    },
+    {
+      "word": "Path",
+      "score": 0.34102970361709595
+    },
+    {
+      "word": "report:",
+      "score": 0.3381887674331665
+    },
+    {
+      "word": "bullosa,",
+      "score": 0.257313996553421
+    },
+    {
+      "word": "for",
+      "score": 0.11984682828187943
+    },
+    {
+      "word": "No,",
+      "score": 0.11421574652194977
+    },
+    {
+      "word": "photo",
+      "score": 0.10626426339149475
+    },
+    {
+      "word": "Follicular,",
+      "score": 0.10580950230360031
+    },
+    {
+      "word": "skin",
+      "score": 0.10563960671424866
+    },
+    {
+      "word": "Anatomical",
+      "score": 0.10436204075813293
+    },
+    {
+      "word": "(detailed):",
+      "score": 0.10406747460365295
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_6ab9e25e4fc0.png"
+  }
+}

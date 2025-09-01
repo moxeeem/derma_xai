@@ -1,0 +1,140 @@
+{
+  "image_path": "/root/clip_xai/dermaCAP/dermaCAP_img/derma_ddi2_b6be9c460512.png",
+  "method": "token_gradxinput_wordlevel",
+  "config": {
+    "canvas_width_px": 720,
+    "canvas_height_px": 1400,
+    "margins_px": 16,
+    "block_gap_px": 10,
+    "image_block_height_px": 360,
+    "font_path_regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "fs_header": 22,
+    "fs_text": 20,
+    "fs_small": 16,
+    "fs_text_min": 14,
+    "line_pad_px": 6,
+    "word_agg": "max",
+    "tau": 0.6,
+    "topk": 12,
+    "show_reference": true,
+    "drop_special_tokens": true,
+    "merge_bpe_suffix": "</w>",
+    "auto_shrink_text": true,
+    "auto_expand_canvas": true,
+    "canvas_height_max_px": 4000
+  },
+  "caption_generated": "Is control: No, Distance: 1ft, Location: left back, Path (coarse): benign-seborrheic keratosis, Pathology report: inflamed sebaceous gland, excised on plane of section reviewed,",
+  "caption_reference": "More than 1 photo for this patient: No, Fitzpatrick skin type: III, Anatomical site (detailed): Left upper back, Anatomical site (general): Back, Diagnosis (detailed): Seborrheic keratosis, Diagnosis (general): Benign keratosis, Dermatological presentation: growth, Benign/Malignant: benign, Common/Uncommon: common, Cropped: Yes, Extra markings: marker, ruler, Sex: Male, Race: Asian, Ethnicity: Non-Hispanic, Self-described ethnic background: Unknown, Language: Cantonese, Interpreter needed: Yes",
+  "display_units": [
+    "Is",
+    "control:",
+    "No,",
+    "Distance:",
+    "1ft,",
+    "Location:",
+    "left",
+    "back,",
+    "Path",
+    "(coarse):",
+    "benign-seborrheic",
+    "keratosis,",
+    "Pathology",
+    "report:",
+    "inflamed",
+    "sebaceous",
+    "gland,",
+    "excised",
+    "on",
+    "plane",
+    "of",
+    "section",
+    "reviewed,"
+  ],
+  "scores": [
+    0.0,
+    0.08452922850847244,
+    0.014405220746994019,
+    0.292522668838501,
+    0.14989709854125977,
+    0.3198569416999817,
+    0.11631254851818085,
+    0.35768818855285645,
+    0.14103229343891144,
+    0.4823654890060425,
+    0.20083381235599518,
+    0.017230324447155,
+    0.45631143450737,
+    0.09817938506603241,
+    0.5833293199539185,
+    0.3023534119129181,
+    0.5267208218574524,
+    0.10659351199865341,
+    0.28659266233444214,
+    0.45561683177948,
+    0.5162317752838135,
+    0.39328083395957947,
+    1.0
+  ],
+  "meta": {
+    "cos": 0.25035613775253296,
+    "words_count": 23,
+    "tokens_count": 50,
+    "token_max": 1.0,
+    "token_cov@tau": 0.043478260869565216,
+    "word_agg": "max",
+    "backend": "open_clip"
+  },
+  "top": [
+    {
+      "word": "reviewed,",
+      "score": 1.0
+    },
+    {
+      "word": "inflamed",
+      "score": 0.5833293199539185
+    },
+    {
+      "word": "gland,",
+      "score": 0.5267208218574524
+    },
+    {
+      "word": "of",
+      "score": 0.5162317752838135
+    },
+    {
+      "word": "(coarse):",
+      "score": 0.4823654890060425
+    },
+    {
+      "word": "Pathology",
+      "score": 0.45631143450737
+    },
+    {
+      "word": "plane",
+      "score": 0.45561683177948
+    },
+    {
+      "word": "section",
+      "score": 0.39328083395957947
+    },
+    {
+      "word": "back,",
+      "score": 0.35768818855285645
+    },
+    {
+      "word": "Location:",
+      "score": 0.3198569416999817
+    },
+    {
+      "word": "sebaceous",
+      "score": 0.3023534119129181
+    },
+    {
+      "word": "Distance:",
+      "score": 0.292522668838501
+    }
+  ],
+  "outputs": {
+    "png": "/root/clip_xai/final/xai_results_final/token_gradxinput/derma_ddi2_b6be9c460512.png"
+  }
+}
